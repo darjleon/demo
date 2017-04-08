@@ -46,36 +46,36 @@
                     </div>
                 </li>
                 <li>
-                    <a href="padre_perfil.html">
+                    <a href="padre.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
-                    <a href="padre_institucion.html">
+                    <a href="padre_institucion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="padre_notificacion.html">
+                    <a href="padre_notificacion.php">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
                         <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="padre_alu.html">
+                    <a href="#">
                         <img src="img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="padre_hijo1.html">
+                            <a href="padre_hijo1.php">
                                 <img src="img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
                             </a>
                         </li>
                         <li class="active">
-                            <a href="padre_hijo2.html">
+                            <a href="padre_hijo2.php">
                                 <img src="img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
                             </a>
                         </li>
@@ -104,7 +104,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
-                                <a href="p_notificacion.html">
+                                <a href="p_notificacion.php">
                                     <div>
                                         <i class="fa fa-upload fa-fw"></i> Coordinación Académica
                                         <span class="pull-right text-muted small">ayer(11.15 am)</span>
@@ -229,16 +229,289 @@
                 </div>
             </div>
             <div class="col-lg-12">
-                <a href="padre_hijo2.html">
+                <a href="padre_hijo2.php">
                     <button type="button" class="btn btn-outline btn-success">Regresar</button>
                 </a>
             </div>
         </div>
-        <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="alert alert-success alert-dismissable">
-                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Lo sentimos!</strong> No ha activado esta opción.
+        <div class="wrapper wrapper-content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-left" style="margin-top:0">
+                        <img src="img/asistencia blanco.png" style="width:50px"> Asistencia | <button type="button" class="btn btn-w-m" data-toggle="modal" data-target="#myModal" style="background-color: #0099D6;color: white"><strong>Lista de Alumnos</strong></button> 
+                    </h2>
+                </div>                                            
             </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <table class="table" >
+                        <thead style="background-color: #939598">
+                            <th class="text-left" style="color:white;width:30%">Materia</th>
+                            <th class="text-left" style="color:white;width:50%">Docente</th>
+                            <th class="text-center" style="color:white;width:20%">Asistencia</th>
+                        </thead>
+                        <tbody >
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>MATEMATICAS</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">CAROLINA QUIROZ SANTOS </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>LENGUA Y LITERATURA</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">GLENDA CANDEL CARBO </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>QUIMICA</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">DENISSE MARCILLO</span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>LENGUA EXTRANJERA</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        
+                                            <span style="padding-right: 10px">CLAUDIA LOPEZ SANCHEZ</span>
+                                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                                <i class="fa fa-envelope"></i>
+                                            </button> 
+                                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        
+                                            <span style="padding-right: 10px">ANA PLUA RIVERA</span>
+                                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                                <i class="fa fa-envelope"></i>
+                                            </button> 
+                                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        
+                                            <span style="padding-right: 10px">RUTH LLERENA YULAN</span>
+                                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                                <i class="fa fa-envelope"></i>
+                                            </button> 
+                                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>PROGRAMACION EN LENGUAJE ESTRUCTURADO</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">MARCOS PAZAN REYES </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>FISICA</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">JAVIER ARVELAEZ MOSQUERA </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>INFORMATICA APLICADA A LA EDUCACION</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">ANGELA CIRINO DE LA ROSA </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>DESARROLLO DEL PENSAMIENTO FILOSOFICO</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">GLENDA CANDEL CARBO</span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>EDUCACION ARTISTICA</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">GLENDA CANDEL CARBO</span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>RELACION EN EL EQUIPO DE TRABAJO</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">JUAN LOPEZ MARURI </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                               
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>FYOL</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">JUAN LOPEZ MARURI </span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>HISTORIA Y CIENCIAS SOCIALES</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">SONIA RODRIGUEZ NOBOA</span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>VALORES HUMANOS</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">GLORIA ESPAÑA ARIAS</span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                            <tr style="background-color: white">
+                                <td style="width:30%;vertical-align: middle"><p>EDUCACION FISICA</p></td>
+                                <td style="width:50%;vertical-align: middle">
+                                    <p>
+                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <span style="padding-right: 10px">RAUL HERRERA CERCADO</span>
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-envelope"></i>
+                                        </button> 
+                                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:20%;vertical-align: middle">
+                                    100%
+                                    <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" style="margin-left: 25px">ver mas</button>
+                                </td>                                
+                            </tr>
+                        </tbody>                        
+                    </table>
+                </div>
+            </div>           
         </div>
     </div>
 </div>

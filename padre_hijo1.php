@@ -267,7 +267,7 @@
                 <div class="col-lg-4">
                     <a href="padre_asistencia1.php">
                         <img src="img/asistencia blanco.png" class="img-responsive" style="width: 40%;display:block;margin:auto;">
-                        <h2 class="m-xs text-center">Lista</h2>
+                        <h2 class="m-xs text-center">Asistencia</h2>
                     </a>
                 </div>
             </div>

@@ -43,36 +43,36 @@
                     </div>
                 </li>
                 <li>
-                    <a href="padre_perfil.html">
+                    <a href="padre.php">
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
-                    <a href="padre_institucion.html">
+                    <a href="padre_institucion.php">
                         <i class="fa fa-institution"></i> <span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="padre_notificacion.html">
+                    <a href="padre_notificacion.php">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
                         <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="padre_alu.html">
+                    <a href="#">
                         <img src="img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li class="active">
-                            <a href="padre_hijo1.html">
+                            <a href="padre_hijo1.php">
                                 <img src="img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
                             </a>
                         </li>
                         <li>
-                            <a href="padre_hijo2.html">
+                            <a href="padre_hijo2.php">
                                 <img src="img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
                             </a>
                         </li>
@@ -102,7 +102,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
-                                <a href="p_notificacion.html">
+                                <a href="padre_notificacion.php">
                                     <div>
                                         <i class="fa fa-upload fa-fw"></i> Coordinación Académica
                                         <span class="pull-right text-muted small">ayer(11.15 am)</span>
@@ -112,7 +112,7 @@
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="p_notificacion.html">
+                                    <a href="padre_notificacion.php">
                                         <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
@@ -227,7 +227,7 @@
                 </div>
             </div>
             <div class="col-lg-12">
-                <a href="padre_hijo1.html">
+                <a href="padre_hijo1.php">
                     <button type="button" class="btn btn-outline btn-success">Regresar</button>
                 </a>
             </div>
