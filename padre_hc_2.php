@@ -39,7 +39,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -213,7 +213,14 @@
                 </a>
             </div>
         </div>
-        <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="wrapper wrapper-content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-left" style="margin-top:0">
+                        <img src="img/horario.png" style="width:50px"> | Horario de Clases | Periodo : <label>2016-2017</label> 
+                    </h2>
+                </div>                                            
+            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">                            
@@ -230,7 +237,9 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour1" type="button"> 1 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-1">1</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
                                     <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
                                     <td class="subject" style="vertical-align: middle">QUIMICA</td>
@@ -238,7 +247,9 @@
                                     <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour2" type="button"> 2 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-2">2</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">PROGRAMACION EN LENGUAJE ESTRUCTURADO</td>
                                     <td class="subject" style="vertical-align: middle">FISICA</td>
                                     <td class="subject" style="vertical-align: middle">FISICA</td>
@@ -246,14 +257,18 @@
                                     <td class="subject" style="vertical-align: middle">INFORMATICA APLICADA A LA EDUCACION</td>
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour3"> 3 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-3">3</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
                                     <td class="subject" style="vertical-align: middle">PROGRAMACION EN LENGUAJE ESTRUCTURADO</td>
                                     <td class="subject" style="vertical-align: middle">PROGRAMACION EN LENGUAJE ESTRUCTURADO</td>
                                     <td class="subject" style="vertical-align: middle">FISICA</td>
                                     <td class="subject" style="vertical-align: middle">DESARROLLO DEL PENSAMIENTO FILOSOFICO</td>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour1" type="button"> 4 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-1">4</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">EDUCACION ARTISTICA</td>
                                     <td class="subject" style="vertical-align: middle">PROGRAMACION EN LENGUAJE ESTRUCTURADO</td>
                                     <td class="subject" style="vertical-align: middle">PROGRAMACION EN LENGUAJE ESTRUCTURADO</td>
@@ -269,7 +284,9 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour2" type="button"> 5 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-2">5</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">RELACION EN EL EQUIPO DE TRABAJO</td>
                                     <td class="subject" style="vertical-align: middle">FYOL</td>
                                     <td class="subject" style="vertical-align: middle">DESARROLLO DEL PENSAMIENTO FILOSOFICO</td>
@@ -277,7 +294,9 @@
                                     <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour3" type="button"> 6 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-3">6</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">QUIMICA</td>
                                     <td class="subject" style="vertical-align: middle">DESARROLLO DEL PENSAMIENTO FILOSOFICO</td>
                                     <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
@@ -285,7 +304,9 @@
                                     <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour1" type="button"> 7 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-1">7</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
                                     <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
                                     <td class="subject" style="vertical-align: middle">HISTORIA Y CIENCIAS SOCIALES</td>
@@ -293,7 +314,9 @@
                                     <td class="subject" style="vertical-align: middle">QUIMICA</td>               
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour2" type="button"> 8 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-2">8</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">HISTORIA Y CIENCIAS SOCIALES</td>
                                     <td class="subject" style="vertical-align: middle">HISTORIA Y CIENCIAS SOCIALES</td>
                                     <td class="subject">EDUCACION ARTISTICA</td>
@@ -309,7 +332,9 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td class="scheduler"><button class="btn btn-default btn-circle hour3" type="button"> 9 </button></td>
+                                    <td class="scheduler" style="vertical-align: middle">
+                                        <span class="hour hour-2">9</span>
+                                    </td>
                                     <td class="subject" style="vertical-align: middle">INFORMATICA APLICADA A LA EDUCACION</td>
                                     <td class="subject" style="vertical-align: middle">VALORES HUMANOS</td>
                                     <td class="subject" style="vertical-align: middle">MATEMATICAS</td>

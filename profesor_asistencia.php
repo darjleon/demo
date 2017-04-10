@@ -48,22 +48,22 @@
                     </div>
                 </li>
                 <li>
-                    <a href="profesor.html">
+                    <a href="profesor.php">
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_institucion.html">
+                    <a href="profesor_institucion.php">
                         <i class="fa fa-institution"></i> <span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_notificaciones.html">
+                    <a href="profesor_notificaciones.php">
                         <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_listaalumnos.html">
+                    <a href="profesor_listaalumnos.php">
                         <img src="img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumnos</span>
                     </a>
@@ -74,12 +74,12 @@
                     </a>      
                 </li>
                 <li>
-                    <a href="profesor_horario.html">
+                    <a href="profesor_horario.php">
                         <i class="fa fa-table"></i><span class="nav-label">Horarios</span>
                     </a>      
                 </li>                                                          
                 <li>
-                    <a href="profesor_calificaciones.html">
+                    <a href="profesor_calificaciones.php">
                         <i class="fa fa-fw fa-list-alt"></i><span class="nav-label">Calificaciones</span>
                     </a>      
                 </li> 
@@ -117,7 +117,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
-                                <a href="p_notificaciones.html">
+                                <a href="profesor_notificaciones.php">
                                     <div>
                                         <i class="fa fa-upload fa-fw"></i> Coordinación Académica
                                         <span class="pull-right text-muted small">ayer(11.15 am)</span>
@@ -127,7 +127,7 @@
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.html">
+                                    <a href="profesor_notificaciones.php">
                                         <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
@@ -150,7 +150,7 @@
                 <a href="#">
                     <span style="font-size:14px"><img src="img/LISTA.png" width="25px"></span>
                 </a> 
-                <a href="p_listaalumnos_cuadricula.html">
+                <a href="profesor_listaalumnos_cuadricula.php">
                     <span style="font-size:14px"><img src="img/ICONO.png" width="25px"></span>
                 </a>
             </div>                       

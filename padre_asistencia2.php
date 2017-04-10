@@ -94,7 +94,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="p_notificacion.html">
+                        <a class="count-info" href="padre_notificacion.php">
                             <i class="fa fa-envelope"></i>  <span class="label label-warning">1</span>
                         </a>                        
                     </li>
@@ -104,9 +104,9 @@
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
-                                <a href="p_notificacion.html">
+                                <a href="padre_notificacion.php">
                                     <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
+                                        <i class="fa fa-upload fa-fw"></i>Coordinación Académica
                                         <span class="pull-right text-muted small">ayer(11.15 am)</span>
                                     </div>
                                 </a>
@@ -114,8 +114,9 @@
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="p_notificacion.html">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
+                                    <a href="padre_notificacion.php">
+                                        <strong>See All Alerts</strong>
+                                        <i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
                             </li>
@@ -135,7 +136,7 @@
                     <img src="img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
                 </div>
                 <div class="profile-info" style="padding-top:25px">
-                    <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
+                    <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
                     <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
                     <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
                 </div>
@@ -229,7 +230,7 @@
                 </div>
             </div>
             <div class="col-lg-12">
-                <a href="padre_hijo1.php">
+                <a href="padre_hijo2.php">
                     <button type="button" class="btn btn-outline btn-success">Regresar</button>
                 </a>
             </div>
@@ -239,7 +240,7 @@
                 <div class="col-lg-12">
                     <h2 class="text-left" style="margin-top:0">
                         <img src="img/asistencia blanco.png" style="width:50px"> Asistencia |
-                        <a href="padre_lista1.php">
+                        <a href="padre_lista2.php">
                             <button type="button" class="btn btn-w-m" data-toggle="modal" data-target="#myModal" style="background-color: #0099D6;color: white">
                                 <strong>Lista de Alumnos</strong>
                             </button> 

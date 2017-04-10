@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -235,7 +235,7 @@
                 <div class="col-lg-4" style="padding-bottom: 25px">
                     <a href="padre_de_1.php">
                         <img src="img/diario escolar.png" class="img-responsive" style="width: 40%;display:block;margin:auto;">
-                        <h2 class="m-xs text-center">Diario Escolar</h2>
+                        <h2 class="m-xs text-center">Agenda Escolar</h2>
                     </a>                        
                 </div>
                 <div class="col-lg-4">
@@ -247,7 +247,7 @@
                 <div class="col-lg-4">
                     <a href="padre_calificaciones1.php">
                         <img src="img/calificaciones.png" class="img-responsive" style="width: 40%;display:block;margin:auto;">
-                        <h2 class="m-xs text-center">Notas</h2>
+                        <h2 class="m-xs text-center">Calificaciones</h2>
                     </a>
                 </div>                
             </div>

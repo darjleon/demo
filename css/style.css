@@ -7504,3 +7504,18 @@ body.md-skin {
 .profile-type {
   color:white;
 }
+.hour {
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+.hour-1 {
+  background-color: #99CA3C;
+}
+.hour-2 {
+  background-color: #D53362; 
+}
+.hour-3 {
+  background-color: #0099D6;
+}
