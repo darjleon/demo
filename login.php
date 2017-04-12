@@ -19,7 +19,7 @@
 
     }elseif($email == 'representante@gmail.com' && $password == '1234'){
         $_SESSION['email'] = $email;
-        header("Location: padre_perfil.php");
+        header("Location: representante_perfil.php");
         
     }else{
         header("Location: index.html");
