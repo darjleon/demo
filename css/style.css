@@ -7500,9 +7500,31 @@ body.md-skin {
 .nr {
   color: red;
 }
+
 /**/
 .profile-type {
   color:white;
+}
+/**/
+/****/
+.icono-alumno {
+  width: 45px;
+  margin-top:0;
+}
+.icono-representante {
+  width: 30px;
+}
+.btn-info-alumno {
+  margin-bottom: 10px;
+  color: white;
+  padding: 2px 5px 2px 5px;
+  background-color: #A8A9AD;
+  font-size: 12px;
+}
+.btn-info-alumno:hover {
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
 }
 .hour {
   padding: 5px 10px 5px 10px;
@@ -7518,4 +7540,65 @@ body.md-skin {
 }
 .hour-3 {
   background-color: #0099D6;
+}
+.subject1 {
+  color: blue;
+  font-size: 14px;
+}
+.subject2 {
+  color: red;
+  font-size: 14px;
+}
+.subject3 {
+
+}
+.subject4 {
+  
+}
+.subject5 {
+  
+}
+.subject6 {
+  
+}
+.subject7 {
+  
+}
+.subject8 {
+  
+}
+.subject9 {
+  
+}
+.subject10 {
+  
+}
+.subject11 {
+  
+}
+.subject12 {
+  
+}
+/** CURSOS **/
+.course-title {
+  padding-bottom:0;
+  margin-bottom:0;
+}
+.student-list {
+  margin-bottom: 0;padding-left:15px
+}
+.student-list-icon {
+  width: 25px;
+  margin-right:10px;
+  padding-bottom: 0;
+}
+.btn-student-list {
+  background-color: #939598;
+  color: white;
+  padding: 1px 5px 1px 5px;
+  border-radius: 0;
+}
+.btn-student-list:hover {
+  color: white;
+  font-weight: bold;
 }

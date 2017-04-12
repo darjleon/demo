@@ -44,49 +44,45 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo.png" width="50px"/>
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
-                    <a href="profesor.html">
-                        <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span> 
+                    <a href="profesor.php">
+                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_institucion.html">
-                        <i class="fa fa-institution"></i> <span class="nav-label">Institucion</span> 
+                    <a href="profesor_institucion.php">
+                        <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_notificaciones.html">
+                    <a href="profesor_notificaciones.php">
                         <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="profesor_listaalumnos.html">
-                        <img src="img/icono persona white.png" width="15px">
-                        <span class="nav-label" style="padding-left:8px">Alumnos</span>
+                    <a href="profesor_cursos.php">
+                        <i class="fa fa-bookmark"></i>
+                        <span class="nav-label">Cursos</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_asistencia.html">
-                        <i class="fa fa-list"></i><span class="nav-label">Asistencia</span>
+                    <a href="profesor_horario.php">
+                        <i class="fa fa-clock-o"></i><span class="nav-label">Horarios</span>
                     </a>      
                 </li>
                 <li>
-                    <a href="profesor_horario.html">
-                        <i class="fa fa-table"></i><span class="nav-label">Horarios</span>
+                    <a href="profesor_calendario.php">
+                        <i class="fa fa-calendar"></i><span class="nav-label">Calendario Academico</span>
                     </a>      
                 </li>                                                          
                 <li>
-                    <a href="p_calificaciones.html">
-                        <i class="fa fa-fw fa-list-alt"></i><span class="nav-label">Calificaciones</span>
-                    </a>      
-                </li> 
-                <li>
                     <a href="#">
                         <i class="fa fa-institution"></i>
-                        <span class="nav-label">Planificaciones</span><span class="fa arrow"></span>
+                        <span class="nav-label">Planificaciones</span>
+                        <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li><a href="#">Opcion 1</a></li>
@@ -106,7 +102,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="p_notificaciones.html">
+                        <a class="count-info" href="profesor_notificaciones.php">
                             <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
                         </a>                        
                     </li>
@@ -116,7 +112,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
-                                <a href="p_notificaciones.html">
+                                <a href="profesor_notificaciones.php">
                                     <div>
                                         <i class="fa fa-upload fa-fw"></i> Coordinación Académica
                                         <span class="pull-right text-muted small">ayer(11.15 am)</span>
@@ -126,7 +122,7 @@
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="p_notificaciones.html">
+                                    <a href="profesor_notificaciones.php">
                                         <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
@@ -135,28 +131,32 @@
                     </li>
                     <li>
                         <a href="logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
+                            <i class="fa fa-sign-out"></i> Cerrar Sesión
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="row wrapper white-bg ">                                    
-            <div class="pull-left">                
-                <h2>Listado de Alumnos</h2>
+        <div class="row wrapper white-bg ">      
+            <div class="col-lg-2 text-right">                
+                <img src="img/CURSO.png" style="width:35px">
+            </div>                
+            <div class="col-lg-10 text-left">                
+                <h3 style="margin-left:0"><strong>CURSO: </strong>8 'B'</h3>
+                <h3><strong>DIRIGENTE: </strong>RUTH ARGUELLO MENDOZA</h3>        
             </div>
             <div class="pull-right" style="margin-top:5px;margin-right: -15px">
-                <a href="profesor_listaalumnos.html">
+                <a href="profesor_cursos.php">
                     <span style="font-size:14px"><img src="img/LISTA.png" width="25px"></span>
                 </a> 
-                <a href="profesor_listaalumnos_cuadricula.html">
+                <a href="profesor_cursos_cuadricula.php">
                     <span style="font-size:14px"><img src="img/ICONO.png" width="25px"></span>
                 </a>
-            </div>                       
+            </div>                                                 
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -164,8 +164,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>LEONARDO MIGUEL</strong></h3>
-                            <h3><strong>APAZA BASILIO</strong></h3>
+                            <h5>LEONARDO MIGUEL APAZA BASILIO</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>                        
@@ -173,7 +172,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -183,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">                        
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -191,8 +190,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>RONALDO TYSON</strong></h3>
-                            <h3><strong>BALDERA OBREGON</strong></h3>
+                            <h5>RONALDO TYSON BALDERA OBREGON</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -200,7 +198,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -210,7 +208,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -218,8 +216,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>JOEL ALEXANDER</strong></h3>
-                            <h3><strong>CALDERON GUEVARA</strong></h3>
+                            <h5>JOEL ALEXANDER CALDERON GUEVARA</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -227,7 +224,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -237,9 +234,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -247,8 +242,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>ISAAC MANUEL</strong></h3>
-                            <h3><strong>ESTELA SAMANEZ</strong></h3>
+                            <h5>ISAAC MANUEL ESTELA SAMANEZ</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>                    
@@ -256,63 +250,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
-                            <div class="pull-right">
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                                    <i class="fa fa-envelope"></i>
-                                </button>
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box">
-                        <div class="col-sm-3">
-                            <div class="text-center">                            
-                                <img class="icono-alumno" src="img/icono_persona.png" >
-                            </div>
-                        </div>
-                            <div class="col-sm-9">
-                                <h3><strong>MILAGROS JANETH</strong></h3>
-                                <h3><strong>FLORES MESA</strong></h3>    
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="padding: 0 5px;color:white;background:#12B495">PERFIL</button>
-                                <br><br>
-                            </div>
-                            <div class="clearfix"></div>
-                        <div class="contact-box-footer">
-                            <div class="pull-left">
-                                <img class="icono-representante" src="img/REPRESENTANTE.png">
-                            </div>                                                           
-                            <h3>8 'B'</h3>
-                            <div class="pull-right">
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                                    <i class="fa fa-envelope"></i>
-                                </button>
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box">
-                        <div class="col-sm-3">
-                            <div class="text-center">                            
-                                <img class="icono-alumno" src="img/icono_persona.png" >
-                            </div>
-                        </div>
-                            <div class="col-sm-9">
-                                <h3><strong>JORGE LUIS</strong></h3>
-                                <h3><strong>GUEVARA MERA</strong></h3>   
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="padding: 0 5px;color:white;background:#12B495">PERFIL</button>
-                                <br><br>
-                            </div>
-                            <div class="clearfix"></div>
-                        <div class="contact-box-footer">
-                            <div class="pull-left">
-                                <img class="icono-representante" src="img/REPRESENTANTE.png">
-                            </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -324,7 +262,59 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
+                    <div class="contact-box">
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                            <div class="col-sm-9">
+                                <h5>MILAGROS JANETH FLORES MESA</h5>    
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                           
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                            <div class="col-sm-9">
+                                <h5>JORGE LUIS GUEVARA MERA</h5>   
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -332,8 +322,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>HUGO MANUEL</strong></h3>
-                            <h3><strong>LOPEZ PUCA</strong></h3>  
+                            <h5>HUGO MANUEL LOPEZ PUCA</h5>  
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -341,7 +330,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -351,7 +340,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -359,8 +348,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>GRISSEL ADRIANA</strong></h3>
-                            <h3><strong>MALASQUEZ DESPOSORIO</strong></h3>
+                            <h5>GRISSEL ADRIANA MALASQUEZ DESPOSORIO</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                             <div class="clearfix"></div>
@@ -368,34 +356,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
-                            <div class="pull-right">
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                                    <i class="fa fa-envelope"></i>
-                                </button>
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box">
-                        <div class="col-sm-3">
-                            <div class="text-center">                            
-                                <img class="icono-alumno" src="img/icono_persona.png" >
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <h3><strong>FAUSTO ENRIQUE</strong></h3>
-                            <h3><strong>PAREDES PORTUGAL</strong></h3>  
-                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
-                        </div>
-                            <div class="clearfix"></div>
-                        <div class="contact-box-footer">
-                            <div class="pull-left">
-                                <img class="icono-representante" src="img/REPRESENTANTE.png">
-                            </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -407,7 +368,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -415,8 +376,33 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>JULIO CESAR</strong></h3>
-                            <h3><strong>SALAZAR DAGA</strong></h3> 
+                            <h5>FAUSTO ENRIQUE PAREDES PORTUGAL</h5> 
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                            <div class="clearfix"></div>
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>JULIO CESAR SALAZAR DAGA</h5> 
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -424,7 +410,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>     
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -434,7 +420,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -442,8 +428,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>VIANCA ROXANA</strong></h3>
-                            <h3><strong>SALVATIERRA AYALA</strong></h3>
+                            <h5>VIANCA ROXANA SALVATIERRA AYALA</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                             <div class="clearfix"></div>
@@ -451,7 +436,7 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -461,7 +446,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -469,17 +454,15 @@
                             </div>
                         </div>
                             <div class="col-sm-9">
-                                <h5><strong>JAIRO ANTHONY</strong></h5>
-                                <h5><strong>SILVA MARQUEZ</strong></h5>
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal" style="padding: 0 5px;color:white;background:#12B495">PERFIL</button>
-                                <br><br>
+                                <h5>JAIRO ANTHONY SILVA MARQUEZ</h5>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                             </div>
                             <div class="clearfix"></div>
                         <div class="contact-box-footer">
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h5>8 'B'</h5>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
                                 <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
@@ -491,7 +474,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -499,8 +482,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>VICTOR JESUS</strong></h3>
-                            <h3><strong>SOLANO VILMA</strong></h3>        
+                            <h5>VICTOR JESUS SOLANO VILMA</h5>        
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -508,17 +490,17 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="padding: 0 5px;color:white;background:#9A9B9F">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
                                 </button>
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal3" style="padding: 0 5px;color:white;background:#12B495">REPRESENTANTE</button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -526,8 +508,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>GONZALO ALBERTO</strong></h3>
-                            <h3><strong>TAIPE HUAMANI</strong></h3>  
+                            <h5>GONZALO ALBERTO TAIPE HUAMANI</h5>  
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -535,17 +516,17 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                           
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="padding: 0 5px;color:white;background:#9A9B9F">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
                                 </button>
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal3" style="padding: 0 5px;color:white;background:#12B495">REPRESENTANTE</button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
@@ -553,8 +534,7 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h3><strong>ROBINSON LUIS</strong></h3>
-                            <h3><strong>VILLANUEVA ASENCIO</strong></h3> 
+                            <h5>ROBINSON LUIS VILLANUEVA ASENCIO</h5> 
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
                         <div class="clearfix"></div>
@@ -562,12 +542,12 @@
                             <div class="pull-left">
                                 <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                            
-                            <h3>8 'B'</h3>
+                            <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="padding: 0 5px;color:white;background:#9A9B9F">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
                                     <i class="fa fa-envelope"></i>
                                 </button>
-                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal3" style="padding: 0 5px;color:white;background:#12B495">REPRESENTANTE</button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
                             </div>
                         </div>
                     </div>

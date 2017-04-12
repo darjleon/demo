@@ -44,49 +44,45 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo.png" width="50px"/>
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
-                    <a href="profesor.html">
-                        <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span> 
+                    <a href="profesor.php">
+                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_institucion.html">
-                        <i class="fa fa-institution"></i> <span class="nav-label">Institucion</span> 
+                    <a href="profesor_institucion.php">
+                        <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_notificaciones.html">
+                    <a href="profesor_notificaciones.php">
                         <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="profesor_listaalumnos.html">
-                        <img src="img/icono persona white.png" width="15px">
-                        <span class="nav-label" style="padding-left:8px">Alumnos</span>
+                    <a href="profesor_cursos.php">
+                        <i class="fa fa-bookmark"></i>
+                        <span class="nav-label">Cursos</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_asistencia.html">
-                        <i class="fa fa-list"></i><span class="nav-label">Asistencia</span>
+                    <a href="profesor_horario.php">
+                        <i class="fa fa-clock-o"></i><span class="nav-label">Horarios</span>
                     </a>      
                 </li>
                 <li>
-                    <a href="profesor_horario.html">
-                        <i class="fa fa-table"></i><span class="nav-label">Horarios</span>
+                    <a href="profesor_calendario.php">
+                        <i class="fa fa-calendar"></i><span class="nav-label">Calendario Academico</span>
                     </a>      
                 </li>                                                          
                 <li>
-                    <a href="profesor_calificaciones.html">
-                        <i class="fa fa-fw fa-list-alt"></i><span class="nav-label">Calificaciones</span>
-                    </a>      
-                </li> 
-                <li>
                     <a href="#">
                         <i class="fa fa-institution"></i>
-                        <span class="nav-label">Planificaciones</span><span class="fa arrow"></span>
+                        <span class="nav-label">Planificaciones</span>
+                        <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li><a href="#">Opcion 1</a></li>
@@ -106,7 +102,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="p_notificaciones.html">
+                        <a class="count-info" href="profesor_notificaciones.php">
                             <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
                         </a>                        
                     </li>
@@ -116,7 +112,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
-                                <a href="p_notificaciones.html">
+                                <a href="profesor_notificaciones.php">
                                     <div>
                                         <i class="fa fa-upload fa-fw"></i> Coordinación Académica
                                         <span class="pull-right text-muted small">ayer(11.15 am)</span>
@@ -126,7 +122,7 @@
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="p_notificaciones.html">
+                                    <a href="profesor_notificaciones.php">
                                         <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
@@ -141,24 +137,22 @@
                 </ul>
             </nav>
         </div>
-        <div class="row wrapper white-bg ">                                    
-            <div class="pull-left">                
-                <h2>Alumnos</h2>
-            </div>
-            <div class="pull-right" style="margin-top:5px;margin-right: -15px">
-                <a href="p_listaalumnos.html">
+        <div class="row wrapper white-bg ">                  
+            <h2 style="padding-bottom:0;margin-bottom:0">Seleccione un Curso</h2>
+            <div class="pull-right" style="margin-right: -15px">
+                <a href="profesor_cursos.php">
                     <span style="font-size:14px"><img src="img/LISTA.png" width="25px"></span>
                 </a> 
                 <a href="#">
-                    <span style="font-size:14px"><img src="img/ICONO.png" width="25px"></span>
+                    <span style="font-size:14px;padding-right:-15px"><img src="img/ICONO.png" width="25px"></span>
                 </a>
-            </div>                       
+            </div>                                                 
         </div>
-        <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="wrapper wrapper-content">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_1.php">
+                        <a href="profesor_curso_cuadricula8A.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -174,7 +168,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_2.php">
+                        <a href="profesor_curso_cuadricula8B.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -190,7 +184,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_3.php">
+                        <a href="profesor_curso_cuadricula9A.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -208,7 +202,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_4.html">
+                        <a href="profesor_curso_cuadricula1CIENTIFICO.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -224,7 +218,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_5.html">
+                        <a href="profesor_curso_cuadricula2CIENTIFICO.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -240,7 +234,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_6.html">
+                        <a href="profesor_curso_cuadricula2INFORMATICA.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -258,7 +252,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_7.html">
+                        <a href="profesor_curso_cuadricula3CIENTIFICO.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -274,7 +268,7 @@
                 </div> 
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_8.html">
+                        <a href="profesor_curso_cuadricula3CONTABILIDAD.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">
@@ -290,7 +284,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-box contact-course">
-                        <a href="profesor_listaalumnos_cuadricula2_9.html">
+                        <a href="profesor_curso_cuadricula3INFORMATICA.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
                                     <img src="img/CURSO.png" width="30px">

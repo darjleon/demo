@@ -44,45 +44,40 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li class="active">
                     <a href="profesor.php">
-                        <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span> 
+                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
                     <a href="profesor_institucion.php">
-                        <i class="fa fa-institution"></i> <span class="nav-label">Institucion</span> 
+                        <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
                     <a href="profesor_notificaciones.php">
-                        <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones </span>
+                        <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_listaalumnos.php">
-                        <img src="img/icono persona white.png" width="15px">
-                        <span class="nav-label" style="padding-left:8px">Alumnos</span>
+                    <a href="profesor_cursos.php">
+                        <i class="fa fa-bookmark"></i>
+                        <span class="nav-label">Cursos</span>
                     </a>
-                </li>
-                <li>
-                    <a href="profesor_asistencia.php">
-                        <i class="fa fa-list"></i><span class="nav-label">Asistencia</span>
-                    </a>      
                 </li>
                 <li>
                     <a href="profesor_horario.php">
-                        <i class="fa fa-table"></i><span class="nav-label">Horarios</span>
+                        <i class="fa fa-clock-o"></i><span class="nav-label">Horarios</span>
+                    </a>      
+                </li>
+                <li>
+                    <a href="profesor_calendario.php">
+                        <i class="fa fa-calendar"></i><span class="nav-label">Calendario Academico</span>
                     </a>      
                 </li>                                                          
-                <li>
-                    <a href="profesor_calificaciones.php">
-                        <i class="fa fa-fw fa-list-alt"></i><span class="nav-label">Calificaciones</span>
-                    </a>      
-                </li> 
                 <li>
                     <a href="#">
                         <i class="fa fa-institution"></i>
@@ -107,7 +102,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="p_notificaciones.html">
+                        <a class="count-info" href="profesor_notificaciones.php">
                             <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
                         </a>                        
                     </li>
@@ -338,7 +333,7 @@
 
 
     <script>
-        $(document).ready(function() {       
+        $(document).ready(function() {    
             setTimeout(function() {
                 toastr.options = {
                     closeButton: true,
