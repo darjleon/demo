@@ -12,17 +12,17 @@
 
     <title>Pined | Profesor</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
@@ -32,7 +32,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -44,7 +44,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -130,7 +130,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="logout.php">
+                        <a href="../logout.php">
                             <i class="fa fa-sign-out"></i>Cerrar Sesión
                         </a>
                     </li>
@@ -139,7 +139,7 @@
         </div>
         <div class="row wrapper white-bg ">
             <div class="col-lg-2 text-right">                
-                <img src="img/CURSO.png" style="width:35px">
+                <img src="../img/CURSO.png" style="width:35px">
             </div>                
             <div class="col-lg-10 text-left">                
                 <h3 style="margin-left:0"><strong>CURSO: </strong>3RO BACHILLERATO CIENTIFICO</h3>
@@ -147,10 +147,10 @@
             </div>
             <div class="pull-right" style="margin-top:5px;margin-right: -15px">
                 <a href="profesor_cursos.php">
-                    <span style="font-size:14px"><img src="img/LISTA.png" width="25px"></span>
+                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
                 </a> 
                 <a href="profesor_cursos_cuadricula.php">
-                    <span style="font-size:14px"><img src="img/ICONO.png" width="25px"></span>
+                    <span style="font-size:14px"><img src="../img/ICONO.png" width="25px"></span>
                 </a>
             </div>                                                 
         </div>
@@ -169,14 +169,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             CINDY MARCELA ALARCON MOROCHO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -188,14 +188,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             BRAD ALEXANDER ALCIVAR VERA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -207,14 +207,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             JOSUE MIGUEL ALVARADO AVILA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -226,14 +226,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             LUIS ALBERTO ANDRADE FIGUEROA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -245,14 +245,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             ALLISON ANDREA ARREAGA ANDRADE |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -264,14 +264,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             JOSE MIGUEL AGUILAR RAMIREZ |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -283,14 +283,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             EILEEN GEOMARA BAREO SANJINES |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -302,14 +302,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             BRENDA CAROLINA BERNAL VELASQUEZ |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -321,14 +321,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             CHRISTIAN JOAO BORJA SALAO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -340,14 +340,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             JOSELINE ARIANA BUÑAY RAMOS |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -359,14 +359,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             STEFANI JAMILETH BURGOS FIGUEROA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -378,14 +378,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             MAYLEE NINOSKA BURNHAM MARCILLO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -397,14 +397,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             DAGMAR ALISON CAÑAS PEÑAFIEL |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                         </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -416,14 +416,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             DEREK JOSHUA CARDENAS AMBI |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -435,14 +435,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             GINGER LISBETH CASTRO RUIZ |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -454,14 +454,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             SERGIO ANDRES CLAVIJO AGUAYZA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -473,14 +473,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             ALICIA YADIRA CORDOVA MAYOR |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -492,14 +492,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             GIUSEPPE OLIVER GARCIA INTRIAGO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -511,14 +511,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             CRISTOPHER JULIAN INTRIAGO LEON |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -530,14 +530,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             MAYLIN BRENDA JARAMILLO SANTILLAN |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -549,14 +549,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             MICHAEL DOUGLAS MONCADA LADINES |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -568,14 +568,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             JEAN PIERRE MENDEZ APOLINARIO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -587,14 +587,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             LADY LISBETH MORENO MANTILLA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -606,14 +606,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             DOMENICA ANTONIA OLVERA URBINA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -625,14 +625,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             BRITANY SHAJAIRA ORDOÑEZ NIETO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -644,14 +644,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             ERIC JOSUE QUIMIS SOLIS |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -663,14 +663,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             DAVID STALYN REBUTTI DELGADO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -682,14 +682,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             NANCY BEATRIZ RIGCHAG AMANCHA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -701,14 +701,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             MERIDA ROBERTA RIVERA VERA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -720,14 +720,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             ENRIQUE GABRIEL RODRIGUEZ |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -739,14 +739,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             MARIA EDITHSOTO CHICHANDE |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
 >                                    </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -758,14 +758,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             THALIA NICOLE TAPIA LOOR |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -777,14 +777,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             TAIS VERENICE TENORIO CARABALI |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -796,14 +796,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             ALLISON DOMENIQUE VARGAS MEZA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -815,14 +815,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             KATTHYA MELISSA VARGAS MEZA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -834,14 +834,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             DOMENICA BELEN VILLOTA MOROCHO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -853,14 +853,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             MARIA BELEN VITERI JURADO |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -872,14 +872,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             JOSE JAVIER ZAMBRANO CABRERA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -891,14 +891,14 @@
                                 <tr>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/icono_persona.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/icono_persona.png">
                                             DAYANNA FIORELA ZHUMA TENEZACA |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal" style=""><small>PERFIL</small></button>
                                         </p>
                                     </td>
                                     <td>
                                         <p class="student-list">
-                                            <img class="icono-alumno student-list-icon" src="img/REPRESENTANTE.png">
+                                            <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png">
                                             Nombres y Apellidos |
                                             <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2">
                                                 <i class="fa fa-envelope"></i>
@@ -918,23 +918,23 @@
 
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="../js/inspinia.js"></script>
+    <script src="../js/plugins/pace/pace.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- GITTER -->
-    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="../js/plugins/toastr/toastr.min.js"></script>
 
     <script>
         $(document).ready(function() {

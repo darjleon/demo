@@ -12,17 +12,17 @@
 
     <title>Pined | Profesor</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
@@ -32,7 +32,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -44,7 +44,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -130,7 +130,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="logout.php">
+                        <a href="../logout.php">
                             <i class="fa fa-sign-out"></i>Cerrar Sesión
                         </a>
                     </li>
@@ -141,10 +141,10 @@
             <h2 style="padding-bottom:0;margin-bottom:0">Seleccione un Curso</h2>
             <div class="pull-right" style="margin-right: -15px">
                 <a href="profesor_cursos.php">
-                    <span style="font-size:14px"><img src="img/LISTA.png" width="25px"></span>
+                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
                 </a> 
                 <a href="#">
-                    <span style="font-size:14px;padding-right:-15px"><img src="img/ICONO.png" width="25px"></span>
+                    <span style="font-size:14px;padding-right:-15px"><img src="../img/ICONO.png" width="25px"></span>
                 </a>
             </div>                                                 
         </div>
@@ -155,7 +155,7 @@
                         <a href="profesor_curso_cuadricula8A.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -171,7 +171,7 @@
                         <a href="profesor_curso_cuadricula8B.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -187,7 +187,7 @@
                         <a href="profesor_curso_cuadricula9A.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -205,7 +205,7 @@
                         <a href="profesor_curso_cuadricula1CIENTIFICO.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -221,7 +221,7 @@
                         <a href="profesor_curso_cuadricula2CIENTIFICO.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -237,7 +237,7 @@
                         <a href="profesor_curso_cuadricula2INFORMATICA.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -255,7 +255,7 @@
                         <a href="profesor_curso_cuadricula3CIENTIFICO.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -271,7 +271,7 @@
                         <a href="profesor_curso_cuadricula3CONTABILIDAD.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -287,7 +287,7 @@
                         <a href="profesor_curso_cuadricula3INFORMATICA.php">
                             <div class="col-sm-3">
                                 <div class="text-center" style="padding-top:5px">
-                                    <img src="img/CURSO.png" width="30px">
+                                    <img src="../img/CURSO.png" width="30px">
                                 </div>
                             </div>
                             <div class="col-sm-9">
@@ -304,23 +304,23 @@
 </div>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="../js/inspinia.js"></script>
+    <script src="../js/plugins/pace/pace.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- GITTER -->
-    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="../js/plugins/toastr/toastr.min.js"></script>
 
     <script>
         $(document).ready(function() {

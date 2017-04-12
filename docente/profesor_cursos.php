@@ -12,17 +12,17 @@
 
     <title>Pined | Profesor</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
@@ -32,7 +32,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -44,7 +44,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -96,7 +96,7 @@
         <div class="row border-bottom">
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="profesor_notificaciones.php">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
@@ -141,10 +141,10 @@
             <h2 style="padding-bottom:0;margin-bottom:0">Seleccione un Curso</h2>
             <div class="pull-right" style="margin-right: -15px">
                 <a href="#">
-                    <span style="font-size:14px"><img src="img/LISTA.png" width="25px"></span>
+                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
                 </a> 
                 <a href="profesor_cursos_cuadricula.php">
-                    <span style="font-size:14px;padding-right:-15px"><img src="img/ICONO.png" width="25px"></span>
+                    <span style="font-size:14px;padding-right:-15px"><img src="../img/ICONO.png" width="25px"></span>
                 </a>
             </div>                                                 
         </div>
@@ -159,7 +159,7 @@
                                     <a href="profesor_curso8A.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 8 'A'    
                                             </h4>
@@ -180,7 +180,7 @@
                                     <a href="profesor_curso8B.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 8 'B' 
                                             </h4>                                            
@@ -200,7 +200,7 @@
                                     <a href="profesor_curso9A.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 9 'A'
                                             </h4>
@@ -221,7 +221,7 @@
                                     <a href="profesor_curso1CIENTIFICO.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 1RO BACHILLERATO CIENTIFICO
                                             </h4>
@@ -242,7 +242,7 @@
                                     <a href="profesor_curso2CIENTIFICO.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 2DO BACHILLERATO CIENTIFICO
                                             </h4>
@@ -263,7 +263,7 @@
                                     <a href="profesor_curso2INFORMATICA.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 2DO BACHILLERATO INFORMATICA
                                             </h4>
@@ -284,7 +284,7 @@
                                     <a href="profesor_curso3CIENTIFICO.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 3RO BACHILLERATO CIENTIFICO
                                             </h4>
@@ -305,7 +305,7 @@
                                     <a href="profesor_curso3CONTABILIDAD.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 3RO BACHILLERATO CONTABILIDAD
                                             </h4>
@@ -326,7 +326,7 @@
                                     <a href="profesor_curso3INFORMATICA.php" style="color:black">
                                         <div class="col-lg-6">
                                             <h4 class="course-title">
-                                                <img src="img/CURSO.png" width="15px">
+                                                <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
                                                 3RO BACHILLERATO INFORMATICA
                                             </h4>
@@ -351,23 +351,23 @@
 </div>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="../js/inspinia.js"></script>
+    <script src="../js/plugins/pace/pace.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- GITTER -->
-    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="../js/plugins/toastr/toastr.min.js"></script>
 
     <script>
         $(document).ready(function() {
@@ -400,6 +400,6 @@
   }else{
     // Si no está logueado lo redireccion a la página de login.
     header("HTTP/1.1 302 Moved Temporarily");
-    header("Location: index.html");
+    header("Location: ../index.html");
   }
 ?>
