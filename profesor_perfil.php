@@ -48,33 +48,33 @@
                     </div>
                 </li>
                 <li class="active">
-                    <a href="profesor.php">
+                    <a href="docente/profesor.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_institucion.php">
+                    <a href="docente/profesor_institucion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_notificaciones.php">
+                    <a href="docente/profesor_notificaciones.php">
                         <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_cursos.php">
+                    <a href="docente/profesor_cursos.php">
                         <i class="fa fa-bookmark"></i>
                         <span class="nav-label">Cursos</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_horario.php">
+                    <a href="docente/profesor_horario.php">
                         <i class="fa fa-clock-o"></i><span class="nav-label">Horarios</span>
                     </a>      
                 </li>
                 <li>
-                    <a href="profesor_calendario.php">
+                    <a href="docente/profesor_calendario.php">
                         <i class="fa fa-calendar"></i><span class="nav-label">Calendario Academico</span>
                     </a>      
                 </li>                                                          
@@ -102,7 +102,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
+                        <a class="count-info" href="docente/profesor_notificaciones.php">
                             <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
                         </a>                        
                     </li>
