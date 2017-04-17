@@ -46,17 +46,17 @@
                     </div>
                 </li>                
                 <li class="active">
-                    <a href="padre.php">
+                    <a href="representante/padre.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
-                    <a href="padre_institucion.php">
+                    <a href="representante/padre_institucion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="padre_notificacion.php">
+                    <a href="representante/padre_notificacion.php">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
                         <span class="label label-warning">Nuevo</span>
@@ -69,8 +69,8 @@
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
-                        <li><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
-                        <li><a href="padre_hijo2.php"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
+                        <li><a href="representante/padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
+                        <li><a href="representante/padre_hijo2.php"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
                     </ul>
                 </li>                                     
             </ul>

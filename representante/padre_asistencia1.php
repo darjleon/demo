@@ -12,17 +12,17 @@
 
     <title>Pined | Representante</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
@@ -31,7 +31,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="profile-element"> 
-                        <img alt="image" class="img-circle" src="img/a5.jpg" width="40%" />
+                        <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
                                 <h4>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -64,19 +64,19 @@
                 </li>
                 <li class="active">
                     <a href="#">
-                        <img src="img/icono persona white.png" width="15px">
+                        <img src="../img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li class="active">
                             <a href="padre_hijo1.php">
-                                <img src="img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
+                                <img src="../img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
                             </a>
                         </li>
                         <li>
                             <a href="padre_hijo2.php">
-                                <img src="img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
+                                <img src="../img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
                             </a>
                         </li>
                     </ul>
@@ -122,7 +122,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="logout.php">
+                        <a href="../logout.php">
                             <i class="fa fa-sign-out"></i> Cerrar Sesión
                         </a>
                     </li>
@@ -132,7 +132,7 @@
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
                 <div class="profile-image" style="padding-top:10px">
-                    <img src="img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
+                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
                 </div>
                 <div class="profile-info" style="padding-top:25px">
                     <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
@@ -238,7 +238,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-left" style="margin-top:0">
-                        <img src="img/asistencia blanco.png" style="width:50px"> Asistencia |
+                        <img src="../img/asistencia blanco.png" style="width:50px"> Asistencia |
                         <a href="padre_lista1.php">
                             <button type="button" class="btn btn-w-m" data-toggle="modal" data-target="#myModal" style="background-color: #0099D6;color: white">
                                 <strong>Lista de Alumnos</strong>
@@ -260,7 +260,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>MATEMATICAS</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">CAROLINA QUIROZ SANTOS </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -277,7 +277,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>LENGUA Y LITERATURA</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">GLENDA CANDEL CARBO </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -294,7 +294,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>QUIMICA</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">DENISSE MARCILLO</span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -311,7 +311,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>LENGUA EXTRANJERA</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         
                                             <span style="padding-right: 10px">CLAUDIA LOPEZ SANCHEZ</span>
                                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
@@ -320,7 +320,7 @@
                                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
                                     </p>
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         
                                             <span style="padding-right: 10px">ANA PLUA RIVERA</span>
                                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
@@ -329,7 +329,7 @@
                                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">PERFIL</button>
                                     </p>
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         
                                             <span style="padding-right: 10px">RUTH LLERENA YULAN</span>
                                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
@@ -347,7 +347,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>PROGRAMACION EN LENGUAJE ESTRUCTURADO</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">MARCOS PAZAN REYES </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -364,7 +364,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>FISICA</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">JAVIER ARVELAEZ MOSQUERA </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -381,7 +381,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>INFORMATICA APLICADA A LA EDUCACION</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">ANGELA CIRINO DE LA ROSA </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -398,7 +398,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>DESARROLLO DEL PENSAMIENTO FILOSOFICO</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">GLENDA CANDEL CARBO</span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -415,7 +415,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>EDUCACION ARTISTICA</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">GLENDA CANDEL CARBO</span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -432,7 +432,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>RELACION EN EL EQUIPO DE TRABAJO</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">JUAN LOPEZ MARURI </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -449,7 +449,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>FYOL</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">JUAN LOPEZ MARURI </span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -466,7 +466,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>HISTORIA Y CIENCIAS SOCIALES</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">SONIA RODRIGUEZ NOBOA</span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -483,7 +483,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>VALORES HUMANOS</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">GLORIA ESPAÑA ARIAS</span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -500,7 +500,7 @@
                                 <td style="width:30%;vertical-align: middle"><p>EDUCACION FISICA</p></td>
                                 <td style="width:50%;vertical-align: middle">
                                     <p>
-                                        <img src="img/Docente.png" style="width: 25px; margin-right: 5px">
+                                        <img src="../img/Docente.png" style="width: 25px; margin-right: 5px">
                                         <span style="padding-right: 10px">RAUL HERRERA CERCADO</span>
                                         <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">
                                             <i class="fa fa-envelope"></i>
@@ -522,23 +522,23 @@
 </div>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="../js/inspinia.js"></script>
+    <script src="../js/plugins/pace/pace.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- GITTER -->
-    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="../js/plugins/toastr/toastr.min.js"></script>
 
     <script>
         $(document).ready(function() {

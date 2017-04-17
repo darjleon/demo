@@ -12,17 +12,17 @@
 
     <title>Pined | Representante</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
     <!-- Gritter -->
-    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
@@ -31,7 +31,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="profile-element"> 
-                        <img alt="image" class="img-circle" src="img/a5.jpg" width="40%" />
+                        <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
                                 <h4>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -64,19 +64,19 @@
                 </li>
                 <li class="active">
                     <a href="#">
-                        <img src="img/icono persona white.png" width="15px">
+                        <img src="../img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li class="active">
                             <a href="padre_hijo1.php">
-                                <img src="img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
+                                <img src="../img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
                             </a>
                         </li>
                         <li>
                             <a href="padre_hijo2.php">
-                                <img src="img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
+                                <img src="../img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
                             </a>
                         </li>
                     </ul>
@@ -104,7 +104,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="logout.php">
+                        <a href="../logout.php">
                             <i class="fa fa-sign-out"></i> Cerrar Sesión
                         </a>
                     </li>
@@ -114,7 +114,7 @@
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
                 <div class="profile-image" style="padding-top:10px">
-                    <img src="img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
+                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
                 </div>
                 <div class="profile-info" style="padding-top:25px">
                     <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
@@ -220,24 +220,24 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-left" style="margin-top:0">
-                        <img src="img/calificaciones.png" style="width:50px"> | Calificaciones
+                        <img src="../img/calificaciones.png" style="width:50px"> | Calificaciones
                     </h2>
                 </div>                                            
             </div>
             <div class="row">                
                 <div class="col-lg-4">
                     <a href="padre_calificaciones1q1.php">                    
-                        <img src="img/1quimestre.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">                        
+                        <img src="../img/1quimestre.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">                        
                     </a>                        
                 </div>
                 <div class="col-lg-4">
                     <a href="padre_calificaciones1q2.php">
-                        <img src="img/2quimestre.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">
+                        <img src="../img/2quimestre.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">
                     </a>
                 </div>
                 <div class="col-lg-4">
                     <a href="padre_sabana1.php">
-                        <img src="img/sabana.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">
+                        <img src="../img/sabana.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">
                     </a>
                 </div>
             </div>
@@ -246,23 +246,23 @@
 </div>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+    <script src="../js/inspinia.js"></script>
+    <script src="../js/plugins/pace/pace.min.js"></script>
 
     <!-- jQuery UI -->
-    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- GITTER -->
-    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="../js/plugins/toastr/toastr.min.js"></script>
 
 
     <script>
