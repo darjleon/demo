@@ -13,61 +13,58 @@
   <link href="css/style.css" rel="stylesheet">
 
   <style>
-    body {
-      background-image: url(img/fondo.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-    img {
-      display: block;
-      margin: auto;
-      width: 30%;
-      padding-top:25px;
-    }
-    @media only screen and (max-width: 767px) {
-        body {
-          background-image: url(img/fondo.jpg);
+  body {
+    background-image: url(img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding-top:25px;
+  }
+  @media only screen and (max-width: 767px) {
+      body {
+        background-image: url(img/fondo.jpg);
 
-        }
-        img {
-          width: 250px;
-          padding-top: 50px;
-          padding-bottom: 0;
-        }
-     }
+      }
+      img {
+        width: 250px;
+        padding-top: 50px;
+        padding-bottom: 0;
+      }
+   }
 </style>
 </head>
-  <body>
+<body class="gray-bg i-center">
     <div>
-        <img src="img/logo.png" class="image-responsive"/>
-    </div>    
-    <div class="middle-box text-center loginscreen animated">
-
-      <form class="form-horizontal" action="login.php" method="post">
-
-        <div class="form-group">               
-            <div class="col-sm-10" style="margin-left:25px">
-                <input type="email" class="form-control" name="email" id="inputEmail3" placeholder="Email" required>
-            </div>
+        <div>
+            <img src="img/logo.png" class="image-responsive" >
         </div>
-
-        <div class="form-group">          
-            <div class="col-sm-10" style="margin-left:25px">
-                <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password" required>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12"> 
+                    <div class="middle-box text-center loginscreen animated ">
+                        <div class="form_index">
+                            <form class="form-horizontal" action="login.php" method="post">
+                                <div class="form-group">
+                                    <input type="email"  name="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password" required>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary block full-width m-b">Sign in</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-sm-10" style="margin-left:25px">
-                <button type="submit" class="btn btn-primary block full-width m-b">Sign in</button>
-            </div>
-        </div>
-
-      </form>
-
+        </div>        
     </div>
-
-  </body>
+</body>
 </html>
