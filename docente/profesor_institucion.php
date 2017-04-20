@@ -153,7 +153,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="widget widget-tabs">
-                        <div class="tabs-container-school">
+                        <div class="tabs-container">
                             <ul class="nav nav-tabs">
                                 <li class="active">
                                     <a data-toggle="tab" href="#tab-1">INFORMACION</a>

@@ -7220,7 +7220,7 @@ body.md-skin {
   color: #1ab394; }
 
 .title-direction {
-  padding-left: 25px; }
+  /*padding-left: 25px;*/ }
 
 /*Tabs para informacion de la institucion*/
 .tabs-container-school .nav-tabs > li.active > a,
@@ -7474,10 +7474,21 @@ body.md-skin {
   font-weight: bold; }
 
 /*Utilidades*/
+.cl {
+  font-family: 'Conv_Nexa Light', sans-serif, arial; }
+
+.cb {
+  font-family: 'Conv_Nexa Bold', sans-serif, arial; }
+
 .d-flex {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+
+.jc-center {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .jc-flex-end {
   -webkit-justify-content: flex-end;
@@ -7494,7 +7505,7 @@ body.md-skin {
   margin-bottom: 1em; }
 
 .mb-2 {
-  margin-bottom: 2em; }
+  margin-bottom: 2.2em; }
 
 .noBefore:after,
 .noBefore:before {
@@ -7542,15 +7553,28 @@ body.md-skin {
   align-items: flex-end; }
 
 .hora {
+  font-size: .8em;
   margin-top: -10px; }
 
-.ibox-content code {
-  color: black; }
+.ibox-content {
+  padding: 15px 20px 11px 20px; }
+  .ibox-content code {
+    color: black; }
 
 .icono-recordatorio,
 .icono-notificaciones,
 .icono-mensajes {
-  padding: 6px 10px 8px 10px; }
+  padding: .6em;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: .6em; }
 
 .logo-element {
   padding: 10px 0; }
@@ -7592,6 +7616,22 @@ body.md-skin {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+
+.recordatorio,
+.notificaciones,
+.mensajes {
+  max-width: 200px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0; }
+  .recordatorio label,
+  .notificaciones label,
+  .mensajes label {
+    margin-bottom: 0; }
 
 .recordatorioBox {
   width: 100%;
@@ -7664,18 +7704,34 @@ body.md-skin {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+  @media screen and (max-width: 768px) {
+    .de_tabs {
+      font-size: .7em;
+      -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; } }
   .de_tabs a {
     font-size: 1.2em; }
+
+.dias_ae .nav-tabs > li > a {
+  color: #A7B1C2;
+  font-weight: 600;
+  padding: 10px 15px 10px 20px; }
+
+.nav-tabs > li > a {
+  color: #A7B1C2;
+  font-weight: 600;
+  padding: 10px 20px 10px 25px; }
 
 .timeline-item .profesor_de {
   background-color: #E6E7E9;
   padding: 10px 20px 10px 25px; }
   .timeline-item .profesor_de .punta {
     position: relative;
-    right: 55px;
+    right: 40px;
     width: 0;
     height: 0;
-    border-right: 30px solid #E6E7E9;
+    border-right: 20px solid #E6E7E9;
     border-bottom: 25px solid transparent; }
     @media screen and (max-width: 1200px) {
       .timeline-item .profesor_de .punta {
@@ -7884,3 +7940,123 @@ body.md-skin {
       align-items: center;
       width: 30px;
       height: 30px; }
+
+/*Padre Calificaciones 1q1*/
+.calf-alumn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 !important;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .calf-alumn {
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+
+/*CSS padre lista 1*/
+.contact-box {
+  height: 100px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .contact-box h5 {
+    text-align: center; }
+  @media screen and (min-width: 768px) {
+    .contact-box {
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  .contact-box img {
+    margin-bottom: 2em; }
+    @media screen and (min-width: 768px) {
+      .contact-box img {
+        margin-bottom: 0; } }
+
+/*CSS padre asistencia 1*/
+.card-asistencia {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .card-asistencia .mb-2 {
+    width: 33%; }
+    @media screen and (max-width: 1100px) {
+      .card-asistencia .mb-2 {
+        width: 50%; } }
+    @media screen and (max-width: 600px) {
+      .card-asistencia .mb-2 {
+        width: 100%; } }
+
+.lista_alumnos {
+  margin: .5em; }
+  .lista_alumnos .alumnos {
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7); }
+    .lista_alumnos .alumnos a {
+      color: inherit;
+      font-family: 'Conv_Nexa Light'; }
+    .lista_alumnos .alumnos h2 {
+      text-align: center;
+      margin: 0;
+      font-size: 1.6em; }
+    .lista_alumnos .alumnos hr {
+      margin: 1em 0; }
+    .lista_alumnos .alumnos .docente {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .lista_alumnos .alumnos .docente h2 {
+        font-size: 1em; }
+        .lista_alumnos .alumnos .docente h2 img {
+          margin-right: .3em; }
+      .lista_alumnos .alumnos .docente .perfil {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: .3em .6em;
+        border-radius: 4px; }
+        .lista_alumnos .alumnos .docente .perfil i {
+          margin-left: .8em; }
+    .lista_alumnos .alumnos .asistencia {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .lista_alumnos .alumnos .asistencia button {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: .3em .6em;
+        background: transparent; }
+
+/*# sourceMappingURL=style.css.map */

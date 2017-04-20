@@ -130,8 +130,8 @@
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
                     <div class="widget widget-tabs">
                         <div class="tabs-container">
                             <ul class="nav nav-tabs">
@@ -149,47 +149,33 @@
                                 <div id="tab-1" class="tab-pane active">
                                     <ul class="list-unstyled m-t">
                                         <div class="row">
-                                            <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Dirigente de Curso:</label>
+                                                    <label class="cb" style="color: #676A6C">Dirigente de Curso:</label><br>
+                                                    <label style="color: #676A6C">8 'A'</label>
                                                 </div>
-                                                <div class="col-lg-9">
-                                                    8 'A'
-                                                </div>                                            
-                                            </li>
-                                        </div>
-                                        <div class="row">
-                                            <li class="option-tabs">
+                                           
                                                 <div class="col-lg-3">
-                                                    <label>Materias que dicta:</label>
-                                                </div>
-                                                <div class="col-lg-9">
+                                                    <label class="cb" style="color: #676A6C">Materias que dicta:</label>
                                                     <ul>
-                                                        <li>MATEMATICAS</li>
-                                                        <li>INVESTIGACION</li>
+                                                        <li style="color: #676A6C">MATEMATICAS</li>
+                                                        <li style="color: #676A6C">INVESTIGACION</li>
                                                     </ul>
-                                                </div>                                            
-                                            </li>   
-                                        </div>
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-3">
-                                                    <label>Cursos asignados:</label>
                                                 </div>
-                                                <div class="col-lg-9">
+                                                        
+                                                <div class="col-lg-4">
+                                                    <label class="cb" style="color: #676A6C">Cursos asignados:</label>
                                                     <ul>
-                                                        <li>8 'A'</li>
-                                                        <li>8 'B</li>
-                                                        <li>9 'A'</li>
-                                                        <li>1RO BACHILLERATO CIENTIFICO</li>
-                                                        <li>2DO BACHILLERATO CIENTIFICO</li>
-                                                        <li>2DO BACHILLERATO INFORMATICA</li>
-                                                        <li>3RO BACHILLERATO CIENTIFICO</li>
-                                                        <li>3RO BACHILLERATO CONTABILIDAD</li>
-                                                        <li>3RO BACHILLERATO INFORMATICA</li>
+                                                        <li style="color: #676A6C">8 'A'</li>
+                                                        <li style="color: #676A6C">8 'B</li>
+                                                        <li style="color: #676A6C">9 'A'</li>
+                                                        <li style="color: #676A6C">1RO BACHILLERATO CIENTIFICO</li>
+                                                        <li style="color: #676A6C">2DO BACHILLERATO CIENTIFICO</li>
+                                                        <li style="color: #676A6C">2DO BACHILLERATO INFORMATICA</li>
+                                                        <li style="color: #676A6C">3RO BACHILLERATO CIENTIFICO</li>
+                                                        <li style="color: #676A6C">3RO BACHILLERATO CONTABILIDAD</li>
+                                                        <li style="color: #676A6C">3RO BACHILLERATO INFORMATICA</li>
                                                     </ul>
-                                                </div>                                                
-                                            </li>
+                                                </div>                                               
                                         </div>                                                          
                                     </ul>   
                                 </div>
@@ -198,60 +184,60 @@
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>C.I:</label>
+                                                    <label class="cb" style="color: #676A6C">C.I:</label>
                                                 </div>         
                                                 <div class="col-lg-9">
-                                                    9162909190
+                                                    <label  style="color: #676A6C">9162909190</label>
                                                 </div>                                                
                                             </li>
                                         </div>
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">                
-                                                    <label>Telefono:</label>
+                                                    <label class="cb" style="color: #676A6C">Telefono:</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    2862959 - 099 240 6250
+                                                    <label  style="color: #676A6C">862959 - 099 240 6250</label>
                                                 </div>
                                             </li> 
                                         </div>
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Correo:</label>
+                                                    <label class="cb" style="color: #676A6C">Correo:</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    098 347 4339
+                                                    <label  style="color: #676A6C">098 347 4339</label>
                                                 </div>                                                
                                             </li> 
                                         </div>  
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Correo:</label>
+                                                    <label class="cb" style="color: #676A6C">Correo:</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    lual_977@hotmail.com
+                                                    <label  style="color: #676A6C">lual_977@hotmail.com</label>
                                                 </div>                                                
                                             </li> 
                                         </div>
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Ciudad:</label>
+                                                    <label class="cb" style="color: #676A6C">Ciudad:</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    DURAN
+                                                    <label  style="color: #676A6C">DURAN</label>
                                                 </div>                                                
                                             </li> 
                                         </div>
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Direccion:</label>
+                                                    <label class="cb" style="color: #676A6C">Direccion:</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    CDLA PRIMAVERA 1 MZ B6 VILLA 16
+                                                    <label  style="color: #676A6C">CDLA PRIMAVERA 1 MZ B6 VILLA 16</label>
                                                 </div>                                                
                                             </li> 
                                         </div>                                    
@@ -262,30 +248,30 @@
                                         <div class="row">                                            
                                             <li class="option-tabs">        
                                                 <div class="col-lg-3">
-                                                    <label>Telefono de emergencia:</label>
+                                                    <label class="cb" style="color: #676A6C">Telefono de emergencia:</label>
                                                 </div>                                       
                                                 <div class="col-lg-9">
-                                                    042 55 99 88
+                                                    <label  style="color: #676A6C">042 55 99 88</label>
                                                 </div>
                                             </li>
                                         </div>
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Enfermedad:</label>
+                                                    <label class="cb" style="color: #676A6C">Enfermedad:</label>
                                                 </div> 
                                                 <div class="col-lg-9">
-                                                    NO
+                                                    <label  style="color: #676A6C">NO</label>
                                                 </div>          
                                             </li>
                                         </div>                                        
                                         <div class="row">
                                             <li class="option-tabs">
                                                 <div class="col-lg-3">
-                                                    <label>Alergia:</label>
+                                                    <label class="cb" style="color: #676A6C">Alergia:</label>
                                                 </div>                                                
                                                 <div class="col-lg-9">
-                                                    NO
+                                                    <label  style="color: #676A6C">NO</label>
                                                 </div>
                                             </li>
                                         </div>                                                          
@@ -295,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2"></div>
+                <div class="col-lg-1"></div>
             </div>
         </div>
     </div>
