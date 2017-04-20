@@ -270,7 +270,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">CAROLINA QUIROZ SANTOS
+                                        <img src="../img/Docente.png" alt="" width="20">CAROLINA QUIROZ SANTOS
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -295,7 +295,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">GLENDA CANDEL CARBO
+                                        <img src="../img/Docente.png" alt="" width="20">GLENDA CANDEL CARBO
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -320,7 +320,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">DENISSE MARCILLO
+                                        <img src="../img/Docente.png" alt="" width="20">DENISSE MARCILLO
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -345,7 +345,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">CLAUDIA LOPEZ SANCHEZ
+                                        <img src="../img/Docente.png" alt="" width="20">CLAUDIA LOPEZ SANCHEZ
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -356,7 +356,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">ANA PLUA RIVERA
+                                        <img src="../img/Docente.png" alt="" width="20">ANA PLUA RIVERA
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -367,7 +367,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">RUTH LLERENA YULAN
+                                        <img src="../img/Docente.png" alt="" width="20">RUTH LLERENA YULAN
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -392,7 +392,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">MARCOS PAZAN REYES
+                                        <img src="../img/Docente.png" alt="" width="20">MARCOS PAZAN REYES
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -417,7 +417,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">JAVIER ARVELAEZ MOSQUERA
+                                        <img src="../img/Docente.png" alt="" width="20">JAVIER ARVELAEZ MOSQUERA
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -442,7 +442,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">ANGELA CIRINO DE LA ROSA 
+                                        <img src="../img/Docente.png" alt="" width="20">ANGELA CIRINO DE LA ROSA 
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -467,7 +467,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">GLENDA CANDEL CARBO
+                                        <img src="../img/Docente.png" alt="" width="20">GLENDA CANDEL CARBO
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -492,7 +492,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">GLENDA CANDEL CARBO
+                                        <img src="../img/Docente.png" alt="" width="20">GLENDA CANDEL CARBO
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -517,7 +517,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20"> JUAN LOPEZ MARURI
+                                        <img src="../img/Docente.png" alt="" width="20">JUAN LOPEZ MARURI
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -542,7 +542,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">JUAN LOPEZ MARURI 
+                                        <img src="../img/Docente.png" alt="" width="20">JUAN LOPEZ MARURI 
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -567,7 +567,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">SONIA RODRIGUEZ NOBOA
+                                        <img src="../img/Docente.png" alt="" width="20">SONIA RODRIGUEZ NOBOA
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -592,7 +592,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20">GLORIA ESPAÑA ARIAS
+                                        <img src="../img/Docente.png" alt="" width="20">GLORIA ESPAÑA ARIAS
                                         </span>
                                     </h2>
                                     <div class="perfil">
@@ -617,7 +617,7 @@
                                 <div class="docente"> 
                                     <h2>
                                         <span> 
-                                        <img src="img/Docente.png" alt="" width="20"> RAUL HERRERA CERCADO
+                                        <img src="../img/Docente.png" alt="" width="20">RAUL HERRERA CERCADO
                                         </span>
                                     </h2>
                                     <div class="perfil">
