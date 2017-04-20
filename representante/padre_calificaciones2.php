@@ -42,11 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-<<<<<<< HEAD
                         <img alt="logo" src="../img/logo unico.png" width="50px" />
-=======
-                        <img alt="logo" src="../img/logo unico.png" width="50px"/>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </div>
                 </li>
                 <li>
@@ -153,15 +149,6 @@
                             </div>   
                         </div>
                     </div>
-=======
-                <div class="profile-image" style="padding-top:10px">
-                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
-                </div>
-                <div class="profile-info" style="padding-top:25px">
-                    <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
-                    <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
-                    <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
             <div id="tabs" class="col-sm-8 col-lg-4">

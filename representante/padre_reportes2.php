@@ -1,3 +1,9 @@
+<?php
+  session_start();
+   
+  // Controlo si el usuario ya está logueado en el sistema.
+  if(isset($_SESSION['email'])){
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -85,7 +91,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="padre_notificacion.php">
+                        <a class="count-info" href="p_notificacion.html">
                             <i class="fa fa-envelope"></i>  <span class="label label-warning">1</span>
                         </a>                        
                     </li>
@@ -115,11 +121,7 @@
                     </li>
                     <li>
                         <a href="../logout.php">
-<<<<<<< HEAD
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-=======
                             <i class="fa fa-sign-out"></i> Cerrar Sesión
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>
@@ -127,7 +129,6 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
-<<<<<<< HEAD
                 <div class="row">
                     <div class="col-xs-12 col-lg-6"> 
                         <div class="profile-image">
@@ -145,15 +146,6 @@
                             </div>   
                         </div>
                     </div>
-=======
-                <div class="profile-image" style="padding-top:10px">
-                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
-                </div>
-                <div class="profile-info" style="padding-top:25px">
-                    <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
-                    <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
-                    <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
             <div id="tabs" class="col-sm-8 col-lg-4">
@@ -256,179 +248,9 @@
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-content">
-                            <div class="panel-body">
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default" style="margin-bottom: 25px">
-                                        <div class="panel-heading">
-                                            <div class="row">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="color:black">
-                                                    <div class="col-lg-12">
-                                                        Asistencia
-                                                    </div>
-                                                </a>
-                                            </div>                                                     
-                                        </div>
-                                        <div id="collapseOne" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <h5>Asistencia General: <label>98%</label></h5>
-                                                <h5>Faltas Generales: <label>2%</label></h5>
-                                                <br><br>
-                                                <h4>Detalle de Faltas:</h4>
-                                                <h5>20/04/2017 | 3 hora | MATEMATICAS | JULIO | FALTA</h5>
-                                              
-                                            </div>
-                                            <button type="button" class="btn btn-info" style="margin-left:10px">IMPRIMIR</button>
-                                        </div>
-                                    </div>
-
-                                    <div class="panel panel-default" style="margin-bottom: 25px">
-                                        <div class="panel-heading">                 
-                                            <div class="row">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="color:black">
-                                                    <div class="col-lg-12">
-                                                        Aprovechamiento
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div id="collapseTwo" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <div class="row">
-                                                    <div class="col-lg-4">
-                                                        <strong>Materia</strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>Porcentaje</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong>Materia</strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>Porcentaje</strong>
-                                                    </div>
-
-                                                    <div class="col-lg-4">
-                                                        MATEMATICAS
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        100%
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        LENGUA Y LITERATURA
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        100%
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <strong></strong>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <strong>%</strong>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <button type="button" class="btn btn-info" style="margin-left:10px">IMPRIMIR</button>
-                                        </div>
-                                    </div>
-
-                                    <div class="panel panel-default" style="margin-bottom: 25px">
-                                        <div class="panel-heading">
-                                            <div class="row">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" style="color:black">
-                                                    <div class="col-lg-12">
-                                                        Justificaciones
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div id="collapseThree" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                    <H1>hOLA</H1>
-                                                    <H2>HOLA 2</H2>
-                                              
-                                            </div>
-                                            <button type="button" class="btn btn-info" style="margin-left:10px">IMPRIMIR</button>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
+            <div class="alert alert-success alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Lo sentimos!</strong> No ha activado esta opción.
             </div>            
         </div>
     </div>
@@ -480,3 +302,10 @@
     </script>
 </body>
 </html>
+<?php
+  }else{
+    // Si no está logueado lo redireccion a la página de login.
+    header("HTTP/1.1 302 Moved Temporarily");
+    header("Location: index.html");
+  }
+?>

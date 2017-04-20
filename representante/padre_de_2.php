@@ -46,7 +46,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="padre_perfil.php">
+                    <a href="padre.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
@@ -123,37 +123,14 @@
                     </li>
                     <li>
                         <a href="../logout.php">
-<<<<<<< HEAD
                             <i class="fa fa-sign-out"></i>Cerrar Sesión
-=======
-                            <i class="fa fa-sign-out"></i> Cerrar Sesión
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
-            <div class="col-lg-6">
-<<<<<<< HEAD
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6"> 
-                        <div class="profile-image">
-                            <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-lg-6"> 
-                        <div class="profile-info">
-                            <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
-                            <hr>
-                            <div class="curso"> 
-                                <!-- <img src="img/curso.png" alt="" width="25"> -->
-                                <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
-                                <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
-                            </div>   
-                        </div>
-                    </div>
-=======
+            <div class="col-lg-6">                
                 <div class="profile-image" style="padding-top:10px">
                     <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
                 </div>
@@ -161,7 +138,6 @@
                     <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
                     <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
                     <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
             <div id="tabs" class="col-sm-8 col-lg-4">
@@ -266,13 +242,8 @@
         <div class="wrapper wrapper-content"> 
             <div class="row">
                 <div class="col-lg-12">
-<<<<<<< HEAD
-                    <h2 class="title_de text-left" style="margin-top:0">
-                        <img src="../img/diario escolar.png" style="width:50px"> Diario Escolar <span>|</span> <small>Semana : 23-27  Enero/2017</small> <span>|</span>  <button type="button" class="btn btn-w-m btn-primary" data-toggle="modal" data-target="#myModal">Semana Anterior</button>
-=======
                     <h2 class="text-left" style="margin-top:0">
                         <img src="../img/diario escolar.png" style="width:50px"> Diario Escolar | <small>Semana : 23-27  Enero/2017</small> |  <button type="button" class="btn btn-w-m btn-primary" data-toggle="modal" data-target="#myModal">Semana Anterior</button>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </h2>
                 </div>                                            
             </div>
@@ -298,11 +269,7 @@
                                                     1ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -315,19 +282,15 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <div class="timeline-item" style="padding-top:10px;margin-top:5px;margin-bottom:10px">
+                                    <div class="timeline-item" style="padding-top:10px;">
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
                                                     2da Hora
                                                     </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
+                                                </div>                                                
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -336,7 +299,6 @@
                                                 <h4 class="title_profesor"><strong>PROFESOR: </strong>MARCOS PAZAN REYES <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
-                                            
                                         </div>                                        
                                     </div>
                                     <div class="timeline-item" style="padding-top:10px">
@@ -344,14 +306,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA EXTRANJERA<br>
-                                                    <small style="margin-top:0">3Ra Hora</small>
+                                                    3ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -367,14 +325,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>EDUCACION ARTISTICA<br>
-                                                    <small style="margin-top:0">4ta Hora</small>
+                                                    4ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -390,14 +344,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>RELACION EN EL EQUIPO DE TRABAJO<br>
-                                                    <small style="margin-top:0">5ta Hora</small>
+                                                    5ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
+                                            <div class="col-lg-3 materia_de">
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -413,14 +363,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>QUIMICA<br>
-                                                    <small style="margin-top:0">6ta Hora</small>
+                                                    6ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -436,14 +382,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA Y LITERATURA<br>
-                                                    <small style="margin-top:0">7ma Hora</small>
+                                                    7ma Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -459,14 +401,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>HISTORIA Y CIENCIAS SOCIALES<br>
-                                                    <small style="margin-top:0">8va Hora</small>
+                                                    8va Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -482,14 +420,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>INFORMATICA APLICADA A LA EDUCACION<br>
-                                                    <small style="margin-top:0">9na Hora</small>
+                                                    9na Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -503,22 +437,18 @@
 
                                 </div>  
                             </div>
-                            <div id="tab-2s" class="tab-pane">
-                                <div class="ibox-content">
-
+                            <div id="tab-2s" class="tab-pane active">
+                                <div class="ibox-content" >
+                                    
                                     <div class="timeline-item" style="padding-top:30px">
                                         <div class="row">
-                                            <div class="col-lg-3 materia_de"> 
+                                            <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5>MATEMATICAS<br>
+                                                    <h5 class="">MATEMATICAS<br>
                                                     1ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -531,43 +461,34 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <div class="timeline-item" style="padding-top:10px;margin-top:5px;margin-bottom:10px">
+                                    <div class="timeline-item" style="padding-top:10px;">
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
                                                     2da Hora
                                                     </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
+                                                </div>                                                
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-9 profesor_de">
+                                            <div class="col-lg-9  profesor_de">
                                                 <div class="punta"></div>
                                                 <h4 class="title_profesor"><strong>PROFESOR: </strong>MARCOS PAZAN REYES <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
-                                            
                                         </div>                                        
                                     </div>
                                     <div class="timeline-item" style="padding-top:10px">
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5 class="materia">LENGUA EXTRANJERA<br>
-                                                    <small style="margin-top:0">3Ra Hora</small>
+                                                    <h5>LENGUA EXTRANJERA<br>
+                                                    3ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -582,15 +503,11 @@
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5 class="materia">EDUCACION ARTISTICA<br>
-                                                    <small style="margin-top:0">4ta Hora</small>
+                                                    <h5>EDUCACION ARTISTICA<br>
+                                                    4ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -605,15 +522,11 @@
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5 class="materia">RELACION EN EL EQUIPO DE TRABAJO<br>
-                                                    <small style="margin-top:0">5ta Hora</small>
+                                                    <h5>RELACION EN EL EQUIPO DE TRABAJO<br>
+                                                    5ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
+                                            <div class="col-lg-3 materia_de">
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -629,14 +542,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>QUIMICA<br>
-                                                    <small style="margin-top:0">6ta Hora</small>
+                                                    6ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -652,14 +561,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA Y LITERATURA<br>
-                                                    <small style="margin-top:0">7ma Hora</small>
+                                                    7ma Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -675,14 +580,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>HISTORIA Y CIENCIAS SOCIALES<br>
-                                                    <small style="margin-top:0">8va Hora</small>
+                                                    8va Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -698,14 +599,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>INFORMATICA APLICADA A LA EDUCACION<br>
-                                                    <small style="margin-top:0">9na Hora</small>
+                                                    9na Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -716,241 +613,200 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    
+
                                 </div>  
                             </div>
-                            <div id="tab-3s" class="tab-pane">
-                                <div class="ibox-content">
+                            <div id="tab-3s" class="tab-pane active">
+                                <div class="ibox-content" >
+                                    
+                                    <div class="timeline-item" style="padding-top:30px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5 class="">MATEMATICAS<br>
+                                                    1ra Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"> <strong>PROFESOR: </strong>CAROLINA QUIROZ SANTOS <span>|</span> 
+                                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button>
+                                                </h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px;">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
+                                                    2da Hora
+                                                    </h5>
+                                                </div>                                                
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9  profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>MARCOS PAZAN REYES <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>LENGUA EXTRANJERA<br>
+                                                    3ra Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>  
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>CLAUDIA LOPEZ SANCHEZ-ANA PLUA RIVERA-RUTH LLERENA YULAN <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>EDUCACION ARTISTICA<br>
+                                                    4ta Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>GLENDA CANDEL CARBO <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>RELACION EN EL EQUIPO DE TRABAJO<br>
+                                                    5ta Hora
+                                                    </h5>
+                                                </div>
+                                            <div class="col-lg-3 materia_de">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>JUAN LOPEZ MARURI <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>QUIMICA<br>
+                                                    6ta Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>DENISSE MARCILLO <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>LENGUA Y LITERATURA<br>
+                                                    7ma Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>TATIANA CARREÑO QUIROZ <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>HISTORIA Y CIENCIAS SOCIALES<br>
+                                                    8va Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>SONIA RODRIGUEZ NOBOA <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="timeline-item" style="padding-top:10px">
+                                        <div class="row">
+                                            <div class="col-lg-3 materia_de">
+                                                <div class="col-lg-9 materia">
+                                                    <h5>INFORMATICA APLICADA A LA EDUCACION<br>
+                                                    9na Hora
+                                                    </h5>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <img src="../img/docentes.png" style="width:40px">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 profesor_de">
+                                                <div class="punta"></div>
+                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>VIVIANA CIRINO DE LA ROSA <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
+                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
 
-                                    <div class="timeline-item" style="padding-top:30px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">    
-                                                <div class="col-lg-9 materia">
-                                                    <h5>MATEMATICAS<br>
-                                                    1ra Hora
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"> <strong>PROFESOR: </strong>CAROLINA QUIROZ SANTOS <span>|</span> 
-                                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button>
-                                                </h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px;margin-top:5px;margin-bottom:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
-                                                    2da Hora
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>MARCOS PAZAN REYES <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                            
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>LENGUA EXTRANJERA<br>
-                                                    <small style="margin-top:0">3Ra Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>  
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>CLAUDIA LOPEZ SANCHEZ-ANA PLUA RIVERA-RUTH LLERENA YULAN <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>EDUCACION ARTISTICA<br>
-                                                    <small style="margin-top:0">4ta Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>GLENDA CANDEL CARBO <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5 >RELACION EN EL EQUIPO DE TRABAJO<br>
-                                                    <small style="margin-top:0">5ta Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>JUAN LOPEZ MARURI <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>QUIMICA<br>
-                                                    <small style="margin-top:0">6ta Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>DENISSE MARCILLO <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>LENGUA Y LITERATURA<br>
-                                                    <small style="margin-top:0">7ma Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>TATIANA CARREÑO QUIROZ <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>HISTORIA Y CIENCIAS SOCIALES<br>
-                                                    <small style="margin-top:0">8va Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>SONIA RODRIGUEZ NOBOA <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3 materia_de">
-                                                <div class="col-lg-9 materia">
-                                                    <h5>INFORMATICA APLICADA A LA EDUCACION<br>
-                                                    <small style="margin-top:0">9na Hora</small>
-                                                    </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
-                                                    <img src="../img/docentes.png" style="width:40px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 profesor_de">
-                                                <div class="punta"></div>
-                                                <h4 class="title_profesor"><strong>PROFESOR: </strong>VIVIANA CIRINO DE LA ROSA <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    
-                                </div> 
+                                </div>  
                             </div>
-                            <div id="tab-4s" class="tab-pane">
-                                <div class="ibox-content">
+                            <div id="tab-4s" class="tab-pane active">
+                                <div class="ibox-content" >
                                     
                                     <div class="timeline-item" style="padding-top:30px">
                                         <div class="row">
-                                            <div class="col-lg-3 materia_de">  
+                                            <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5>MATEMATICAS<br>
+                                                    <h5 class="">MATEMATICAS<br>
                                                     1ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -963,28 +819,23 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <div class="timeline-item" style="padding-top:10px;margin-top:5px;margin-bottom:10px">
+                                    <div class="timeline-item" style="padding-top:10px;">
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
                                                     2da Hora
                                                     </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
+                                                </div>                                                
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-9 profesor_de">
+                                            <div class="col-lg-9  profesor_de">
                                                 <div class="punta"></div>
                                                 <h4 class="title_profesor"><strong>PROFESOR: </strong>MARCOS PAZAN REYES <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
-                                            
                                         </div>                                        
                                     </div>
                                     <div class="timeline-item" style="padding-top:10px">
@@ -992,14 +843,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA EXTRANJERA<br>
-                                                    <small style="margin-top:0">3Ra Hora</small>
+                                                    3ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -1015,14 +862,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>EDUCACION ARTISTICA<br>
-                                                    <small style="margin-top:0">4ta Hora</small>
+                                                    4ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1038,14 +881,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>RELACION EN EL EQUIPO DE TRABAJO<br>
-                                                    <small style="margin-top:0">5ta Hora</small>
+                                                    5ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
+                                            <div class="col-lg-3 materia_de">
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1061,14 +900,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>QUIMICA<br>
-                                                    <small style="margin-top:0">6ta Hora</small>
+                                                    6ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1084,14 +919,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA Y LITERATURA<br>
-                                                    <small style="margin-top:0">7ma Hora</small>
+                                                    7ma Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1107,14 +938,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>HISTORIA Y CIENCIAS SOCIALES<br>
-                                                    <small style="margin-top:0">8va Hora</small>
+                                                    8va Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1130,14 +957,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>INFORMATICA APLICADA A LA EDUCACION<br>
-                                                    <small style="margin-top:0">9na Hora</small>
+                                                    9na Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1148,25 +971,21 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    
-                                </div> 
+
+                                </div>  
                             </div>
-                            <div id="tab-5s" class="tab-pane">
-                                <div class="ibox-content">
+                            <div id="tab-5s" class="tab-pane active">
+                                <div class="ibox-content" >
                                     
                                     <div class="timeline-item" style="padding-top:30px">
                                         <div class="row">
-                                            <div class="col-lg-3 materia_de">  
+                                            <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5>MATEMATICAS<br>
+                                                    <h5 class="">MATEMATICAS<br>
                                                     1ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1179,28 +998,23 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <div class="timeline-item" style="padding-top:10px;margin-top:5px;margin-bottom:10px">
+                                    <div class="timeline-item" style="padding-top:10px;">
                                         <div class="row">
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
-                                                    <h5 class="materia">PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
+                                                    <h5>PROGRAMACION EN LENGUAJE ESTRUCTURADO<br>
                                                     2da Hora
                                                     </h5>
-                                                </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
+                                                </div>                                                
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-9 profesor_de">
+                                            <div class="col-lg-9  profesor_de">
                                                 <div class="punta"></div>
                                                 <h4 class="title_profesor"><strong>PROFESOR: </strong>MARCOS PAZAN REYES <span>|</span> <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" >ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
-                                            
                                         </div>                                        
                                     </div>
                                     <div class="timeline-item" style="padding-top:10px">
@@ -1208,14 +1022,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA EXTRANJERA<br>
-                                                    <small style="margin-top:0">3Ra Hora</small>
+                                                    3ra Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -1231,14 +1041,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>EDUCACION ARTISTICA<br>
-                                                    <small style="margin-top:0">4ta Hora</small>
+                                                    4ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1254,14 +1060,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>RELACION EN EL EQUIPO DE TRABAJO<br>
-                                                    <small style="margin-top:0">5ta Hora</small>
+                                                    5ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
-                                                <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
+                                            <div class="col-lg-3 materia_de">
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1277,14 +1079,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>QUIMICA<br>
-                                                    <small style="margin-top:0">6ta Hora</small>
+                                                    6ta Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1300,14 +1098,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>LENGUA Y LITERATURA<br>
-                                                    <small style="margin-top:0">7ma Hora</small>
+                                                    7ma Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1323,14 +1117,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>HISTORIA Y CIENCIAS SOCIALES<br>
-                                                    <small style="margin-top:0">8va Hora</small>
+                                                    8va Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1346,14 +1136,10 @@
                                             <div class="col-lg-3 materia_de">
                                                 <div class="col-lg-9 materia">
                                                     <h5>INFORMATICA APLICADA A LA EDUCACION<br>
-                                                    <small style="margin-top:0">9na Hora</small>
+                                                    9na Hora
                                                     </h5>
                                                 </div>
-<<<<<<< HEAD
-                                                <div class="">
-=======
                                                 <div class="col-lg-3">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1364,8 +1150,8 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    
-                                </div>                                     
+
+                                </div>  
                             </div>                            
                         </div>
                     </div>                                        
@@ -1500,13 +1286,8 @@
                                 <div class="modal-header" style="padding-bottom: 0; padding-top: 0">
                                     <div class="row">
                                         <div class="col-lg-4"> 
-<<<<<<< HEAD
-                                            <div class="pull-left" style="padding-top:ht:10px">
-                                                <img src="img/docentes.png" style="width:50px">
-=======
                                             <div class="pull-left" style="padding-top:10px;padding-right:10px">
                                                 <img src="../img/docentes.png" style="width:50px">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                             </div>
                                             <h5 class="text-left" style="padding: 5px">
                                                 CAROLINA QUIROZ SANTOS<br>
@@ -1548,7 +1329,7 @@
                     </div>                         
                 </div> 
             </div>
-        </div>  
+        </div> 
     </div>
 </div>
 

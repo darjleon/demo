@@ -69,13 +69,8 @@
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
-<<<<<<< HEAD
-                        <li><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
-                        <li><a href="padre_hijo2.html"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
-=======
                         <li><a href="padre_hijo1.php"><img src="../img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
                         <li><a href="padre_hijo2.php"><img src="../img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </ul>
                 </li>                                     
             </ul>

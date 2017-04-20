@@ -44,10 +44,10 @@
                     <div class="logo-element">
                         <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
-                </li>                
+                </li>
                 <li>
-                    <a href="#">
-                        <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
+                    <a href="padre.php">
+                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
@@ -63,20 +63,12 @@
                     </a>
                 </li>
                 <li class="active">
-<<<<<<< HEAD
-                    <a>
-=======
                     <a href="#">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         <img src="../img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
-<<<<<<< HEAD
-                        <li class="active"><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
-                        <li><a href="padre_hijo2.html"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
-=======
                         <li class="active">
                             <a href="padre_hijo1.php">
                                 <img src="../img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
@@ -87,7 +79,6 @@
                                 <img src="../img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
                             </a>
                         </li>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </ul>
                 </li>                                     
             </ul>
@@ -97,7 +88,7 @@
         <div class="row border-bottom">
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
@@ -110,15 +101,29 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                             <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>                        
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="padre_notificacion.php">
+                                    <div>
+                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
+                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="padre_notificacion.php">
+                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="../logout.php">
-<<<<<<< HEAD
-                            <i class="fa fa-sign-out"></i> Cerrar Sesion
-=======
-                            <i class="fa fa-sign-out"></i> Cerrar Sesión
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
+                            <i class="fa fa-sign-out"></i>Cerrar Sesión
                         </a>
                     </li>
                 </ul>
@@ -126,7 +131,6 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
-<<<<<<< HEAD
                 <div class="row">
                     <div class="col-xs-12 col-lg-6"> 
                         <div class="profile-image">
@@ -144,15 +148,6 @@
                             </div>   
                         </div>
                     </div>
-=======
-                <div class="profile-image" style="padding-top:10px">
-                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
-                </div>
-                <div class="profile-info" style="padding-top:25px">
-                    <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
-                    <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
-                    <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
             <div id="tabs" class="col-sm-8 col-lg-4">
