@@ -123,7 +123,11 @@
                     </li>
                     <li>
                         <a href="../logout.php">
+<<<<<<< HEAD
                             <i class="fa fa-sign-out"></i>Cerrar Sesión
+=======
+                            <i class="fa fa-sign-out"></i> Cerrar Sesión
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>
@@ -131,6 +135,7 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
+<<<<<<< HEAD
                 <div class="row">
                     <div class="col-xs-12 col-lg-6"> 
                         <div class="profile-image">
@@ -148,6 +153,15 @@
                             </div>   
                         </div>
                     </div>
+=======
+                <div class="profile-image" style="padding-top:10px">
+                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
+                </div>
+                <div class="profile-info" style="padding-top:25px">
+                    <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
+                    <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
+                    <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>               
             <div id="tabs" class="col-sm-8 col-lg-4">

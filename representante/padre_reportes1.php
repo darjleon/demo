@@ -34,19 +34,12 @@
                         <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
-                                <h4>
-                                    <strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong>
-                                    <br><small class="profile-type">REPRESENTANTE</small>
-                                </h4>                                
+                                <h3><strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong></h3>
                             </span>
                         </a>
                     </div>
                     <div class="logo-element">
-<<<<<<< HEAD
                         <img alt="logo" src="../img/logo unico.png" width="50px" />
-=======
-                        <img alt="logo" src="../img/logo unico.png" width="50px"/>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </div>
                 </li>
                 <li>
@@ -63,7 +56,7 @@
                     <a href="padre_notificacion.php">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
-                        <span class="label label-primary">Nuevo</span>
+                        <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
                 <li class="active">
@@ -73,12 +66,12 @@
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
-                        <li>
+                        <li class="active">
                             <a href="padre_hijo1.php">
                                 <img src="../img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
                             </a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="padre_hijo2.php">
                                 <img src="../img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
                             </a>
@@ -98,13 +91,14 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="padre_notificacion.php">
-                            <i class="fa fa-envelope"></i><span class="label label-primary">1</span>
+                        <a class="count-info" href="p_notificacion.html">
+                            <i class="fa fa-envelope"></i>  <span class="label label-warning">1</span>
                         </a>                        
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-danger">1</span>
+                            <i class="fa fa-bell"></i>  
+                            <span class="label label-primary">1</span>
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
@@ -127,7 +121,7 @@
                     </li>
                     <li>
                         <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
+                            <i class="fa fa-sign-out"></i> Cerrar Sesión
                         </a>
                     </li>
                 </ul>
@@ -135,36 +129,16 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
-<<<<<<< HEAD
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6"> 
-                        <div class="profile-image">
-                            <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-lg-6"> 
-                        <div class="profile-info">
-                            <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
-                            <hr>
-                            <div class="curso"> 
-                                <!-- <img src="img/curso.png" alt="" width="25"> -->
-                                <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
-                                <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
-                            </div>   
-                        </div>
-                    </div>
-=======
                 <div class="profile-image" style="padding-top:10px">
                     <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
                 </div>
                 <div class="profile-info" style="padding-top:25px">
-                    <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
+                    <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
                     <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
                     <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
-            <div id="tabs" class="col-sm-8 col-lg-4">
+            <div class="col-lg-6">
                 <div class="tabs-container" style="padding-top:10px">
                     <ul class="nav nav-tabs">
                         <li><a data-toggle="tab" href="#tab-1">Domicilio</a></li>
@@ -176,37 +150,37 @@
                                 <div class="row">
                                     <li>                                        
                                         <div class="col-lg-3">
-                                            <label>Ciudad:</label>
+                                            <label style="padding-left:50px">Ciudad:</label>
                                         </div>
                                         <div class="col-lg-9">
-                                            <p>DAULE</p>
-                                        </div>             
+                                            DAULE
+                                        </div>                                    
                                     </li>
                                 </div>
                                 <div class="row">
                                     <li>
                                         <div class="col-lg-3">
-                                            <label>Dirección:</label>
+                                            <label style="padding-left:50px">Dirección:</label>
                                         </div>
                                         <div class="col-lg-9">
-                                           <p>CDLA. CATALUÑA MZ 17 V 17</p>
+                                            CDLA. CATALUÑA MZ 17 V 17
                                         </div>
                                     </li>
                                 </div>
                                 <div class="row">
                                     <li>
                                         <div class="col-lg-3">
-                                            <label>Telefono:</label>
+                                            <label style="padding-left:50px">Telefono:</label>
                                         </div>
                                         <div class="col-lg-9">
-                                            <p>091 234 5678</p>
+                                            091 234 5678
                                         </div>
                                     </li>
                                 </div>
                             </ul>   
                         </div>
-                        <div id="tab-2" class="row tab-pane">
-                            <ul class="list-unstyled m-t-md">
+                        <div id="tab-2" class="tab-pane">
+                            <ul class="list-unstyled m-t-md" style="padding-left: 25px;padding-top:0">
                                 <div class="row">
                                     <li> 
                                         <div class="col-lg-4">
@@ -252,42 +226,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-lg-2 return-button">
-                <a href="padre_hijo2.php">
-                    <button type="button" class="btn btn-outline btn-success return">
-                        <img src="../img/return.png" alt="" width="17">
-                        <span>
-                            Regresar
-                        </span>
-                    </button>
+            <div class="col-lg-12">
+                <a href="padre_hijo1.php">
+                    <button type="button" class="btn btn-outline btn-success">Regresar</button>
                 </a>
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-left" style="margin-top:0">
-                        <img src="../img/calificaciones.png" style="width:50px"> | Calificaciones
-                    </h2>
-                </div>                                            
-            </div>
-            <div class="row">                
-                <div class="col-lg-4 mb-2">
-                    <a href="padre_calificaciones2q1.php">                    
-                        <img src="../img/1quimestre.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">                        
-                    </a>                        
-                </div>
-                <div class="col-lg-4 mb-2">
-                    <a href="padre_calificaciones2q2.php">
-                        <img src="../img/2quimestre.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">
-                    </a>
-                </div>
-                <div class="col-lg-4 mb-2">
-                    <a href="padre_sabana2.php">
-                        <img src="../img/sabana.png" class="img-responsive" style="width: 50%;display:block;margin:auto;">
-                    </a>
-                </div>
-            </div>
+            <div class="alert alert-success alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Lo sentimos!</strong> No ha activado esta opción.
+            </div>            
         </div>
     </div>
 </div>
@@ -310,7 +259,6 @@
 
     <!-- Toastr -->
     <script src="../js/plugins/toastr/toastr.min.js"></script>
-
 
     <script>
         $(document).ready(function() {

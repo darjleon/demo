@@ -1,3 +1,9 @@
+<?php
+  session_start();
+   
+  // Controlo si el usuario ya está logueado en el sistema.
+  if(isset($_SESSION['email'])){
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,44 +46,30 @@
                     </div>
                 </li>
                 <li>
-                    <a href="padre_perfil.html">
+                    <a href="padre.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
-                    <a href="padre_institucion.html">
+                    <a href="padre_institucion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="padre_notificacion.html">
+                    <a href="padre_notificacion.php">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
                         <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
                 <li class="active">
-<<<<<<< HEAD:representante/padre_lista1.html
-                    <a href="padre_alu.html">
-                        <img src="img/icono persona white.png" width="15px">
-=======
                     <a href="#">
                         <img src="../img/icono persona white.png" width="15px">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5:representante/padre_lista1.php
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
                         <li class="active">
-<<<<<<< HEAD:representante/padre_lista1.html
-                            <a href="padre_hijo1.html">
-                                <img src="img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
-                            </a>
-                        </li>
-                        <li>
-                            <a href="padre_hijo2.html">
-                                <img src="img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
-=======
                             <a href="padre_hijo1.php">
                                 <img src="../img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
                             </a>
@@ -85,7 +77,6 @@
                         <li>
                             <a href="padre_hijo2.php">
                                 <img src="../img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5:representante/padre_lista1.php
                             </a>
                         </li>
                     </ul>
@@ -131,11 +122,7 @@
                         </ul>
                     </li>
                     <li>
-<<<<<<< HEAD:representante/padre_lista1.html
-                        <a href="index.html">
-=======
                         <a href="../logout.php">
->>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5:representante/padre_lista1.php
                             <i class="fa fa-sign-out"></i> Cerrar Sesión
                         </a>
                     </li>
@@ -148,7 +135,7 @@
                     <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
                 </div>
                 <div class="profile-info" style="padding-top:25px">
-                    <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
+                    <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
                     <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
                     <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
                 </div>
@@ -242,7 +229,7 @@
                 </div>
             </div>
             <div class="col-lg-12">
-                <a href="padre_asistencia1.html">
+                <a href="padre_hijo2.php">
                     <button type="button" class="btn btn-outline btn-success">Regresar</button>
                 </a>
             </div>
@@ -595,3 +582,10 @@
     </script>
 </body>
 </html>
+<?php
+  }else{
+    // Si no está logueado lo redireccion a la página de login.
+    header("HTTP/1.1 302 Moved Temporarily");
+    header("Location: index.html");
+  }
+?>

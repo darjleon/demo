@@ -31,7 +31,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="profile-element"> 
-                        <img alt="image" class="img-circle" src="img/a5.jpg" width="40%" />
+                        <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
                                 <h4>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>                
                 <li class="active">
@@ -69,8 +69,13 @@
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
+<<<<<<< HEAD
                         <li><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
                         <li><a href="padre_hijo2.html"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
+=======
+                        <li><a href="padre_hijo1.php"><img src="../img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
+                        <li><a href="padre_hijo2.php"><img src="../img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </ul>
                 </li>                                     
             </ul>

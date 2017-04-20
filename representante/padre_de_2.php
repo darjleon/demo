@@ -123,7 +123,11 @@
                     </li>
                     <li>
                         <a href="../logout.php">
+<<<<<<< HEAD
                             <i class="fa fa-sign-out"></i>Cerrar Sesión
+=======
+                            <i class="fa fa-sign-out"></i> Cerrar Sesión
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>
@@ -131,6 +135,7 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
+<<<<<<< HEAD
                 <div class="row">
                     <div class="col-xs-12 col-lg-6"> 
                         <div class="profile-image">
@@ -148,6 +153,15 @@
                             </div>   
                         </div>
                     </div>
+=======
+                <div class="profile-image" style="padding-top:10px">
+                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
+                </div>
+                <div class="profile-info" style="padding-top:25px">
+                    <h3 style="margin-top:5px;margin-bottom:0">ALAN JOEL SANNA HERA</h3>
+                    <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
+                    <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
             <div id="tabs" class="col-sm-8 col-lg-4">
@@ -252,8 +266,13 @@
         <div class="wrapper wrapper-content"> 
             <div class="row">
                 <div class="col-lg-12">
+<<<<<<< HEAD
                     <h2 class="title_de text-left" style="margin-top:0">
                         <img src="../img/diario escolar.png" style="width:50px"> Diario Escolar <span>|</span> <small>Semana : 23-27  Enero/2017</small> <span>|</span>  <button type="button" class="btn btn-w-m btn-primary" data-toggle="modal" data-target="#myModal">Semana Anterior</button>
+=======
+                    <h2 class="text-left" style="margin-top:0">
+                        <img src="../img/diario escolar.png" style="width:50px"> Diario Escolar | <small>Semana : 23-27  Enero/2017</small> |  <button type="button" class="btn btn-w-m btn-primary" data-toggle="modal" data-target="#myModal">Semana Anterior</button>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </h2>
                 </div>                                            
             </div>
@@ -279,7 +298,11 @@
                                                     1ra Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -300,7 +323,11 @@
                                                     2da Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -320,7 +347,11 @@
                                                     <small style="margin-top:0">3Ra Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -339,7 +370,11 @@
                                                     <small style="margin-top:0">4ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -358,7 +393,11 @@
                                                     <small style="margin-top:0">5ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -377,7 +416,11 @@
                                                     <small style="margin-top:0">6ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -396,7 +439,11 @@
                                                     <small style="margin-top:0">7ma Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -415,7 +462,11 @@
                                                     <small style="margin-top:0">8va Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -434,7 +485,11 @@
                                                     <small style="margin-top:0">9na Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -459,7 +514,11 @@
                                                     1ra Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -480,7 +539,11 @@
                                                     2da Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -500,7 +563,11 @@
                                                     <small style="margin-top:0">3Ra Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -519,7 +586,11 @@
                                                     <small style="margin-top:0">4ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -538,7 +609,11 @@
                                                     <small style="margin-top:0">5ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -557,7 +632,11 @@
                                                     <small style="margin-top:0">6ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -576,7 +655,11 @@
                                                     <small style="margin-top:0">7ma Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -595,7 +678,11 @@
                                                     <small style="margin-top:0">8va Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -614,7 +701,11 @@
                                                     <small style="margin-top:0">9na Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -639,7 +730,11 @@
                                                     1ra Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -660,7 +755,11 @@
                                                     2da Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -680,7 +779,11 @@
                                                     <small style="margin-top:0">3Ra Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -699,7 +802,11 @@
                                                     <small style="margin-top:0">4ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -718,7 +825,11 @@
                                                     <small style="margin-top:0">5ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -737,7 +848,11 @@
                                                     <small style="margin-top:0">6ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -756,7 +871,11 @@
                                                     <small style="margin-top:0">7ma Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -775,7 +894,11 @@
                                                     <small style="margin-top:0">8va Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -794,7 +917,11 @@
                                                     <small style="margin-top:0">9na Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -819,7 +946,11 @@
                                                     1ra Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -840,7 +971,11 @@
                                                     2da Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -860,7 +995,11 @@
                                                     <small style="margin-top:0">3Ra Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -879,7 +1018,11 @@
                                                     <small style="margin-top:0">4ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -898,7 +1041,11 @@
                                                     <small style="margin-top:0">5ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -917,7 +1064,11 @@
                                                     <small style="margin-top:0">6ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -936,7 +1087,11 @@
                                                     <small style="margin-top:0">7ma Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -955,7 +1110,11 @@
                                                     <small style="margin-top:0">8va Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -974,7 +1133,11 @@
                                                     <small style="margin-top:0">9na Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -999,7 +1162,11 @@
                                                     1ra Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1020,7 +1187,11 @@
                                                     2da Hora
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1040,7 +1211,11 @@
                                                     <small style="margin-top:0">3Ra Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>  
                                             </div>
@@ -1059,7 +1234,11 @@
                                                     <small style="margin-top:0">4ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1078,7 +1257,11 @@
                                                     <small style="margin-top:0">5ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1097,7 +1280,11 @@
                                                     <small style="margin-top:0">6ta Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1116,7 +1303,11 @@
                                                     <small style="margin-top:0">7ma Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1135,7 +1326,11 @@
                                                     <small style="margin-top:0">8va Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1154,7 +1349,11 @@
                                                     <small style="margin-top:0">9na Hora</small>
                                                     </h5>
                                                 </div>
+<<<<<<< HEAD
                                                 <div class="">
+=======
+                                                <div class="col-lg-3">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                                     <img src="../img/docentes.png" style="width:40px">
                                                 </div>
                                             </div>
@@ -1301,8 +1500,13 @@
                                 <div class="modal-header" style="padding-bottom: 0; padding-top: 0">
                                     <div class="row">
                                         <div class="col-lg-4"> 
+<<<<<<< HEAD
                                             <div class="pull-left" style="padding-top:ht:10px">
                                                 <img src="img/docentes.png" style="width:50px">
+=======
+                                            <div class="pull-left" style="padding-top:10px;padding-right:10px">
+                                                <img src="../img/docentes.png" style="width:50px">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                                             </div>
                                             <h5 class="text-left" style="padding: 5px">
                                                 CAROLINA QUIROZ SANTOS<br>
@@ -1316,7 +1520,7 @@
                                         </div>
                                         <div class="col-lg-4 text-left" style="padding-top:20px">
                                             <h2 class="text-left" style="margin-top:0">
-                                                <img src="img/diario escolar.png" style="width: 30px"> Diario Escolar 
+                                                <img src="../img/diario escolar.png" style="width: 30px"> Diario Escolar 
                                             </h2>
                                         </div>
                                         <div class="col-lg-2">

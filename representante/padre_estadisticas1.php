@@ -31,7 +31,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="profile-element"> 
-                        <img alt="image" class="img-circle" src="img/a5.jpg" width="40%" />
+                        <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
                                 <h4>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>                
                 <li>
@@ -63,14 +63,31 @@
                     </a>
                 </li>
                 <li class="active">
+<<<<<<< HEAD
                     <a>
+=======
+                    <a href="#">
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         <img src="../img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
+<<<<<<< HEAD
                         <li class="active"><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
                         <li><a href="padre_hijo2.html"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
+=======
+                        <li class="active">
+                            <a href="padre_hijo1.php">
+                                <img src="../img/icono persona.png" width="20px">ELKIN DAVID SANNA HERA
+                            </a>
+                        </li>
+                        <li>
+                            <a href="padre_hijo2.php">
+                                <img src="../img/icono persona.png" width="20px">ALAN JOEL SANNA HERA
+                            </a>
+                        </li>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </ul>
                 </li>                                     
             </ul>
@@ -97,7 +114,11 @@
                     </li>
                     <li>
                         <a href="../logout.php">
+<<<<<<< HEAD
                             <i class="fa fa-sign-out"></i> Cerrar Sesion
+=======
+                            <i class="fa fa-sign-out"></i> Cerrar Sesión
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>
@@ -105,6 +126,7 @@
         </div>
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-6">
+<<<<<<< HEAD
                 <div class="row">
                     <div class="col-xs-12 col-lg-6"> 
                         <div class="profile-image">
@@ -122,6 +144,15 @@
                             </div>   
                         </div>
                     </div>
+=======
+                <div class="profile-image" style="padding-top:10px">
+                    <img src="../img/estudiantes.png" class="img-circle circle-border m-b-md" alt="profile" >
+                </div>
+                <div class="profile-info" style="padding-top:25px">
+                    <h3 style="margin-top:5px;margin-bottom:0">ELKIN DAVID SANNA HERA</h3>
+                    <h4 style="margin-bottom:0"><strong>Curso: </strong>1RO DE BACHILLERATO INFORMATICA</h4> 
+                    <h4 style="margin-top:0"><strong>Dirigente: </strong>ANA PLUA RIVERA</h4>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                 </div>
             </div>                
             <div id="tabs" class="col-sm-8 col-lg-4">

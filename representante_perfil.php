@@ -47,7 +47,11 @@
                 </li>                
                 <li class="active">
                     <a href="representante/padre.php">
+<<<<<<< HEAD
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
+=======
+                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                     </a>
                 </li>
                 <li>

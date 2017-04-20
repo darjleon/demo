@@ -117,8 +117,13 @@
                         </ul>
                     </li>
                     <li>
+<<<<<<< HEAD
                         <a href="logout.php">
                             <i class="fa fa-sign-out"></i>Cerrar Sesión
+=======
+                        <a href="../logout.php">
+                            <i class="fa fa-sign-out"></i> Cerrar Sesión
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>

@@ -31,7 +31,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="profile-element"> 
-                        <img alt="image" class="img-circle" src="img/a5.jpg" width="40%" />
+                        <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
                                 <h4>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="img/logo unico.png" width="50px" />
+                        <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
                 </li>                
                 <li>
@@ -97,7 +97,11 @@
                     </li>
                     <li>
                         <a href="../logout.php">
+<<<<<<< HEAD
                             <i class="fa fa-sign-out"></i>Cerrar Sesion
+=======
+                            <i class="fa fa-sign-out"></i> Cerrar Sesion
+>>>>>>> 57cc21473110ae7c7f47ccd7a00f0caed2e853d5
                         </a>
                     </li>
                 </ul>
