@@ -4,26 +4,7 @@
   // Controlo si el usuario ya está logueado en el sistema.
   if(isset($_SESSION['email'])){
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Pined | Profesor</title>
-
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
-
-    <!-- Toastr style -->
-    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
-
-    <!-- Gritter -->
-    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
-
-    <link href="../css/animate.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-</head>
+<?php include ('include/header.php'); ?>
 <body>
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
@@ -145,7 +126,6 @@
                 <h1 class="title-school">
                     UNIDAD EDUCATIVA FEDERICO GONZALEZ SUAREZ
                 </h1>
-                <p class="title-direction">CDLA. DEMOCRATICA SUR, CALLE MANUEL DIAZ GRANADOS S/N.(FRENTE A PRIMAVERA 2 )</p>
             </div>             
         </div>
         <div class="wrapper wrapper-content">
@@ -168,42 +148,48 @@
                             <div class="tab-content">
                                 <div id="tab-1" class="tab-pane active">
                                     <ul class="list-unstyled m-t">
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-2">
-                                                    <label>Telefono:</label>
-                                                </div>
-                                                <div class="col-lg-10">
+                                        <div class="row">      
+
+                                            <div class="col-lg-2">
+                                                <label class="cb" style="color: #676A6C">Direccion:</label><br>
+                                            </div>
+                                            <div class="col-lg-10">
+                                                <label style="color: #676A6C">
+                                                    CDLA. DEMOCRATICA SUR, CALLE MANUEL DIAZ GRANADOS S/N.(FRENTE A PRIMAVERA 2 )
+                                                </label><br>
+                                            </div> 
+                                            <div class="col-lg-2">
+                                                <label class="cb" style="color: #676A6C">Telefono:</label><br>
+                                            </div>
+                                            <div class="col-lg-10" style="color: #676A6C">
+                                                <label style="color: #676A6C">
                                                     2552500 SECRETARIA - 2550373 RECTORADO
-                                                </div>                                            
-                                            </li>
-                                        </div>
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-2">
-                                                    <label>Seccion:</label>
-                                                </div>
-                                                <div class="col-lg-10">
+                                                </label><br>
+                                            </div>   
+                                            <div class="col-lg-2">
+                                                <label class="cb" style="color: #676A6C">Seccion:</label><br>
+                                            </div>
+                                            <div class="col-lg-10" style="color: #676A6C">
+                                                <label style="color: #676A6C">
                                                     ESCUELA - COLEGIO - BACHILLERATO
-                                                </div>                                            
-                                            </li>   
-                                        </div>
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-2">
-                                                    <label>Ciudad:</label>
-                                                </div>
-                                                <div class="col-lg-10">
+                                                </label><br>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <label class="cb" style="color: #676A6C">Ciudad:</label><br>
+                                            </div>
+                                            <div class="col-lg-10" style="color: #676A6C">
+                                                <label style="color: #676A6C">
                                                     DURAN
-                                                </div>                                                
-                                            </li>
-                                        </div>       
+                                                </label><br>
+                                            </div>
+
+                                        </div>
                                     </ul>   
                                 </div>
                                 <div id="tab-2" class="tab-pane">                                    
                                     <div class="row">
                                         <div class="col-lg-10 option-tabs-g">
-                                            <p class="p-sm ">ESTAMOS COMPROMETIDOS EN ENTREGAR A LA COMUNIDAD JOVENES FORMADOS CON SOLIDAS BASES EN VALORES HUMANOS, PROACTIVOS, SOLIDARIOS,AUTONOMOS Y EMPRENDEDORES LLEGANDO A SER, EN CUALQUIER MEDIO EN QUE SE DESEMPEÑEN, AGENTES POSITIVOS DE CAMBIO, BUSCANDO EL PROGRESO Y BIENESTAR PROPIO Y DE QUIENES LO RODEAN EN LA ALDEA GLOBAL.</p>
+                                            <p class="p-sm"  style="color: #676A6C">ESTAMOS COMPROMETIDOS EN ENTREGAR A LA COMUNIDAD JOVENES FORMADOS CON SOLIDAS BASES EN VALORES HUMANOS, PROACTIVOS, SOLIDARIOS,AUTONOMOS Y EMPRENDEDORES LLEGANDO A SER, EN CUALQUIER MEDIO EN QUE SE DESEMPEÑEN, AGENTES POSITIVOS DE CAMBIO, BUSCANDO EL PROGRESO Y BIENESTAR PROPIO Y DE QUIENES LO RODEAN EN LA ALDEA GLOBAL.</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -214,8 +200,11 @@
                                 </div>
                                 <div id="tab-3" class="tab-pane">
                                     <div class="row">
-                                        <div class="col-lg-10 option-tabs-g text-center">
+                                        <div class="col-lg-12 option-tabs-g text-center"  style="color: #676A6C">
                                             FUNDADA EL 12 DE FEBRERO DE 1978.
+                                        </div>
+                                        <div class="col-lg-6" >
+                                            <img src="../img/vision.png" width="60%">
                                         </div>
                                     </div> 
                                 </div>
@@ -228,54 +217,7 @@
         </div>                                          
     </div>  
 </div>      
-
-    <!-- Mainly scripts -->
-    <script src="../js/jquery-2.1.1.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-    <!-- Custom and plugin javascript -->
-    <script src="../js/inspinia.js"></script>
-    <script src="../js/plugins/pace/pace.min.js"></script>
-
-    <!-- jQuery UI -->
-    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-    <!-- GITTER -->
-    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
-
-    <!-- Toastr -->
-    <script src="../js/plugins/toastr/toastr.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-
-            var doughnutData = [
-                {
-                    value: 300,
-                    color: "#a3e1d4",
-                    highlight: "#1ab394",
-                    label: "App"
-                },
-                {
-                    value: 50,
-                    color: "#dedede",
-                    highlight: "#1ab394",
-                    label: "Software"
-                },
-                {
-                    value: 100,
-                    color: "#A4CEE8",
-                    highlight: "#1ab394",
-                    label: "Laptop"
-                }
-            ];
-
-        });
-    </script>
-</body>
-</html>
+<?php include ('include/footer.php'); ?>
 <?php
   }else{
     // Si no está logueado lo redireccion a la página de login.

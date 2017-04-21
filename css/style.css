@@ -8058,5 +8058,71 @@ body.md-skin {
         border-radius: 4px;
         padding: .3em .6em;
         background: transparent; }
+/*CSS profesor cursos cuadricula*/
+.cursos-master {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .cursos-master .cursos-cuadricula {
+    width: 100%;
+    margin: .5em .5%;
+    background: white;
+    border-radius: 4px;
+    padding: 1em; }
+    .cursos-master .cursos-cuadricula a {
+      color: inherit; }
+    @media screen and (min-width: 500px) {
+      .cursos-master .cursos-cuadricula {
+        width: 49%; } }
+    @media screen and (min-width: 700px) {
+      .cursos-master .cursos-cuadricula {
+        width: 32%; } }
+    @media screen and (min-width: 1200px) {
+      .cursos-master .cursos-cuadricula {
+        width: 24%; } }
+    .cursos-master .cursos-cuadricula .dirigente {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      /*      @media screen and(min-width: 1200px){
+        flex-direction: row;
+      }*/ }
+      .cursos-master .cursos-cuadricula .dirigente p {
+        width: 100px;
+        /*border-bottom: 1px solid rgba(0,0,0, .1);*/ }
+    .cursos-master .cursos-cuadricula h3 img {
+      margin-right: .3em; }
 
+/*CSS Profesor curso curso cuadricula*/
+.alumnos-master {
+  width: 100%;
+  margin: .5em .5%;
+  background: white;
+  border-radius: 4px;
+  padding: 1em; }
+  .alumnos-master .alumnos-cuadricula {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center; }
+    .alumnos-master .alumnos-cuadricula .representante button {
+      margin-bottom: .5em; }
+    .alumnos-master .alumnos-cuadricula a {
+      color: inherit; }
+      .alumnos-master .alumnos-cuadricula a button {
+        border-radius: 4px;
+        background: none;
+        border: 1px solid rgba(0, 0, 0, 0.2); }
 /*# sourceMappingURL=style.css.map */

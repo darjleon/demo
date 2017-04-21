@@ -4,26 +4,7 @@
   // Controlo si el usuario ya está logueado en el sistema.
   if(isset($_SESSION['email'])){
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Pined | Profesor</title>
-
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
-
-    <!-- Toastr style -->
-    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
-
-    <!-- Gritter -->
-    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
-
-    <link href="../css/animate.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-</head>
+<?php include ('include/header.php'); ?>
 <body>
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
@@ -150,151 +131,95 @@
         </div>
         <div class="wrapper wrapper-content">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula8A.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                <div class="cursos-master">
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">MATEMATICAS</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 8 'A'</p>
+                                <h4>Dirigente: </br>LUIS CORREA ZAMBRANO</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>8 'A'</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>LUIS CORREA ZAMBRANO </h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula8B.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">MATEMATICAS</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8B.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 8 'B'</p>
+                                <h4>Dirigente: </br>RUTH ARGUELLO MENDOZA</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>8 'B'</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>RUTH ARGUELLO MENDOZA</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula9A.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">MATEMATICAS</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula9A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 9 'A'</p>
+                                <h4>Dirigente: </br>MERY URBINA ANDALUZ</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>9 'A'</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>MERY URBINA ANDALUZ</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula1CIENTIFICO.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 1RO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br>TATIANA CARREÑO QUIROZ</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>1RO BACHILLERATO CIENTIFICO</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>TATIANA CARREÑO QUIROZ</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula2CIENTIFICO.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 2DO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br>CLAUDIA LOPEZ SANCHEZ</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>2DO BACHILLERATO CIENTIFICO</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>CLAUDIA LOPEZ SANCHEZ</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula2INFORMATICA.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 2DO BACHILLERATO INFORMATICA</p>
+                                <h4>Dirigente: </br>MARCOS PAZAN REYES</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>2DO BACHILLERATO INFORMATICA</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>MARCOS PAZAN REYES</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula3CIENTIFICO.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br>GLENDA CANDEL CARBO</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>3RO BACHILLERATO CIENTIFICO</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>GLENDA CANDEL CARBO</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div> 
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula3CONTABILIDAD.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO CONTABILIDAD</p>
+                                <h4>Dirigente: </br>JUAN LOPEZ MARURI</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>3RO BACHILLERATO CONTABILIDAD</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>JUAN LOPEZ MARURI</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula3INFORMATICA.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO INFORMATICA</p>
+                                <h4>Dirigente: </br>ANGELICA VILLABLANCA TRUJILLO</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>3RO BACHILLERATO INFORMATICA</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>ANGELICA VILLABLANCA TRUJILLO</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
                 </div>
@@ -302,53 +227,7 @@
         </div> 
     </div>
 </div>
-
-    <!-- Mainly scripts -->
-    <script src="../js/jquery-2.1.1.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-    <!-- Custom and plugin javascript -->
-    <script src="../js/inspinia.js"></script>
-    <script src="../js/plugins/pace/pace.min.js"></script>
-
-    <!-- jQuery UI -->
-    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-    <!-- GITTER -->
-    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
-
-    <!-- Toastr -->
-    <script src="../js/plugins/toastr/toastr.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            
-            var doughnutData = [
-                {
-                    value: 300,
-                    color: "#a3e1d4",
-                    highlight: "#1ab394",
-                    label: "App"
-                },
-                {
-                    value: 50,
-                    color: "#dedede",
-                    highlight: "#1ab394",
-                    label: "Software"
-                },
-                {
-                    value: 100,
-                    color: "#A4CEE8",
-                    highlight: "#1ab394",
-                    label: "Laptop"
-                }
-            ];
-        });
-    </script>
-</body>
-</html>
+<?php include ('include/footer.php'); ?>
 <?php
   }else{
     // Si no está logueado lo redireccion a la página de login.
