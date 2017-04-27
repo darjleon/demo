@@ -96,7 +96,10 @@
         </div>
     </div> 
 </div>
+
 <?php include ('include/footer.php'); ?>
+
+
 <?php
   }else{
     // Si no está logueado lo redireccion a la página de login.
