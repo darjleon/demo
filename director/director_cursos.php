@@ -105,7 +105,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_8A.php" style="color:black">
+                                    <a href="director_curso8A.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -126,7 +126,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_8B.php" style="color:black">
+                                    <a href="director_curso8B.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -147,7 +147,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_9A.php" style="color:black">
+                                    <a href="director_curso9A.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -168,7 +168,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_9B.php" style="color:black">
+                                    <a href="director_curso9B.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -190,7 +190,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_10A.php" style="color:black">
+                                    <a href="director_curso10A.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -211,7 +211,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_10B.php" style="color:black">
+                                    <a href="director_curso10B.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -233,7 +233,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_1CIENTIFICO.php" style="color:black">
+                                    <a href="director_curso1CIENTIFICO.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -254,7 +254,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_1CONTABILIDAD.php" style="color:black">
+                                    <a href="director_curso1CONTABILIDAD.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -275,7 +275,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_1INFORMATICA.php" style="color:black">
+                                    <a href="director_curso1INFORMATICA.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -297,7 +297,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_2CIENTIFICO.php" style="color:black">
+                                    <a href="director_curso2CIENTIFICO.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -318,7 +318,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_2CONTABILIDAD.php" style="color:black">
+                                    <a href="director_curso2CONTABILIDAD.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -339,7 +339,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_2INFORMATICA.php" style="color:black">
+                                    <a href="director_curso2INFORMATICA.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -361,7 +361,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_3CIENTIFICO.php" style="color:black">
+                                    <a href="director_curso3CIENTIFICO.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -382,7 +382,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_3CONTABILIDAD.php" style="color:black">
+                                    <a href="director_curso3CONTABILIDAD.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -403,7 +403,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_3INFORMATICA.php" style="color:black">
+                                    <a href="director_curso3INFORMATICA.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
