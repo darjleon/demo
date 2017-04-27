@@ -135,251 +135,292 @@
                 </a>
             </div>                                                 
         </div>        
-        <div class="wrapper wrapper-content">
-            <div class="row">
-                <div class="cursos-master">
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            JUAN MANUEL AGUILERA QUISPE
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="alumnos-master">
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>JUAN MANUEL AGUILERA QUISPE</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
                     </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            ANDREA PAOLA ALEGRE CASTRO
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            FABIOLA PAMELA CASTILLO MISARI
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            ANYEL ALEXANDRA DAVILA CHAVEZ
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            REYNALDO JERSON FILIOS HERNANDEZ
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            KEVIN ADRIAN LOPEZ GOYZUETA
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            MELANY ROCIO PADILLA CHAUCA
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            EDER ANDRES PAIVA PISCOYA
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            LUIS ENRIQUE PAREDES POCCO
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            CRISTHIAN ANDRES PINEDA ROJAS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            SELENA STEFANIA QUEREVALU DAVILA
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            ANGELA BRIGGITTE QUISPE RODRÍGUEZ
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            SAUL ALEXIS REGALADO ALFARO
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            TANIA MARCELA ROMERO SALVATIERRA
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
-                    </div>
-                    <div class="cursos-cuadricula text-center">
-                        <h5 class="text-center">
-                            <img src="../img/icono_persona.png" style="padding-right:5px;width: 25px">
-                            LORENA ROXANA SAENZ TEJADA
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal" style="margin: 0">PERFIL</button>
-                        <hr>
-                        <h5 class="text-center">
-                            <img src="../img/REPRESENTANTE.png"  style="padding-right:5px;width: 25px">
-                            NOMBRES Y APELLIDOS
-                        </h5>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">PERFIL</button>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
                     </div>
                 </div>
-            </div>                                           
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>ANDREA PAOLA ALEGRE CASTRO</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>FABIOLA PAMELA CASTILLO MISARI</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>ANYEL ALEXANDRA DAVILA CHAVEZ</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>REYNALDO JERSON FILIOS HERNANDEZ</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>KEVIN ADRIAN LOPEZ GOYZUETA</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>MELANY ROCIO PADILLA CHAUCA</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>EDER ANDRES PAIVA PISCOYA</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>LUIS ENRIQUE PAREDES POCCO</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>CRISTHIAN ANDRES PINEDA ROJAS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>SELENA STEFANIA QUEREVALU DAVILA</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>ANGELA BRIGGITTE QUISPE RODRÍGUEZ</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>SAUL ALEXIS REGALADO ALFARO</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>TANIA MARCELA ROMERO SALVATIERRA</h4>
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>LORENA ROXANA SAENZ TEJADA</h4>
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>                                                                                        
     </div> 
 </div>

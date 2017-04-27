@@ -61,6 +61,10 @@ p {
 a {
   font-family: 'Conv_Nexa Bold', sans-serif; }
 
+li,
+p {
+  color: #676a6c; }
+
 .nav > li > a {
   color: #a7b1c2;
   font-weight: 600;
@@ -2163,8 +2167,7 @@ a.DTTT_button:hover:not(.DTTT_disabled) {
 .ui-jqdialog .ui-jqdialog-title {
   float: none !important; }
 
-p-xl
-.ui-jqdialog > .ui-resizable-se {
+p-xl .ui-jqdialog > .ui-resizable-se {
   position: absolute; }
 
 /* Nestable list */
@@ -7216,8 +7219,9 @@ body.md-skin {
   padding-bottom: 10px; }
 
 .title-school {
-  padding-top: 15px;
   color: #1ab394; }
+  .title-school h1 {
+    margin-top: 0; }
 
 .title-direction {
   /*padding-left: 25px;*/ }
@@ -7232,7 +7236,7 @@ body.md-skin {
   color: black; }
 
 .option-tabs {
-  padding-left: 20px; }
+  /*padding-left: 20px;*/ }
 
 .option-tabs-g {
   padding-top: 25px; }
@@ -7473,12 +7477,32 @@ body.md-skin {
   color: white;
   font-weight: bold; }
 
+/*Placeholder */
+.alumnos-master .alumnos-cuadricula {
+  border-radius: 4px;
+  padding: 1em;
+  margin: .3em .5%;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.1); }
+
+.profe-cuadricula .back a .button-back {
+  border-radius: 4px;
+  background: green;
+  padding: 6px 12px;
+  border: none;
+  background: #23b27c; }
+
 /*Utilidades*/
 .cl {
   font-family: 'Conv_Nexa Light', sans-serif, arial; }
 
 .cb {
   font-family: 'Conv_Nexa Bold', sans-serif, arial; }
+
+.no-padding {
+  padding: 0; }
+
+.no-margin {
+  margin: 0; }
 
 .d-flex {
   display: -webkit-flex;
@@ -7499,7 +7523,10 @@ body.md-skin {
   overflow-x: auto; }
 
 .mt-1 {
-  margin-top: 16px; }
+  margin-top: 1em; }
+
+.mt-2 {
+  margin-top: 2em; }
 
 .mb-1 {
   margin-bottom: 1em; }
@@ -7959,6 +7986,13 @@ body.md-skin {
       -ms-flex-pack: center;
       justify-content: center; } }
 
+.padre-calificaciones span {
+  margin: 0 .2em;
+  display: none; }
+  @media screen and (min-width: 409px) {
+    .padre-calificaciones span {
+      display: inline-block; } }
+
 /*CSS padre lista 1*/
 .contact-box {
   height: 100px;
@@ -7988,6 +8022,13 @@ body.md-skin {
         margin-bottom: 0; } }
 
 /*CSS padre asistencia 1*/
+.button-asistencia {
+  font-family: 'Conv_Nexa Light';
+  margin-top: 1em; }
+  @media screen and (min-width: 364px) {
+    .button-asistencia {
+      margin-top: 0; } }
+
 .card-asistencia {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7998,66 +8039,80 @@ body.md-skin {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  .card-asistencia .mb-2 {
-    width: 33%; }
-    @media screen and (max-width: 1100px) {
-      .card-asistencia .mb-2 {
-        width: 50%; } }
-    @media screen and (max-width: 600px) {
-      .card-asistencia .mb-2 {
-        width: 100%; } }
+  .card-asistencia .lista_alumnos {
+    margin: .5em .5%; }
+    @media screen and (min-width: 575px) {
+      .card-asistencia .lista_alumnos {
+        width: 48%; } }
+    @media screen and (min-width: 1200px) {
+      .card-asistencia .lista_alumnos {
+        width: 32%; } }
+    .card-asistencia .lista_alumnos .alumnos {
+      border-radius: 4px;
+      padding: 1em;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.7); }
+      .card-asistencia .lista_alumnos .alumnos a {
+        color: inherit;
+        font-family: 'Conv_Nexa Light'; }
+      .card-asistencia .lista_alumnos .alumnos h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 1.6em; }
+      .card-asistencia .lista_alumnos .alumnos hr {
+        margin: 1em 0; }
+      .card-asistencia .lista_alumnos .alumnos .docente {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .card-asistencia .lista_alumnos .alumnos .docente h2 {
+          font-size: 1em; }
+          .card-asistencia .lista_alumnos .alumnos .docente h2 img {
+            margin-right: .3em; }
+        .card-asistencia .lista_alumnos .alumnos .docente .perfil {
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          padding: .3em .6em;
+          border-radius: 4px; }
+          .card-asistencia .lista_alumnos .alumnos .docente .perfil i {
+            margin-left: .2em; }
+      .card-asistencia .lista_alumnos .alumnos .asistencia {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .card-asistencia .lista_alumnos .alumnos .asistencia button {
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+          padding: .3em .6em;
+          background: transparent; }
 
-.lista_alumnos {
-  margin: .5em; }
-  .lista_alumnos .alumnos {
-    border-radius: 4px;
-    padding: 1em;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.7); }
-    .lista_alumnos .alumnos a {
-      color: inherit;
-      font-family: 'Conv_Nexa Light'; }
-    .lista_alumnos .alumnos h2 {
-      text-align: center;
-      margin: 0;
-      font-size: 1.6em; }
-    .lista_alumnos .alumnos hr {
-      margin: 1em 0; }
-    .lista_alumnos .alumnos .docente {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      .lista_alumnos .alumnos .docente h2 {
-        font-size: 1em; }
-        .lista_alumnos .alumnos .docente h2 img {
-          margin-right: .3em; }
-      .lista_alumnos .alumnos .docente .perfil {
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        padding: .3em .6em;
-        border-radius: 4px; }
-        .lista_alumnos .alumnos .docente .perfil i {
-          margin-left: .8em; }
-    .lista_alumnos .alumnos .asistencia {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      .lista_alumnos .alumnos .asistencia button {
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        border-radius: 4px;
-        padding: .3em .6em;
-        background: transparent; }
+.nav.navbar-top-links li.dropdown {
+  display: none; }
+  @media screen and (min-width: 420px) {
+    .nav.navbar-top-links li.dropdown {
+      display: inline-block; } }
+
+/*Padre Institucion*/
+@media screen and (min-width: 768px) {
+  .institucion {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
 /*CSS profesor cursos cuadricula*/
 .cursos-master {
   display: -webkit-flex;
@@ -8105,18 +8160,40 @@ body.md-skin {
     .cursos-master .cursos-cuadricula h3 img {
       margin-right: .3em; }
 
-/*CSS Profesor curso curso cuadricula*/
+/*CSS Profesor curso cuadricula*/
 .alumnos-master {
   width: 100%;
   margin: .5em .5%;
-  background: white;
-  border-radius: 4px;
-  padding: 1em; }
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
   .alumnos-master .alumnos-cuadricula {
+    width: 100%;
+    background: white;
+    border-radius: 4px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center; }
+    @media screen and (min-width: 630px) {
+      .alumnos-master .alumnos-cuadricula {
+        width: 49%; } }
+    @media screen and (min-width: 1100px) {
+      .alumnos-master .alumnos-cuadricula {
+        width: 32%; } }
+    .alumnos-master .alumnos-cuadricula .alumno {
+      margin-right: 1em;
+      padding-right: 1em;
+      border-right: 1px solid rgba(0, 0, 0, 0.1); }
     .alumnos-master .alumnos-cuadricula .representante button {
       margin-bottom: .5em; }
     .alumnos-master .alumnos-cuadricula a {
@@ -8125,4 +8202,42 @@ body.md-skin {
         border-radius: 4px;
         background: none;
         border: 1px solid rgba(0, 0, 0, 0.2); }
+
+.profe-cuadricula {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1em 0; }
+  .profe-cuadricula .back a {
+    color: white; }
+    .profe-cuadricula .back a .button-back img {
+      margin-right: .4em; }
+
+/*CSS profesor cursos cuadricula*/
+.seleccion-curso {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .seleccion-curso .formatos a {
+    background: rgba(0, 0, 0, 0.3);
+    padding: .5em .4em .6em .6em;
+    margin: .5em;
+    border-radius: 4px; }
+
+/*CSS profesor_horario.php*/
+.horario-tabla .subject {
+  padding: 1em; }
+
 /*# sourceMappingURL=style.css.map */

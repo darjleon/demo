@@ -145,58 +145,6 @@
                             </div>
                         </div>
                         <div class="col-sm-9">
-                            <h5>CINDY MARCELA ALARCON MOROCHO</h5>
-                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
-                        </div>
-                        <div class="clearfix"></div>                        
-                        <div class="contact-box-footer">
-                            <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
-                            </div>                                                          
-                            <h5>Nombres y Apellidos</h5>
-                            <div class="pull-right">
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                                    <i class="fa fa-envelope"></i>
-                                </button>
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="contact-box">
-                        <div class="col-sm-3">
-                            <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <h5>BRAD ALEXANDER ALCIVAR VERA</h5>
-                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
-                        </div>
-                        <div class="clearfix"></div>                        
-                        <div class="contact-box-footer">
-                            <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
-                            </div>                                                          
-                            <h5>Nombres y Apellidos</h5>
-                            <div class="pull-right">
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
-                                    <i class="fa fa-envelope"></i>
-                                </button>
-                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="contact-box">
-                        <div class="col-sm-3">
-                            <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
                             <h5>JOSUE MIGUEL ALVARADO AVILA</h5>
                             <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
                         </div>
@@ -1170,6 +1118,753 @@
                     </div>
                 </div>
             </div>             
+        </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="alumnos-master">
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>CINDY MARCELA ALARCON MOROCHO</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4>BRAD ALEXANDER ALCIVAR VERA</h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="alumnos-cuadricula">
+                    <div class="alumno">
+                        <img src="img/icono_persona.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                    </div>
+                    <div class="representante">
+                        <img src="img/representante.png" alt="" width="25">
+                        <h4></h4>
+                        <a href="">
+                            <button>Perfil</button>
+                        </a>
+                        <a href="">
+                            <button>Representante</button>
+                        </a>
+                    </div>
+                </div> 
+                
+                          
+            </div>
         </div>
     </div> 
 </div>
