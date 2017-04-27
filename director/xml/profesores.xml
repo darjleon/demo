@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profesores>	
+	<profesor>
+		<id>1</id>
+		<nombre>RUTH</nombre>
+		<apellidos>ARGUELLO MENDOZA</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA MALDONADO </direccion>		
+		<telefono>2860085</telefono>
+		<correo>ruty271@hotmail.com</correo>
+		<ci>926011438</ci>
+		<dirigente>8B</dirigente>
+		<clases>LENGUA Y LITERATURA</clases>
+		<cursos>8VOS, 9NOS Y 10MOS</cursos>
+	</profesor>
+	<profesor>
+		<id>2</id>
+		<nombre>TATIANA</nombre>
+		<apellidos>ARICHAVALA CRESPIN</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA ALGARROBOS MZ B V 5</direccion>		
+		<telefono>2195923</telefono>
+		<correo>tatis_1621@hotmail.com</correo>
+		<ci>924808298</ci>
+		<dirigente>10B</dirigente>
+		<clases>ESTUDIOS SOCIALES, EDUCACION PARA LA CIUDADANIA</clases>
+		<cursos>8VOS, 9NOS, 10MOS, 2DO CONTA Y 2DO INFO.</cursos>
+	</profesor>
+	<profesor>
+		<id>3</id>
+		<nombre>JAVIER</nombre>
+		<apellidos>ARVELAEZ MOSQUERA</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA ANA MARIA DE OLMEDO </direccion>		
+		<telefono>2862494</telefono>
+		<correo>javier_arvelaez@hotmail.com</correo>
+		<ci>924320716</ci>
+		<dirigente>10A</dirigente>
+		<clases>MATEMATICAS, FISICA, FISICA SUPERIOR</clases>
+		<cursos>NO DISPONIBLE</cursos>
+	</profesor>
+	<profesor>
+		<id>4</id>
+		<nombre>MARIANA</nombre>
+		<apellidos>CAMACHO CUJI</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA. DEMOCRATICA NORTE MARIA AUXILIADORA MZ 6 S 41</direccion>		
+		<telefono>2863693 / 0990798159</telefono>
+		<correo>mafer_86cc@hotmail.com</correo>
+		<ci>990798159</ci>
+		<dirigente>2 CONTABILIDAD</dirigente>
+		<clases>COMERCIO, FYOL, GES. ADM. DE C Y V, GES. ADM. DE LOS RRHH, COMUNICACION Y ARCHIVO, PROYECTOS EDUCATIVOS.</clases>
+		<cursos>8VOS, 9NOS, 10MOS, 1RO INFO, 1RO-2DO-3RO CONTA</cursos>
+	</profesor>
+	<profesor>
+		<id>5</id>
+		<nombre>GLENDA</nombre>
+		<apellidos>CANDEL CARBO</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>URB EL EDEN MZ M V9</direccion>		
+		<telefono>0979317363</telefono>
+		<correo>glenda_candel@hotmail.com</correo>
+		<ci>915372106</ci>
+		<dirigente>3 CIENTÍFICO</dirigente>
+		<clases>DESARROLLO DEL PENSAMIENTO FILOSOFICO, EDUCACION ARTISTICA, CORRIENTES FILOSOFICAS, LENGUA Y LITERATURA</clases>
+		<cursos>1RO-2DO-3RO CIENTIF, 1RO-2DO INFO, 1RO-2DO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>6</id>
+		<nombre>TATIANA</nombre>
+		<apellidos>CARREÑO QUIROZ</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA ABEL GILBERT PONTON 2 MZ 16 V12</direccion>		
+		<telefono>0989689306</telefono>
+		<correo>tati8434@hotmail.com</correo>
+		<ci>921304358</ci>
+		<dirigente>1 CIENTIFICO</dirigente>
+		<clases>LENGUA Y LITERATURA, PROYECTOS EDUCATIVOS</clases>
+		<cursos>8VOS,9NOS,10MOS, 1RO-2DO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>7</id>
+		<nombre>VIVIANA</nombre>
+		<apellidos>CIRINO DE LA ROSA</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA 18 DE ABRIL MZ 16 S16</direccion>		
+		<telefono>229537 - 0990988215</telefono>
+		<correo>angela_cirino@hotmail.com</correo>
+		<ci>919528380</ci>
+		<dirigente>NO</dirigente>
+		<clases>COMPUTACION, APLICACIONES INFORMATICAS, INF. APLICADA A LA EDUCACION, SIS. INF. MULTIMEDIA Y EN RED, UTILITARIOS</clases>
+		<cursos>8VOS, 9NOS, 10MOS, 1RO-2DO-3RO CIENTIF, 1RO-2DO INFO, 1RO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>8</id>
+		<nombre>LUIS</nombre>
+		<apellidos>CORREA ZAMBRANO</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA PRIMAVERA 1 MZ B6 VILLA 16</direccion>		
+		<telefono>2862959-092406250</telefono>
+		<correo>lual_977@hotmail.com</correo>
+		<ci>916290919</ci>
+		<dirigente>8A</dirigente>
+		<clases>MATEMATICAS, INVESTIGACION</clases>
+		<cursos>8 'A',8 'B',9 'A',1RO-2DO-3RO CIENT, 2DO-3RO INFO, 3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>9</id>
+		<nombre>GLORIA</nombre>
+		<apellidos>ESPAÑA ARIAS</apellidos>
+		<ciudad>GUAYAQUIL</ciudad>
+		<direccion>GUAYAQUIL</direccion>		
+		<telefono>229537 - 0990988215</telefono>
+		<correo>hijobnrj@hotnmail.com</correo>
+		<ci>911983294</ci>
+		<dirigente>NO</dirigente>
+		<clases>VALORES HUMANOS</clases>
+		<cursos>8VOS,9NOS,10MOS, 1RO-2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>10</id>
+		<nombre>RAUL</nombre>
+		<apellidos>HERRERA CERCADO</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA ARBOLITO MZ 44 V18</direccion>		
+		<telefono>2988964</telefono>
+		<correo>raulin_205@hotmail.com</correo>
+		<ci>920527181</ci>
+		<dirigente>NO</dirigente>
+		<clases>EDUCACIÓN FISICA, PROYECTOS EDUCATIVOS.</clases>
+		<cursos>8VOS,9NOS,10MOS, 1RO-2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>11</id>
+		<nombre>DANILO</nombre>
+		<apellidos>HERRERA MOREIRA</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA ABEL GILBERT PONTON 1 MZ 77 E V6</direccion>		
+		<telefono>0990705833</telefono>
+		<correo>daniloherrera_20@hotmail.com</correo>
+		<ci>920527181</ci>
+		<dirigente>NO</dirigente>
+		<clases>PROYECTOS EDUCATIVOS.</clases>
+		<cursos>8VOS, 9NOS, 10MOS</cursos>
+	</profesor>
+	<profesor>
+		<id>12</id>
+		<nombre>RUTH</nombre>
+		<apellidos>LLERENA YULAN</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA LOS HELECHOS S6 MZ T3 V6</direccion>		
+		<telefono>0994420401</telefono>
+		<correo>rallypretty@hotmail.com</correo>
+		<ci>923301626</ci>
+		<dirigente>NO</dirigente>
+		<clases>LENGUA EXTRANJERA</clases>
+		<cursos>8VOS,9NOS,10MOS, 1RO-2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>13</id>
+		<nombre>JUAN</nombre>
+		<apellidos>LOPEZ MARURI</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>PRIMAVERA 2 S 2C MZ 11 V7</direccion>		
+		<telefono>2804815</telefono>
+		<correo>juan280454-cpa@hotmail.com</correo>
+		<ci>901731802</ci>
+		<dirigente>3 CONTABILIDAD</dirigente>
+		<clases>CONT. GRAL Y TESORERIA, EMPRENDIMIENTO Y GESTION, PRODUCTOS Y SERVICIOS, REL EN EL EQUIPO DE TRABAJO.</clases>
+		<cursos>2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>14</id>
+		<nombre>CLAUDIA</nombre>
+		<apellidos>LOPEZ SANCHEZ</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA SAN EDUARDO MZ 254 V7</direccion>		
+		<telefono>2206137</telefono>
+		<correo>claudiapiedadlopez@hotmail.com</correo>
+		<ci>915401574</ci>
+		<dirigente>NO</dirigente>
+		<clases>LENGUA EXTRANJERA</clases>
+		<cursos>8VOS,9NOS,10MOS, 1RO-2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>15</id>
+		<nombre>MARCOS</nombre>
+		<apellidos>PAZAN REYES</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA FERROVIARIA 2 MZ 2 V11</direccion>		
+		<telefono>0967700149</telefono>
+		<correo>marcopazan@hotmail.com</correo>
+		<ci>914630579</ci>
+		<dirigente>2 INFORMATICA</dirigente>
+		<clases>AN Y DIS DE APLIC. INF. DE GESTION, SIST. INF. MULT. Y EN RED, DES DE APLIC. DE 4TA GENERACION, PROG. EN LENG. ESTRUCTURADO, DIS Y REAL DE SERVICIOS</clases>
+		<cursos>1RO-2DO-3RO INFO</cursos>
+	</profesor>
+	<profesor>
+		<id>16</id>
+		<nombre>ANA</nombre>
+		<apellidos>PLUA RIVERA</apellidos>
+		<ciudad>GUAYAQUIL</ciudad>
+		<direccion>GUAYAQUIL</direccion>		
+		<telefono>0991077468</telefono>
+		<correo>ani_plui_90@hotmail.com</correo>
+		<ci>927529040</ci>
+		<dirigente>1 INFORMATICA</dirigente>
+		<clases>LENGUA EXTRANJERA</clases>
+		<cursos>8VOS,9NOS,10MOS, 1RO-2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>17</id>
+		<nombre>CAROLINA</nombre>
+		<apellidos>QUIROZ SANTOS</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA BARRIO LINDO MZ 58 SECTOR 20 V18</direccion>		
+		<telefono>0986845818</telefono>
+		<correo>caritoq-8431@hotmail.com</correo>
+		<ci>923513204</ci>
+		<dirigente>9B</dirigente>
+		<clases>MATEMATICAS, DIBUJO TECNICO, DIBUJO TECNICO APLICADO, PROYECTOS EDUCATIVOS</clases>
+		<cursos>8VOS, 9NOS, 10MOS, 1RO-2DO CIENT, 1RO-3RO INFO, 1RO CONTA</cursos>
+	</profesor>
+	<profesor>
+		<id>18</id>
+		<nombre>SONIA</nombre>
+		<apellidos>RODRIGUEZ NOBOA</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>CDLA. EL RECREO 1ERA ETAPA MZ 123 V 15</direccion>		
+		<telefono>2671189</telefono>
+		<correo>artworkstrn@hotmail.com</correo>
+		<ci>918631490</ci>
+		<dirigente>1 CONTABILIDAD</dirigente>
+		<clases>HISTORIA Y CIENCIAS SOCIALES, EDUCACION PARA LA CIUDADANIA</clases>
+		<cursos>1RO-2DO-3RO CIENTIF, 1RO-2DO-3RO INFO, 1RO-2DO-3RO CONTA.</cursos>
+	</profesor>
+	<profesor>
+		<id>19</id>
+		<nombre>MERY</nombre>
+		<apellidos>URBINA ANDALUZ</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>LOS HELECHOS</direccion>		
+		<telefono>988238280</telefono>
+		<correo>mileniurbina7@hotmail.com</correo>
+		<ci>909796542</ci>
+		<dirigente>9A</dirigente>
+		<clases>CCNN, BIOLOGIA, BIOLOGIA SUPERIOR</clases>
+		<cursos>8VOS, 9NOS 10MO B, 2DO-3RO CIENTIF</cursos>
+	</profesor>
+	<profesor>
+		<id>20</id>
+		<nombre>ANGELICA</nombre>
+		<apellidos>VILLABLANCA TRUJILLO</apellidos>
+		<ciudad>DURÁAN</ciudad>
+		<direccion></direccion>		
+		<telefono>0988837150</telefono>
+		<correo>angelica_villablanca@hotmail.com</correo>
+		<ci>907866198</ci>
+		<dirigente>3 INFORMATICA</dirigente>
+		<clases>MATEMATICAS, MATEMATICAS SUPERIOR</clases>
+		<cursos>NO DISPONIBLE</cursos>
+	</profesor>
+	<profesor>
+		<id>21</id>
+		<nombre>DENISSE</nombre>
+		<apellidos>MARCILLO</apellidos>
+		<ciudad>NO DISPONIBLE</ciudad>
+		<direccion>NO DISPONIBLE</direccion>		
+		<telefono>NO DISPONIBLE</telefono>
+		<correo>NO DISPONIBLE</correo>
+		<ci>NO DISPONIBLE</ci>
+		<dirigente>NO</dirigente>
+		<clases>QUIMICA, QUIMICA SUPERIOR, FISICA QUIMICA, CCNN, BIOLOGIA. </clases>
+		<cursos>10A, 1RO-2DO-3RO CIENT, 1RO-2DO INFO, 1RO-2DO CONTA</cursos>
+	</profesor>
+	<profesor>
+		<id>22</id>
+		<nombre>LUIS</nombre>
+		<apellidos>CAJO</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>LOS HELECHOS</direccion>		
+		<telefono>NO DISPONIBLE</telefono>
+		<correo>NO DISPONIBLE</correo>
+		<ci>NO DISPONIBLE</ci>
+		<dirigente>NO</dirigente>
+		<clases>MUSICA, PROYECTOS EDUCATIVOS</clases>
+		<cursos>8VOS, 9NOS, 10MOS</cursos>
+	</profesor>
+	<profesor>
+		<id>23</id>
+		<nombre>HUGO</nombre>
+		<apellidos>CHÁVEZ</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>DURAN</direccion>		
+		<telefono>NO DISPONIBLE</telefono>
+		<correo>NO DISPONIBLE</correo>
+		<ci>NO DISPONIBLE</ci>
+		<dirigente>NO</dirigente>
+		<clases>PROYECTOS EDUCATIVOS.</clases>
+		<cursos>8VOS, 9NOS, 10MOS</cursos>
+	</profesor>
+	<profesor>
+		<id>24</id>
+		<nombre>MICHELL</nombre>
+		<apellidos>CAJAMARCA</apellidos>
+		<ciudad>DURAN</ciudad>
+		<direccion>DURAN</direccion>		
+		<telefono>NO DISPONIBLE</telefono>
+		<correo>NO DISPONIBLE</correo>
+		<ci>NO DISPONIBLE</ci>
+		<dirigente>NO</dirigente>
+		<clases>PROYECTOS EDUCATIVOS.</clases>
+		<cursos>8VOS, 9NOS, 10MOS</cursos>
+	</profesor>
+</profesores>
+

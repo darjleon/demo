@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<administrativos>
+	<administrativo>
+		<nombre>FANNY</nombre>
+		<apellidos>ESPINOZA MOLINA</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>CDLA ALGARROBOS 1 MZ I SOLAR 7 Y 8</direccion>
+		<telefono>2552771 - 0984512909</telefono>
+		<correo>fanni_espinoza@hotmail.com</correo>
+		<ci>919878645</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>ANGELICA</nombre>
+		<apellidos>MENDEZ MORENO</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>PRIMAVERA 2 SECTOR 2B MZ 26 V12</direccion>
+		<telefono>2800229 - 2810553</telefono>
+		<correo>angelica_mendez_moreno21@hotmail.com</correo>
+		<ci>928950633</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>LEONELA</nombre>
+		<apellidos>PATIÑO ROGEL</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>cdla brisas de santay mz j v 5a</direccion>
+		<telefono>2553238</telefono>
+		<correo>leito9212@hotmail.com</correo>
+		<ci>931001465</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>LOLY</nombre>
+		<apellidos>NIETO INTRIAGO</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>cdla brisas de santay </direccion>
+		<telefono>2860926</telefono>
+		<correo>lolynietointriago@hotmail.com</correo>
+		<ci>915290498</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>NANCY</nombre>
+		<apellidos>OJEDA LEÓN</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>CDLA DEMOCRÁTICA SUR</direccion>
+		<telefono>2550373</telefono>
+		<correo>nancy.ojeda87@gmail.com</correo>
+		<ci>922916812</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>CARMEN</nombre>
+		<apellidos>OJEDA LEÓN</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>CDLA DEMOCRÁTICA SUR</direccion>
+		<telefono>993998977</telefono>
+		<correo>misscarmen_3@hotmail.com</correo>
+		<ci>915381321</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>TERESA</nombre>
+		<apellidos>LEÓN BRITO</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>CDLA DEMOCRÁTICA SUR</direccion>
+		<telefono>2552808</telefono>
+		<correo>tcorreaz80@yahoo.com</correo>
+		<ci>9012418690</ci>
+	</administrativo>
+	<administrativo>
+		<nombre>TERESA</nombre>
+		<apellidos>CORREA ZAMBRANO</apellidos>
+		<ciudad>DURÁN</ciudad>
+		<direccion>PRIMAVERA 1 MZ B6 VILLA16</direccion>
+		<telefono>2862959 - 0984596812</telefono>
+		<correo>tcorreaz80@yahoo.com</correo>
+		<ci>920013471</ci>
+	</administrativo>
+</administrativos>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<institucion>
+	<school>
+		<id>1</id>
+		<name>FEDERICO GONZÁLEZ SUAREZ</name>
+		<timetable>M</timetable>
+		<type>COLEGIO - BACHILLERATO</type>
+		<city>DURAN</city>
+		<address>Cdla Democratica Sur, Calle Manuel Diaz Granados s/n.(Frente a Primavera 2</address>
+		<telephone>2552500 Secretaria - 2550373 Rectorado</telephone>
+		<mission>Estamos comprometidos en entregar a la comunidad jovenes formados con solidas bases en valores humanos,proactivos,solidarios,autonomos y emprendedores llegando a ser, en cualquier medio en que se desempeñen, agentes positivo de cambio, buscando el progreso y bienestar propio y de quienes lo rodean en la aldea global</mission>
+		<background>Fundada el 12 de febrero de 1978</background>
+	</school>
+</institucion>
