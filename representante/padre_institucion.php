@@ -58,48 +58,23 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="padre_notificacion.php">
-                            <i class="fa fa-envelope"></i>  <span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>                        
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesion
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row wrapper white-bg">
-            <div class="col-lg-3 text-center img-school" style="">
+        <?php include ('include/barra.php'); ?>
+        <div class="row wrapper white-bg institucion">
+            <div class="col-sm-4 text-center img-school" style="">
                 <img src="../img/escudo.png" width="60%">
             </div>
-            <div class="col-lg-9">
-                <h1 class="title-school">
-                    UNIDAD EDUCATIVA FEDERICO GONZALEZ SUAREZ
+            <div class="col-sm-6">
+                <h1 class="title-school text-center no-margin">
+                <small class="text-center">UNIDAD EDUCATIVA</small>
+                   </br>FEDERICO GONZALEZ SUAREZ 
                 </h1>
-                <p class="title-direction">CDLA. DEMOCRATICA SUR, CALLE MANUEL DIAZ GRANADOS S/N.(FRENTE A PRIMAVERA 2 )</p>
             </div>             
         </div>
         <div class="row wrapper wrapper-content">            
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
                     <div class="widget widget-tabs">
-                        <div class="tabs-container-school">
+                        <div class="tabs-container">
                             <ul class="nav nav-tabs">
                                 <li class="active">
                                     <a data-toggle="tab" href="#tab-1">INFORMACION</a>
@@ -115,6 +90,14 @@
                                 <div id="tab-1" class="tab-pane active">
                                     <ul class="list-unstyled m-t">
                                         <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-2">
+                                                    <label>Direccion:</label>
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    CDLA. DEMOCRATICA SUR, CALLE MANUEL DIAZ GRANADOS S/N.(FRENTE A PRIMAVERA 2 )
+                                                </div>                                            
+                                            </li>
                                             <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Telefono:</label>
@@ -159,9 +142,9 @@
                                 <div id="tab-3" class="tab-pane">
                                     <div class="row">
                                         <div class="col-lg-12 option-tabs-g text-center">
-                                            FUNDADA EL 12 DE FEBRERO DE 1978.
+                                            <p>FUNDADA EL 12 DE FEBRERO DE 1978.</p>
                                         </div>
-                                        <div class="col-lg-6" >
+                                        <div class="col-lg-6 text-center mt-2" >
                                             <img src="../img/vision.png" width="60%">
                                         </div>
                                     </div> 

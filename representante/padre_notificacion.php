@@ -5,7 +5,7 @@
   if(isset($_SESSION['email'])){
 ?>
 <?php include ('include/header.php'); ?>
-<body >
+<body>
 <div id="wrapper" >
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">
@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li class="active">
-                    <a href="padre_notificacion.php">
+                    <a href="#">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
                         <span class="label label-warning">Nuevo</span>
@@ -57,57 +57,10 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-i"> 
-                    <div class="navbar-header">
-                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </div>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">          
-                    <li class="dropdown">
-                        <a class="count-info" href="padre_notificacion.php">
-                            <i class="fa fa-envelope"></i> <span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i>  
-                            <span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="padre_notificacion.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="hora pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                                <li>
-                                <div class="text-center link-block">
-                                    <a href="padre_notificacion.php">
-                                        <strong>See All Alerts</strong>
-                                        <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">                        
             <div class="col-lg-12">
-                <h2>Notificaciones</h2>
+                <h2 style="margin: 1em 0">Notificaciones</h2>
             </div>
         </div>
         <div class="wrapper wrapper-content animated fadeInRight" style="background-color:#F1E7ED">
@@ -135,7 +88,7 @@
                             </div>
                         </div>
                         <div class="ibox-content" style="background-color: #FEF5F9">
-                            <div class="row no-margin">
+                            <div class="row no-margins">
                                 <div class="col-lg-9 recordatorioBox">
                                     <h4 style="margin-bottom:0">CITA AGENDADA<br/></h4>
                                     <h4 style="margin-bottom:0"><strong>RECTOR:</strong>CARMEN OJEDA LEON<br/></h4>
@@ -204,7 +157,7 @@
                     <div class="ibox ibox collapsed">
                         <div class="ibox-title">
                             <h5>
-                                <img src="img/icono persona.png" width="20px">
+                                <img src="../img/icono persona.png" width="20px">
                                 SECRETARIA
                             </h5>
                             <div class="ibox-tools">
@@ -227,7 +180,7 @@
                     <div class="ibox ibox collapsed">
                         <div class="ibox-title">
                             <h5>
-                                <img src="img/icono persona.png" width="20px">
+                                <img src="../img/icono persona.png" width="20px">
                                 Secretaria
                             </h5>
                             <div class="ibox-tools">
@@ -261,10 +214,10 @@
                         </span>
                     </div>
                     <div class="ibox float-e-margins">
-                        <div class="ibox-title">
+                        <div class="ibox-title" style="overflow: hidden; padding-bottom: 0;">
                             <h5>
-                                <img src="img/icono persona.png" width="20px">
-                                AURELIO PESANTEZ|<small>PROFESOR DE MATEMATICAS</small>
+                                <img src="../img/icono persona.png" width="20px">
+                                AURELIO PESANTEZ<small style="display: block; margin-top: .5em; ">PROFESOR DE MATEMATICAS</small>
                             </h5>
                             <div class="ibox-tools">
                                 <a class="collapse-link">
@@ -304,7 +257,7 @@
                     <h4 class="modal-title">
                         <span class="glyphicon glyphicon-user"></span>
                         AURELIO PESANTEZ
-                    </h4>                                                    
+                    </h4>                                              
                     <small>Profesor de  Matemáticas.</small>
                 </div>
                 <div class="modal-body">

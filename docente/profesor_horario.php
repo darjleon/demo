@@ -13,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -25,7 +25,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -35,7 +35,7 @@
                 </li>
                 <li>
                     <a href="profesor_institucion.php">
-                        <i class="fa fa-institution"></i><span class="nav-label">Institucion</span>
+                        <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
@@ -74,447 +74,369 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">                        
             <div class="col-lg-12">
-                <h2>Horario</h2>
+                <h2 style="margin: 1em 0">Horario</h2>
             </div>
         </div>
         <div class="wrapper wrapper-content">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="panel panel-default">                            
-                        <table class="table ss1">
-                            <thead class="scheduler ss1">
-                                <tr>
-                                    <th class="text-center scheduler">Hora</th>
-                                    <th class="text-center scheduler">Lunes</th>
-                                    <th class="text-center scheduler">Martes</th>
-                                    <th class="text-center scheduler">Miercoles</th>
-                                    <th class="text-center scheduler">Jueves</th>
-                                    <th class="text-center scheduler">Viernes</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-1">1</span>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO CONTABILIDAD
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3CONTABILIDAD.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>    
-                                        </a>                                        
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'B'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8B.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO CIENTIFICO
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3CIENTIFICO.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            NOVENO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia9A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-2">2</span>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO CIENTIFICO
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3CIENTIFICO.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO CONTABILIDAD
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3CONTABILIDAD.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            2DO BACHILLERATO CIENTIFICO
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia2CIENTIFICO.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            1RO BACHILLERATO CIENTIFICO
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia1CIENTIFICO.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-3">3</span>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'B'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8B.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO INFORMATICA
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3INFORMATICA.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO INFORMATICA
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3INFORMATICA.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-1">4</span>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            NOVENO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia9A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr style="background-color: #C2C2C2">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-2">5</span>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'B'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8B.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-3">6</span>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            NOVENO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia9A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'B'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8B.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'B'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8B.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-1">7</span>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            NOVENO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia9A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            NOVENO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia9A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO CIENTIFICO
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3CIENTIFICO.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td></td>           
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-2">8</span>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'A'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8A.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            OCTAVO 'B'
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia8B.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
-                                        </a>
-                                    </td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            3RO BACHILLERATO CONTABILIDAD
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia3CONTABILIDAD.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr style="background-color: #C2C2C2">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td class="scheduler" style="vertical-align: middle">
-                                        <span class="hour hour-2">9</span>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            1RO BACHILLERATO CIENTIFICO
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia1CIENTIFICO.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td class="subject" style="vertical-align: middle;font-size:12px">
-                                        <img src="../img/CURSO.png" style="width:15px;padding-left:0">
-                                        <p style="display: inline">
-                                            2DO BACHILLERATO INFORMATICA
-                                        </p>
-                                        <hr style="background-color: #243949; height: 1px;margin-top: 5px;margin-bottom: 0">
-                                        <a href="profesor_asistencia2INFORMATICA.php" class="enlace-curso">
-                                            <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="panel panel-default">
+                        <div class="table-responsive"> 
+                            <table class="table ss1 horario-tabla">
+                                <thead class="scheduler ss1">
+                                    <tr>
+                                        <th class="text-center scheduler"></th>
+                                        <th class="text-center scheduler cl" style="font-size: 1.6em;">Lunes</th>
+                                        <th class="text-center scheduler cl" style="font-size: 1.6em;">Martes</th>
+                                        <th class="text-center scheduler cl" style="font-size: 1.6em;">Miercoles</th>
+                                        <th class="text-center scheduler cl" style="font-size: 1.6em;">Jueves</th>
+                                        <th class="text-center scheduler cl" style="font-size: 1.6em;">Viernes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-1">1</span>
+                                            <span>7:00 - 7:45</span>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO CONTABILIDAD
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3CONTABILIDAD.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>    
+                                            </a>                                        
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'B'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8B.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO CIENTIFICO
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3CIENTIFICO.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                NOVENO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia9A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-2">2</span>
+                                            <span>7:45 - 8:30</span>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO CIENTIFICO
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3CIENTIFICO.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO CONTABILIDAD
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3CONTABILIDAD.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                2DO BACHILLERATO CIENTIFICO
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia2CIENTIFICO.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                1RO BACHILLERATO CIENTIFICO
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia1CIENTIFICO.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-3">3</span>
+                                            <span>8:30 - 9:15</span>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'B'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8B.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO INFORMATICA
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3INFORMATICA.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO INFORMATICA
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3INFORMATICA.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-1">4</span>
+                                            <span>9:15 - 10:00</span>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                NOVENO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia9A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-2">5</span>
+                                            <span>10:30 - 11:15</span>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'B'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8B.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-3">6</span>
+                                            <span>11:15 - 12:00</span>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                NOVENO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia9A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'B'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8B.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'B'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8B.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-1">7</span>
+                                            <span>12:00 - 12:45</span>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                NOVENO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia9A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                NOVENO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia9A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO CIENTIFICO
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3CIENTIFICO.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td></td>           
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-2">8</span>
+                                            <span>13:15 - 14:00</span>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'A'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8A.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                OCTAVO 'B'
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia8B.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">MATEMATICAS</p>
+                                            </a>
+                                        </td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                3RO BACHILLERATO CONTABILIDAD
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia3CONTABILIDAD.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="scheduler" style="vertical-align: middle">
+                                            <span class="hour hour-2">9</span>
+                                            <span>14:00 - 14:45</span>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                1RO BACHILLERATO CIENTIFICO
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia1CIENTIFICO.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="subject" style="vertical-align: middle;font-size:14px">
+                                            <p style="display: inline">
+                                                2DO BACHILLERATO INFORMATICA
+                                            </p>
+                                            
+                                            <a href="profesor_asistencia2INFORMATICA.php" class="enlace-curso">
+                                                <p style="margin-bottom:0;padding-top: 5px">INVESTIGACION</p>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                       
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -25,7 +25,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -74,50 +74,7 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">      
             <div class="col-lg-7 text-left">                
                 <h2>Agenda Escolar</h2>        
@@ -125,22 +82,22 @@
             <div class="col-lg-5 text-right" style="margin-top:5px;margin-right: -15px">
                 <ul>
                     <li style="display:inline-block">
-                        <a href="profesor_horario.php">
+                        <a href="profesor_cursos.php">
                             <h5 class="btn btn-student-list">Asistencia</h5>
                         </a>
                     </li>
                     <li style="display:inline-block">
                         <a href="#">
-                            <h5 class="btn btn-student-list">Agenda Escolar</h5>
+                            <h5 class="btn btn-student-list font-bold">Agenda Escolar</h5>
                         </a>
                     </li>
                     <li style="display:inline-block">
-                        <a href="profesor_horario.php">
+                        <a href="profesor_cursos.php">
                             <h5 class="btn btn-student-list">Calificaciones</h5>
                         </a>
                     </li>
                     <li style="display:inline-block">
-                        <a href="profesor_horario.php">
+                        <a href="profesor_cursos.php">
                             <h5 class="btn btn-student-list">Perfiles</h5>
                         </a>
                     </li>
@@ -152,7 +109,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-left" style="margin-top:0;padding-left:10px">
-                        <img src="../img/diario escolar.png" style="width:30px"> Agenda Escolar |
+                        <img src="img/diario escolar.png" style="width:30px"> Agenda Escolar |
                         <small>semana:</small><small style="padding:25px">23-28 de Enero del 2017</small> |
                         <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal6" style="color: white"><h5>Semana Anterior</h5></button>
                     </h2>
@@ -181,7 +138,7 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
@@ -201,7 +158,7 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
@@ -221,7 +178,7 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>  
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
@@ -235,72 +192,18 @@
                                         <div class="row">
                                             <div class="col-lg-3">
                                                 <div class="col-lg-10 text-right">
-                                                    <h5>    
-                                                        4ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        5ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
                                                     <h5>8 'A'<br>
                                                         6ta Hora
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
                                                 <h4><strong>MATEMATICAS</strong> | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        7ma Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>
@@ -313,31 +216,13 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
                                                 <h4><strong>MATEMATICAS</strong> | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right" style="">
-                                                    <h5>
-                                                        9na Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>
@@ -356,11 +241,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4> <strong>TITULO DE CLASE</strong>  | 
+                                                <h4> <strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button>
                                                 </h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
@@ -376,11 +261,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -396,11 +281,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>  
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -415,11 +300,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>  
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -434,11 +319,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -453,11 +338,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -472,31 +357,13 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        8va Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>
@@ -509,11 +376,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -534,11 +401,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  |  
+                                                <h4><strong>INVESTIGACION</strong>  |  
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button>
                                                 </h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
@@ -554,69 +421,15 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
                                             
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        3Ra Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>  
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        4ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        5ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
                                         </div>                                        
                                     </div>
                                     <div class="timeline-item" style="padding-top:10px">
@@ -628,11 +441,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -647,11 +460,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  |  
+                                                <h4><strong>MATEMATICAS</strong>  |  
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -666,31 +479,13 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right" style="">
-                                                    <h5>
-                                                        9na Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>
@@ -709,11 +504,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button>
                                                 </h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
@@ -729,33 +524,15 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
                                             
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        3Ra Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>  
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
                                         </div>                                        
                                     </div>
                                     <div class="timeline-item" style="padding-top:10px">
@@ -767,49 +544,13 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        5ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        6ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>
@@ -822,11 +563,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -841,11 +582,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -860,11 +601,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -885,11 +626,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  |  
+                                                <h4><strong>MATEMATICAS</strong>  |  
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button>
                                                 </h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
@@ -905,11 +646,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -925,30 +666,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>  
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
-                                                <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
-                                                <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        4ta Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -963,11 +685,11 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
                                             </div>
@@ -982,31 +704,13 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>MATEMATICAS</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right">
-                                                    <h5>
-                                                        7ma Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>
@@ -1019,31 +723,13 @@
                                                     </h5>
                                                 </div>
                                                 <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
+                                                    <img src="img/CURSO.png" style="width:25px">
                                                 </div>
                                             </div>
                                             <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4><strong>TITULO DE CLASE</strong>  | 
+                                                <h4><strong>INVESTIGACION</strong>  | 
                                                 <button type="button" class="btn " data-toggle="modal" data-target="#myModal2" style="background-color: #D53362;color:white;padding-top:0;padding-bottom:0">ver más</button></h4>
                                                 <p>Descripcion de clase, deberes, talleres o lecciones.</p>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <div class="timeline-item" style="padding-top:10px">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="col-lg-10 text-right" style="">
-                                                    <h5>
-                                                        9na Hora
-                                                    </h5>
-                                                </div>
-                                                <div class="col-lg-2">
-                                                    <img src="../img/CURSO.png" style="width:25px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9" style="background-color: #E6E7E9;padding: 10px  20px 10px 25px">
-                                                <h4></h4>
-                                                <p></p>
                                             </div>
                                         </div>                                        
                                     </div>

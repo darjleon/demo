@@ -13,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -25,37 +25,37 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
-                    <a href="profesor.php">
+                    <a href="profesor.html">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_institucion.php">
+                    <a href="profesor_institucion.html">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_notificaciones.php">
+                    <a href="profesor_notificaciones.html">
                         <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="profesor_cursos.php">
+                    <a href="profesor_cursos.html">
                         <i class="fa fa-bookmark"></i>
                         <span class="nav-label">Cursos</span>
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_horario.php">
+                    <a href="profesor_horario.html">
                         <i class="fa fa-clock-o"></i><span class="nav-label">Horarios</span>
                     </a>      
                 </li>
                 <li>
-                    <a href="profesor_calendario.php">
+                    <a href="profesor_calendario.html">
                         <i class="fa fa-calendar"></i><span class="nav-label">Calendario Academico</span>
                     </a>      
                 </li>                                                          
@@ -74,64 +74,19 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg">
             <div class="col-lg-2 text-right">                
-                <img src="../img/CURSO.png" style="width:35px">
+                <img src="img/CURSO.png" style="width:35px">
             </div>                
-            <div class="col-lg-10 text-left">                
-                <h3 style="margin-left:0"><strong>CURSO: </strong>3RO BACHILLERATO INFORMATICA</h3>
-                <h3><strong>DIRIGENTE: </strong>ANGELICA VILLABLANCA TRUJILLO</h3>        
+            <div class="col-lg-5 text-left">                
+                <h4 style="margin-left:0;margin-bottom: 0;margin-top: 10px"><strong>CURSO: </strong>3RO BACHILLERATO INFORMATICA</h4>
+                <h4 style="margin-top:0;margin-bottom: 0"><strong>DIRIGENTE: </strong>ANGELICA VILLABLANCA TRUJILLO</h4>
+                <h4 style="margin-top: 10px"><strong>MATERIA: </strong>INVESTIGACION</h4>    
             </div>
-            <div class="pull-right" style="margin-top:5px;margin-right: -15px">
-                <a href="profesor_cursos.php">
-                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
-                </a> 
-                <a href="profesor_cursos_cuadricula.php">
-                    <span style="font-size:14px"><img src="../img/ICONO.png" width="25px"></span>
+            <div class="col-lg-5 text-right">
+                <a href="profesor_cursos_cuadricula.html">
+                    <button type="button" class="btn btn-outline btn-success" style="margin-top:5px;margin-bottom: 5px">Regresar</button>
                 </a>
             </div>                                                 
         </div>
@@ -141,7 +96,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -151,7 +106,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -167,7 +122,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -177,7 +132,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -193,7 +148,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -203,7 +158,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -219,7 +174,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -229,7 +184,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -247,7 +202,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -257,7 +212,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -273,7 +228,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -283,7 +238,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -299,7 +254,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -309,7 +264,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -325,7 +280,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -335,7 +290,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -353,7 +308,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -363,7 +318,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -379,7 +334,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -389,7 +344,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -405,7 +360,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -415,7 +370,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -431,7 +386,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -441,7 +396,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -459,7 +414,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -469,7 +424,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -485,7 +440,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -495,7 +450,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -511,7 +466,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -521,7 +476,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -537,7 +492,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -547,7 +502,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -565,7 +520,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -575,7 +530,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -591,7 +546,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -601,7 +556,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -617,7 +572,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -627,7 +582,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">
@@ -643,7 +598,7 @@
                     <div class="contact-box">
                         <div class="col-sm-3">
                             <div class="text-center">                            
-                                <img class="icono-alumno" src="../img/icono_persona.png" >
+                                <img class="icono-alumno" src="img/icono_persona.png" >
                             </div>
                         </div>
                         <div class="col-sm-9">
@@ -653,7 +608,7 @@
                         <div class="clearfix"></div>                        
                         <div class="contact-box-footer">
                             <div class="pull-left">
-                                <img class="icono-representante" src="../img/REPRESENTANTE.png">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
                             </div>                                                          
                             <h5>Nombres y Apellidos</h5>
                             <div class="pull-right">

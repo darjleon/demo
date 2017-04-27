@@ -74,59 +74,17 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">      
-            <div class="col-lg-2 text-right">                
-                <img src="../img/CURSO.png" style="width:30px">
-            </div>                
-            <div class="col-lg-5 text-left">                
+            <div class="col-lg-1 text-right">                
+                <img src="img/CURSO.png" style="width:30px">
+            </div>                 
+            <div class="col-lg-5">             
                 <h4 style="margin-left:0;margin-bottom: 0"><strong>CURSO: </strong>8 'B'</h4>
-                <h4><strong>DIRIGENTE: </strong>RUTH ARGUELLO MENDOZA</h4>        
+                <h4><strong>DIRIGENTE: </strong>RUTH ARGUELLO MENDOZA</h4>     
+                <h4><strong>MATERIA: </strong>MATEMATICAS</h4>     
             </div>
-            <div class="col-lg-5 text-right" style="margin-top:5px;margin-right: -15px">
+            <div class="col-lg-6 text-right" style="margin-top:5px;margin-right: -15px">
                 <ul>
                     <li style="display:inline-block">
                         <a href="#">
@@ -149,6 +107,9 @@
                         </a>
                     </li>
                 </ul>
+                <a href="profesor_horario.php">
+                    <button type="button" class="btn btn-outline btn-success" style="margin-top:5px;margin-bottom: 5px">Regresar</button>
+                </a>
             </div>                                                 
         </div>     
         <div class="wrapper wrapper-content">
@@ -156,7 +117,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-left" style="margin-top:0;padding-left:10px">
-                        <img src="../img/asistencia blanco.png" style="width:30px"> Asistencia |
+                        <img src="img/asistencia blanco.png" style="width:30px"> Asistencia |
                         <small>semana:</small><small style="padding:25px">23-28 de Enero del 2017</small> |
                         <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal6" style="color: white"><h5>Semana Anterior</h5></button>
                     </h2>
@@ -799,4 +760,3 @@
     header("Location: index.html");
   }
 ?>
-

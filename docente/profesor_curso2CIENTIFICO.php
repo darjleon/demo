@@ -13,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -25,11 +25,11 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
-                <li class="active">
-                    <a href="#">
+                <li>
+                    <a href="profesor.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
@@ -43,7 +43,7 @@
                         <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="profesor_cursos.php">
                         <i class="fa fa-bookmark"></i>
                         <span class="nav-label">Cursos</span>
@@ -74,69 +74,25 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
+        <?php include ('include/barra.php'); ?>
+        <div class="row wrapper white-bg" ">  
+            <div class="col-xs-12 profe-cuadricula">
+                <div class="nombres">
+                    <h3>Curso: 2do Bachillerato Cientifico</h3>
+                    <h3>Dirigente: Claudia Lopez sanchez</h3>
+                    <h3>Materia: Investigacion</h3>
+                </div>
+                <div class="back">
+                    <a href="profesor_cursos.php">
+                        <button class="button-back cb">
+                            <img src="../img/return.png" alt="" width="17">Regresar
+                        </button>
                     </a>
                 </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="docente/profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="docente/profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="docente/profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row wrapper white-bg ">      
-            <div class="col-lg-2 text-right">                
-                <img src="../img/CURSO.png" style="width:35px">
-            </div>                
-            <div class="col-lg-10 text-left">                
-                <h3 style="margin-left:0"><strong>CURSO: </strong>2DO BACHILLERATO CIENTIFICO</h3>
-                <h3><strong>DIRIGENTE: </strong>TATIANA CARREÑO QUIROZ</h3>        
             </div>
-            <div class="pull-right" style="margin-top:5px;margin-right: -15px">
-                <a href="profesor_cursos.php">
-                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
-                </a> 
-                <a href="profesor_cursos_cuadricula.php">
-                    <span style="font-size:14px"><img src="../img/ICONO.png" width="25px"></span>
-                </a>
-            </div>                                                 
-        </div>
+        </div> 
         <div class="wrapper wrapper-content">
-                <?php include ('include/2CIENTIFICO.php'); ?>                                  
+             <?php include ('include/2CIENTIFICOlista.php'); ?>                                     
         </div>
     </div> 
 </div>

@@ -50,41 +50,16 @@
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
-                        <li><a href="padre_hijo1.php"><img src="../img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
-                        <li><a href="padre_hijo2.php"><img src="../img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
+                        <li><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
+                        <li><a href="padre_hijo2.php"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
                     </ul>
                 </li>                                     
             </ul>
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="padre_notificacion.php">
-                            <i class="fa fa-envelope"></i>  <span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>                        
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesion
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row wrapper white-bg">
+        <?php include ('include/barra.php'); ?>
+        <div class="row wrapper white-bg ">                        
             <div class="profile-image">
                 <img src="../img/a8.jpg" class="img-circle circle-border m-b-md" alt="profile">
             </div>
@@ -307,3 +282,6 @@
     header("Location: index.html");
   }
 ?>
+
+
+    

@@ -97,7 +97,7 @@
                     </li>
                     <li>
                         <a href="logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesion
+                            <i class="fa fa-sign-out"></i>Cerrar Sesion
                         </a>
                     </li>
                 </ul>
@@ -318,9 +318,7 @@
         </div> 
     </div>
 </div>
-
-
-    <!-- Mainly scripts -->
+<!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>

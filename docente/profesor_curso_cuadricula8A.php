@@ -13,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -25,7 +25,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -74,81 +74,35 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
+        <?php include ('include/barra.php'); ?>
+        <div class="row wrapper white-bg" style="padding-top:5px">  
+            <div class="col-xs-12 profe-cuadricula">
+                <div class="nombres">
+                    <h3>Luis Correa Zambrano</h3>
+                    <p><strong>Curso 8 'A'</strong></p>
+                </div>
+                <div class="back">
+                    <a href="profesor_cursos_cuadricula.php">
+                        <button class="button-back cb">
+                            <img src="../img/return.png" alt="" width="17">Regresar
+                        </button>
                     </a>
                 </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row wrapper white-bg ">      
-            <div class="col-lg-2 text-right">                
-                <img src="../img/CURSO.png" style="width:35px">
-            </div>                
-            <div class="col-lg-10 text-left">                
-                <h3 style="margin-left:0"><strong>CURSO: </strong>8 'A'</h3>
-                <h3><strong>DIRIGENTE: </strong>LUIS CORREA ZAMBRANO</h3>        
             </div>
-            <div class="pull-right" style="margin-top:5px;margin-right: -15px">
-                <a href="profesor_cursos.php">
-                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
-                </a> 
-                <a href="profesor_cursos_cuadricula.php">
-                    <span style="font-size:14px"><img src="../img/ICONO.png" width="25px"></span>
-                </a>
-            </div>                                                 
-        </div>
-        
+        </div>     
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="alumnos-master"> 
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>SHIRLEY ARIAS ASCENCIO</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4></h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -160,14 +114,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>BRYAN ARONE SAAVEDRA</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -179,14 +133,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>ARACELI CAQUEO VILLARREAL</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -198,14 +152,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>JESSENIA GABRIELA CHAMBA FLORES</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4></h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -217,14 +171,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>ITALO JAVIER CONDORI VELASQUEZ</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -236,14 +190,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>SONIA CRUZ CRUZ</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -255,14 +209,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>NATHALIE ALEXANDRA DAVILA RIOS</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4></h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -274,14 +228,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>LENIN MAXIMO ELONS CARRASCO</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -293,14 +247,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>JAHAIRA KIMBERLY MESTANZA RODAS</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -312,166 +266,14 @@
                 <div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>PETER JOSEPH NARVAEZ ASENCIO</h4>
+                        <h4>Shirley Arias Ascencio</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
                     </div>
                     <div class="representante">
                         <img src="img/representante.png" alt="" width="25">
-                        <h4></h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>CRISTHIAN ALEX PACHECO VERA</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>LUIS ALEJANDRO REYES NUÑEZ</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>ANDREA NICOL SALAZAR SALAZAR</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4></h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>KAREN ALEX SANTIAGO RAYMONDI</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>LUIS DAVID SIFUENTES CORDOVA</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>NICOLLE VALERIA SPENCER PUCA</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4></h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>MELISSA JAHAIRA URBANO HUAMANI</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                        <a href="">
-                            <button>Representante</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="alumnos-cuadricula">
-                    <div class="alumno">
-                        <img src="img/icono_persona.png" alt="" width="25">
-                        <h4>DANIEL JESUS VARAS RODRIGUEZ</h4>
-                        <a href="">
-                            <button>Perfil</button>
-                        </a>
-                    </div>
-                    <div class="representante">
-                        <img src="img/representante.png" alt="" width="25">
-                        <h4>NOMBRES Y APELLIDOS</h4>
+                        <h4>Nombres y Apellidos</h4>
                         <a href="">
                             <button>Perfil</button>
                         </a>
@@ -481,8 +283,485 @@
                     </div>
                 </div>
             </div>
+<!--             <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>SHIRLEY ARIAS ASCENCIO</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3">REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>BRYAN ARONE SAAVEDRA</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>ARACELI CAQUEO VILLARREAL</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>JESSENIA GABRIELA CHAMBA FLORES</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>ITALO JAVIER CONDORI VELASQUEZ</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>SONIA CRUZ CRUZ</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>NATHALIE ALEXANDRA DAVILA RIOS</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>LENIN MAXIMO ELONS CARRASCO</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>JAHAIRA KIMBERLY MESTANZA RODAS</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>PETER JOSEPH NARVAEZ ASENCIO</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>CRISTHIAN ALEX PACHECO VERA</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>LUIS ALEJANDRO REYES NUÑEZ</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>ANDREA NICOL SALAZAR SALAZAR</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>KAREN ALEX SANTIAGO RAYMONDI</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>LUIS DAVID SIFUENTES CORDOVA</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>NICOLLE VALERIA SPENCER PUCA</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>MELISSA JAHAIRA URBANO HUAMANI</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-box">                        
+                        <div class="col-sm-3">
+                            <div class="text-center">                            
+                                <img class="icono-alumno" src="img/icono_persona.png" >
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <h5>DANIEL JESUS VARAS RODRIGUEZ</h5>
+                            <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal">PERFIL</button>
+                        </div>
+                        <div class="clearfix"></div>                        
+                        <div class="contact-box-footer">
+                            <div class="pull-left">
+                                <img class="icono-representante" src="img/REPRESENTANTE.png">
+                            </div>                                                            
+                            <h5>Nombres y Apellidos</h5>
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal2">
+                                    <i class="fa fa-envelope"></i>
+                                </button>
+                                <button type="button" class="btn btn-info-alumno" data-toggle="modal" data-target="#myModal3" >REPRESENTANTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
-        
     </div> 
 </div>
 <?php include ('include/footer.php'); ?>
@@ -493,3 +772,4 @@
     header("Location: index.html");
   }
 ?>
+

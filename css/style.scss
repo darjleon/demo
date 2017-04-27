@@ -65,6 +65,10 @@ p {
 a {
   font-family: 'Conv_Nexa Bold', sans-serif;
 }
+li,
+p {
+  color: #676a6c;
+}
 .nav > li > a {
   color: #a7b1c2;
   font-weight: 600;
@@ -766,7 +770,7 @@ fieldset[disabled] .btn-info.active {
 .btn-default.active:focus {
   background-color: #bababa;
   border-color: #bababa;
-  color: #FFFFFF;
+  color: #FFFFFF; 
 }
 .btn-default:active,
 .btn-default.active,
@@ -7330,11 +7334,13 @@ body.md-skin {
     padding-bottom: 10px;
 }
 .title-school {    
-    padding-top:15px;
     color: #1ab394;
+    h1 {
+      margin-top: 0;
+    }
 }
 .title-direction {
-    padding-left: 25px;
+    /*padding-left: 25px;*/
 }
 /*Tabs para informacion de la institucion*/
 .tabs-container-school .nav-tabs > li.active > a,
@@ -7346,7 +7352,7 @@ body.md-skin {
   color: black;  
 }
 .option-tabs {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 .option-tabs-g {
     padding-top:25px;
@@ -7631,11 +7637,43 @@ body.md-skin {
   font-weight: bold;
 }
 
+/*Placeholder */
+
+%card {
+  background: white;
+  border-radius: 4px;
+  padding: 1em;
+  margin: .3em .5%;
+  box-shadow: 0 0 12px 2px rgba(0,0,0, .1);
+}
+%button {
+  border-radius: 4px;
+  background: green;
+  padding: 6px 12px;
+  border: none;
+  background: #23b27c;
+}
+
 /*Utilidades*/
+
+.cl {
+  font-family: 'Conv_Nexa Light', sans-serif, arial;
+}
+.cb {
+  font-family: 'Conv_Nexa Bold', sans-serif, arial;
+}
+.no-padding {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
 .d-flex{
   display: flex;
 }
-
+.jc-center {
+  justify-content: center;
+}
 .jc-flex-end {
   justify-content: flex-end;
 }
@@ -7643,17 +7681,29 @@ body.md-skin {
   overflow-x: auto;
 }
 .mt-1 {
-  margin-top: 16px;
+  margin-top: 1em;
+}
+.mt-2 {
+  margin-top: 2em;
 }
 .mb-1 {
   margin-bottom: 1em;
 }
 .mb-2 {
-  margin-bottom: 2em;
+  margin-bottom: 2.2em;
 }
 .noBefore:after,
 .noBefore:before {
   content: none;
+}
+
+/*CSS general*/ 
+
+.nav-tabs {
+  display: flex;
+  @media screen and(max-width: 500px){
+    flex-direction: column;
+  }
 }
 
 /*CSS index*/
@@ -7691,15 +7741,23 @@ body.md-skin {
   align-items: flex-end;
 }
 .hora {
+  font-size: .8em;
   margin-top: -10px; 
 }
-.ibox-content code {
-  color: black;
+.ibox-content {
+  padding: 15px 20px 11px 20px; 
+  code {
+    color: black;    
+  }
 }
 .icono-recordatorio,
 .icono-notificaciones,
 .icono-mensajes {
-  padding: 6px 10px 8px 10px;
+  padding: .6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: .6em;
 }
 .logo-element {
   padding: 10px 0;
@@ -7729,6 +7787,17 @@ body.md-skin {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.recordatorio,
+.notificaciones,
+.mensajes {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  label {
+    margin-bottom: 0;
+  }
 }
 .recordatorioBox {
   width: 100%;
@@ -7808,20 +7877,37 @@ body.md-skin {
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
+  @media screen and (max-width:768px ){
+    font-size: .7em;
+    flex-wrap: nowrap;
+  }
   a {
     font-size: 1.2em;
   }
+}
+
+.dias_ae {
+  .nav-tabs > li > a {
+    color: #A7B1C2;
+    font-weight: 600;
+    padding: 10px 15px 10px 20px;
+  }
+}
+.nav-tabs > li > a {
+  color: #A7B1C2;
+  font-weight: 600;
+  padding: 10px 20px 10px 25px;
 }
 .timeline-item {  
   .profesor_de {
     background-color: #E6E7E9;
     padding: 10px 20px 10px 25px;
     .punta {
-      position:relative;
-      right: 55px;
+      position:relative;;
+      right: 40px;
       width: 0; 
       height: 0; 
-      border-right: 30px solid #E6E7E9;
+      border-right: 20px solid #E6E7E9;
       border-bottom: 25px solid transparent; 
       @media screen and (max-width: 1200px){
         display: none;
@@ -7844,7 +7930,7 @@ body.md-skin {
     @media screen and(min-width:1200px){
       order: 0;
       h5 {
-        text-align: right;
+        text-align: right; 
       }
     }
     }
@@ -7953,10 +8039,6 @@ body.md-skin {
   }
 }
 .return-button {  
-  @media screen and (min-width: 768px){
-    display: flex;
-    justify-content: flex-end;
-  }
   .return {
     margin-top: 1em;
     display: flex;
@@ -7969,6 +8051,10 @@ body.md-skin {
     @media screen and(min-width: 1200px){
       margin-top: 13px;
     }
+  @media screen and (min-width: 768px){
+    display: flex;
+    justify-content: flex-end;
+  }
     span {
       color: white;
       margin-left: .5em;
@@ -8026,3 +8112,397 @@ body.md-skin {
     }
 }
 
+/*Padre Calificaciones 1q1*/
+
+.calf-alumn { 
+  display: flex;
+  padding: 0 !important;
+  flex-direction: column;
+  @media screen and(min-width:768px){
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.padre-calificaciones {
+  span {
+    margin: 0 .2em;
+    display: none;
+    @media screen and (min-width: 409px){
+      display: inline-block;
+    }
+  }
+}
+
+/*CSS padre lista 1*/
+
+.contact-box {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  h5 {
+    text-align: center;
+  }
+  @media screen and(min-width: 768px){
+    flex-direction: row;
+  }
+  img {
+    margin-bottom: 2em;
+    @media screen and(min-width: 768px){
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*CSS padre asistencia 1*/
+
+.button-asistencia {
+  font-family: 'Conv_Nexa Light';
+  margin-top: 1em;
+  @media screen and(min-width: 364px) {
+    margin-top: 0;
+  }
+}
+.card-asistencia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .lista_alumnos {
+    margin:.5em .5%;
+    @media screen and(min-width: 575px){
+      width: 48%;
+    }
+    @media screen and(min-width: 1200px){
+      width: 32%;
+    }
+    .alumnos {
+      a {
+        color: inherit;
+        font-family: 'Conv_Nexa Light';
+      }
+      h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 1.6em;
+      }
+      hr {
+        margin: 1em 0;
+      }
+      border-radius: 4px;
+      padding: 1em;
+      width: 100%;
+      background: rgba(255,255,255, .7);
+      .docente {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+          font-size: 1em; 
+          img {
+            margin-right: .3em;
+          }
+        }
+        .perfil {
+          border: 1px solid rgba(0,0,0, .2);
+          padding: .3em .6em;
+          border-radius: 4px;
+          i {
+            margin-left: .2em;
+          }
+        }
+      }
+      .asistencia {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+          border: 1px solid rgba(0,0,0, .2);
+          border-radius: 4px;
+          padding: .3em .6em;
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+.nav.navbar-top-links li.dropdown {
+  display: none;
+  @media screen and (min-width: 420px){
+    display: inline-block;
+  }
+}
+/*Padre Institucion*/
+.institucion {
+  @media screen and(min-width: 768px){
+    display: flex;
+    align-items: center;
+  }
+}
+
+/*CSS padre estadisticas1*/
+
+
+/*CSS profesor cursos cuadricula*/
+
+.cursos-master { 
+  display: flex;
+  flex-wrap: wrap;
+  .cursos-cuadricula {
+    width: 100%;
+    margin: .5em .5%;
+    background: white;
+    border-radius: 4px;
+    padding: 1em ;
+    a {
+      color: inherit;
+    }
+    @media screen and(min-width: 500px){
+      width: 49%;
+    }
+    @media screen and(min-width: 700px){
+      width: 32%;
+    }
+    @media screen and(min-width: 1200px){
+      width: 24%;
+    }
+    .dirigente{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+/*      @media screen and(min-width: 1200px){
+        flex-direction: row;
+      }*/
+      p {
+        width: 100px;
+        /*border-bottom: 1px solid rgba(0,0,0, .1);*/
+      }
+    }
+    h3 {    
+      img {
+        margin-right: .3em;
+      }
+    }
+  }
+}
+
+/*CSS Profesor curso cuadricula*/
+
+.alumnos-master {
+    width: 100%;
+    margin: .5em .5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .alumnos-cuadricula {
+      width: 100%;
+      background: white;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      @extend %card;
+      @media screen and (min-width: 630px){
+        width: 49%;
+      }
+      @media screen and (min-width: 1100px){
+        width: 32%;
+      }
+      .alumno {
+        margin-right:1em;
+        padding-right:1em;
+        border-right: 1px solid rgba(0,0,0, .1);
+      }
+      .representante {
+        button {
+          margin-bottom: .5em;
+        }
+      }
+      a {
+        color: inherit;
+        button {
+          border-radius: 4px;
+          background: none;
+          border: 1px solid rgba(0,0,0, .2);
+        }        
+      }
+    }
+}
+.profe-cuadricula {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  .back {
+    a {
+      color: white;
+      .button-back {
+        @extend %button;
+        img {
+          margin-right: .4em;
+        }
+      }
+    }
+  }
+}
+
+/*CSS profesor cursos cuadricula*/
+
+.seleccion-curso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .formatos {
+    a {
+      background: rgba(0,0,0, .3);
+      padding: .5em .4em .6em .6em ;
+      margin: .5em;
+      border-radius: 4px;
+    }
+  }
+}
+
+/*CSS profesor_horario.php*/
+
+.horario-tabla {
+  .scheduler {
+    white-space: nowrap;
+  }
+  .subject {
+    padding: 1em;
+  }
+}
+
+/*CSS profesor curso 8A*/
+.docente-master {
+  /*display: flex;*/
+}
+.docente-title {
+  display: none;
+  @media screen and(min-width: 600px){ 
+    display: flex;  
+    justify-content: space-around;
+    background: #676a6c;
+    color: white;
+    margin: .5%;
+
+  }
+  h2 {
+    margin: 0;
+    padding: .3em 0;
+    font-weight: bold;
+  }
+}
+.docente {
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @extend %card;
+  @media screen and(min-width: 600px){
+    padding-top: .3em;
+    padding-bottom: .3em;
+    flex-direction: row;
+  }
+  p {
+    margin: 0;
+  }
+  .alumno, 
+  .representante {
+    width: 100%;
+    justify-content: center;
+    @media screen and(min-width: 600px){
+      justify-content: flex-start;
+    }
+  }
+  .separador {
+    width: 100%;
+    margin: 1em 0;
+    border-bottom: 1px solid rgba(0,0,0, .2);
+    height: 100%;
+    @media screen and(min-width: 600px){
+      width: 0;
+    }
+  }
+  .alumno {
+    position: relative;
+    margin-right: .5em;
+    @media screen and(min-width: 600px){
+      border-right: 1px solid rgba(0,0,0, .2);
+    }
+    &-name {
+      background: rgba(0,0,0, .2);
+      padding: .1em .3em;
+      border-radius: 2px;
+      font-size: .9em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @media screen and(min-width: 600px){
+        display: none;
+      }
+    }
+    p {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media screen and(min-width: 600px){
+        flex-direction: row;
+      }
+      img {
+        margin-right: 0;
+        @media screen and(min-width: 600px) {
+          margin-right: .6em;
+        }
+      }
+      a {
+        margin-left: .6em;
+      }
+    }
+    display: flex;
+    align-items: center;
+  }
+  .representante {
+    position: relative;
+    &-name {
+      background: rgba(0,0,0, .2);
+      padding: .1em .3em;
+      border-radius: 2px;
+      font-size: .9em;
+      position: absolute;
+      top: 0;
+      left: 0; 
+      @media screen and(min-width: 600px){
+        display: none;
+      }    
+    }
+    .btn-student-list {
+      padding: .2em .3em;
+      border-radius: 4px;
+      margin-left: .6em;
+      img {
+        margin: 0;
+      }
+    }
+    p {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      @media screen and(min-width: 600px) {
+        flex-direction: row;
+      }
+      a {
+        margin-left: .4em;
+      }  
+      img {
+        margin-right:0;
+        @media screen and(min-width: 600px) {
+          margin-right: .6em;
+        }
+      }   
+    }
+  }
+}
