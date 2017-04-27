@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course8B>
+	<student>
+		<id>1</id>
+		<name>LEONARDO MIGUEL</name>
+		<lastName>APAZA BASILIO</lastName>		
+	</student>
+	<student>
+		<id>2</id>
+		<name>RONALDO TYSON</name>
+		<lastName>BALDERA OBREGON</lastName>		
+	</student>
+	<student>
+		<id>3</id>
+		<name>JOEL ALEXANDER</name>
+		<lastName>CALDERON GUEVARA</lastName>		
+	</student>
+	<student>
+		<id>4</id>
+		<name>ISAAC MANUEL</name>
+		<lastName>ESTELA SAMANEZ</lastName>		
+	</student>
+	<student>
+		<id>5</id>
+		<name>MILAGROS JANETH</name>
+		<lastName>FLORES MESA</lastName>		
+	</student>
+	<student>
+		<id>6</id>
+		<name>JORGE LUIS</name>
+		<lastName>GUEVARA MERA</lastName>		
+	</student>
+	<student>
+		<id>7</id>
+		<name>HUGO MANUEL</name>
+		<lastName>LOPEZ PUCA</lastName>		
+	</student>
+	<student>
+		<id>8</id>
+		<name>GRISSEL ADRIANA</name>
+		<lastName>MALASQUEZ DESPOSORIO</lastName>		
+	</student>
+	<student>
+		<id>9</id>
+		<name>FAUSTO ENRIQUE</name>
+		<lastName>PAREDES PORTUGAL</lastName>		
+	</student>
+	<student>
+		<id>10</id>
+		<name>JULIO CESAR</name>
+		<lastName>SALAZAR DAGA</lastName>		
+	</student>
+	<student>
+		<id>11</id>
+		<name>VIANCA ROXANA</name>
+		<lastName>SALVATIERRA AYALA</lastName>		
+	</student>
+	<student>
+		<id>12</id>
+		<name>JAIRO ANTHONY</name>
+		<lastName>SILVA MARQUEZ</lastName>		
+	</student>
+	<student>
+		<id>13</id>
+		<name>VICTOR JESUS</name>
+		<lastName>SOLANO VILMA</lastName>		
+	</student>
+	<student>
+		<id>14</id>
+		<name>GONZALO ALBERTO</name>
+		<lastName>TAIPE HUAMANI</lastName>		
+	</student>
+	<student>
+		<id>15</id>
+		<name>ROBINSON LUIS</name>
+		<lastName>VILLANUEVA ASENCIO</lastName>		
+	</student>
+</course8B>
