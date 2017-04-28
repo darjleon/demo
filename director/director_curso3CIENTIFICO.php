@@ -31,7 +31,7 @@
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="director_informacion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Informacion</span> 
                     </a>
@@ -43,7 +43,7 @@
                         <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="director_cursos.php">
                         <i class="fa fa-bookmark"></i>
                         <span class="nav-label">Cursos </span>
@@ -102,12 +102,12 @@
             </div>
             <div class="col-xs-12 seleccion-curso">
                 <h2>
-                    OCTAVO 'A'
+                    3RO BACHILLERATO CIENTIFICO
                 </h2>
             </div>
         </div>
         <div class="wrapper wrapper-content">
-            <?php include ('include/8Alista.php'); ?>
+            <?php include ('include/3CIENTIFICOlista.php'); ?>
         </div> 
     </div>
 </div>

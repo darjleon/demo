@@ -10,7 +10,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< HEAD
     <title>Pined | Representante</title>
+=======
+    <title>Pined | Profesor</title>
+>>>>>>> 062a3e2b2f0223fb014153f8bee4eed84e1e450f
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">

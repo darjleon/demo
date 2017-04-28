@@ -31,7 +31,7 @@
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="director_informacion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Informacion</span> 
                     </a>
@@ -43,7 +43,7 @@
                         <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="director_cursos.php">
                         <i class="fa fa-bookmark"></i>
                         <span class="nav-label">Cursos </span>
@@ -85,12 +85,11 @@
     <div id="page-wrapper" class="gray-bg dashbard-1">
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg "> 
-            <div class="col-xs-12 seleccion-curso">
+            <div class="col-lg-12 seleccion-curso">
                 <h2 style="margin:1em 0">
                     <a href="director_cursos.php"><img src="../img/back_d.png" width="25px"></a> |
                     Lista de Alumnos
                 </h2>
-
                 <div class="formatos">
                     <a href="#"> 
                         <img src="../img/cuadricula.png" alt="" width="17">
@@ -100,14 +99,42 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-12 seleccion-curso">
+            <div class="col-lg-12 seleccion-curso">
                 <h2>
-                    OCTAVO 'A'
+                    3RO BACHILLERATO INFORMATICA
                 </h2>
             </div>
         </div>
-        <div class="wrapper wrapper-content">
-            <?php include ('include/8Alista.php'); ?>
+        <div class="wrapper wrapper-content">            
+            <div class="tabs-container">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#tab-1">Perfiles</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#tab-2">Asistencia</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#tab-3">Calificaciones</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#tab-4">Estadisticas</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#tab-5">Observaciones</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane active">
+                        <?php include ('include/3INFORMATICAlista.php'); ?>
+                    </div>
+                    <div id="tab-2" class="tab-pane active">
+                    </div>
+                    <div id="tab-3" class="tab-pane active">
+                    </div>
+                </div>
+            </div>
+
         </div> 
     </div>
 </div>
