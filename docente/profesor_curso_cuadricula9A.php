@@ -29,12 +29,12 @@
                     </div>
                 </li>
                 <li>
-                    <a href="profesor.html">
+                    <a href="profesor.php">
                         <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="profesor_institucion.html">
+                    <a href="profesor_institucion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
@@ -85,7 +85,7 @@
                 <h4 style="margin-top: 10px"><strong>MATERIA: </strong>MATEMATICAS</h4> 
             </div>
             <div class="col-lg-5 text-right">
-                <a href="profesor_cursos_cuadricula.html">
+                <a href="profesor_cursos_cuadricula.php">
                     <button type="button" class="btn btn-outline btn-success" style="margin-top:5px;margin-bottom: 5px">Regresar</button>
                 </a>
             </div>                                                

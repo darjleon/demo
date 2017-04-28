@@ -82,7 +82,7 @@
                     <p><strong>Curso 8 'B'</strong></p>
                 </div>
                 <div class="back">
-                    <a href="profesor_cursos_cuadricula.php">
+                    <a href="profesor_cursos.php">
                         <button class="button-back cb">
                             <img src="../img/return.png" alt="" width="17">Regresar
                         </button>
