@@ -92,7 +92,7 @@
             <div class="row">
                 <div class="cursos-master">
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia MATEMATICAS</h3>
                         <hr>
                         <a href="profesor_curso_cuadricula8A.php" > 
                             <div class="dirigente">
@@ -102,61 +102,81 @@
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia MATEMATICAS</h3>
                         <hr>
-                        <a href="profesor_curso_cuadricula8A.php" > 
+                        <a href="profesor_curso_cuadricula8B.php" > 
                             <div class="dirigente">
-                                <p>Curso: 8 'A'</p>
+                                <p>Curso: 9 'B'</p>
                                 <h4>Dirigente: </br> Luis Correa Zambrano</h4>
                             </div>
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia MATEMATICAS</h3>
                         <hr>
-                        <a href="profesor_curso_cuadricula8A.php" > 
+                        <a href="profesor_curso_cuadricula9A.php" > 
                             <div class="dirigente">
-                                <p>Curso: 8 'A'</p>
+                                <p>Curso: 9 'A'</p>
                                 <h4>Dirigente: </br> Luis Correa Zambrano</h4>
                             </div>
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia INVESTIGACION</h3>
                         <hr>
-                        <a href="profesor_curso_cuadricula8A.php" > 
+                        <a href="profesor_curso_cuadricula1CIENTIFICO.php" > 
                             <div class="dirigente">
-                                <p>Curso: 8 'A'</p>
+                                <p>Curso: 1RO BACHILLERATO CIENTIFICO</p>
                                 <h4>Dirigente: </br> Luis Correa Zambrano</h4>
                             </div>
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia INVESTIGACION</h3>
                         <hr>
-                        <a href="profesor_curso_cuadricula8A.php" > 
+                        <a href="profesor_curso_cuadricula2CIENTIFICO.php" > 
                             <div class="dirigente">
-                                <p>Curso: 8 'A'</p>
+                                <p>Curso: 2DO BACHILLERATO CIENTIFICO</p>
                                 <h4>Dirigente: </br> Luis Correa Zambrano</h4>
                             </div>
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia INVESTIGACION</h3>
                         <hr>
-                        <a href="profesor_curso_cuadricula8A.php" > 
+                        <a href="profesor_curso_cuadricula2INFORMATICA.php" > 
                             <div class="dirigente">
-                                <p>Curso: 8 'A'</p>
+                                <p>Curso: 2DO BACHILLERATO INFORMATICA</p>
                                 <h4>Dirigente: </br> Luis Correa Zambrano</h4>
                             </div>
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia Matematicas</h3>
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia INVESTIGACION</h3>
                         <hr>
-                        <a href="profesor_curso_cuadricula8A.php" > 
+                        <a href="profesor_curso_cuadricula3CIENTIFICO.php" > 
                             <div class="dirigente">
-                                <p>Curso: 8 'A'</p>
+                                <p>Curso: 3RO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br> Luis Correa Zambrano</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula3CONTABILIDAD.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO CONTABILIDAD</p>
+                                <h4>Dirigente: </br> Luis Correa Zambrano</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">Materia INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula3INFORMATICA.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO INFORMATICA</p>
                                 <h4>Dirigente: </br> Luis Correa Zambrano</h4>
                             </div>
                         </a>
