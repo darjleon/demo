@@ -15,6 +15,7 @@
                         <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
                             <span class="block ">
+                                <!--<h3><strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong></h3>-->
                                 <h3><strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong></h3>
                             </span>
                         </a>

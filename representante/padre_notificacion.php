@@ -16,6 +16,7 @@
                         <a href="#">
                             <span class="block ">
                                 <h4>
+                                    <!--<strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong>-->
                                     <strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong>
                                     <br><small class="profile-type">REPRESENTANTE</small>
                                 </h4>                                
