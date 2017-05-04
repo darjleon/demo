@@ -1,11 +1,11 @@
-<div class="row">
-    <!--<div class="col-xs-12"> 
+<div id="alumnos-list" class="row">
+    <div class="col-xs-12"> 
         <div class="docente-title"> 
             <h2>Alumno</h2>
             <h2>Representante</h2>    
         </div>
     </div>
-    <div class="col-xs-12"> 
+    <!--<div class="col-xs-12"> 
 
         <div class="docente">
             <div class="alumno">
@@ -27,7 +27,7 @@
                
     </div>-->
 
-    <table class="col-xs-12" data-page-size="10" >
+    <!--<table class="col-xs-12" data-page-size="10" >
         <thead>
             <tr class="docente-title">
                 <th>Alumno</th>
@@ -36,13 +36,13 @@
             </tr>
         </thead>
         <tbody id="alumnos-list" class="col-xs-12">
-            <!--<tr class="docente">
+            <tr class="docente">
                 <td class="alumno">
                     <div class="alumno-name">Alumno</div>
                     <p ><img class="icono-alumno student-list-icon" src="img/icono_persona.png"> Shirley Arias Ascencio <a href="">Perfil</a></p>
-                </td>-->
-                <!--<td class="separador"></td>-->
-                <!--<td class="representante">
+                </td>
+                <td class="separador"></td>
+                <td class="representante">
                     <div class="representante-name">Representante</div>
                     <p>
                         <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png"> Nombres y Apellidos 
@@ -52,7 +52,7 @@
                     </p>
                 </td>
 
-            </tr>  -->
+            </tr>
                                                   
         </tbody>
         <tfoot>
@@ -62,7 +62,7 @@
                 </td>
             </tr>
         </tfoot>
-    </table>
+    </table>-->
 
 </div>
 

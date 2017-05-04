@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course8A>
+	<student>
+		<id>1</id>
+		<name>SHIRLEY</name>
+		<lastName>ARIAS ASCENCIO</lastName>		
+	</student>
+	<student>
+		<id>2</id>
+		<name>BRYAN</name>
+		<lastName>ARONE SAAVEDRA</lastName>		
+	</student>
+	<student>
+		<id>3</id>
+		<name>ARACELI</name>
+		<lastName>CAQUEO VILLARREAL</lastName>		
+	</student>		
+	<student>
+		<id>4</id>
+		<name>JESSENIA GABRIELA</name>
+		<lastName>CHAMBA FLORES</lastName>		
+	</student>
+	<student>
+		<id>5</id>
+		<name>ITALO JAVIER</name>
+		<lastName>CONDORI VELASQUEZ</lastName>		
+	</student>
+	<student>
+		<id>6</id>
+		<name>SONIA</name>
+		<lastName>CRUZ CRUZ</lastName>		
+	</student>
+	<student>
+		<id>7</id>
+		<name>NATHALIE ALEXANDRA</name>
+		<lastName>DAVILA RIOS</lastName>		
+	</student>		
+	<student>
+		<id>8</id>
+		<name>LENIN MAXIMO</name>
+		<lastName>ELONS CARRASCO</lastName>		
+	</student>
+	<student>
+		<id>9</id>
+		<name>JAHAIRA KIMBERLY</name>
+		<lastName>MESTANZA RODAS</lastName>		
+	</student>
+	<student>
+		<id>10</id>
+		<name>PETER JOSEPH</name>
+		<lastName>NARVAEZ ASENCIO</lastName>		
+	</student>		
+	<student>
+		<id>11</id>
+		<name>CRISTHIAN ALEX</name>
+		<lastName>PACHECO VERA</lastName>		
+	</student>
+	<student>
+		<id>12</id>
+		<name>LUIS ALEJANDRO</name>
+		<lastName>REYES NUÑEZ</lastName>		
+	</student>
+	<student>
+		<id>13</id>
+		<name>ANDREA NICOL</name>
+		<lastName>SALAZAR SALAZAR</lastName>		
+	</student>
+	<student>
+		<id>14</id>
+		<name>KAREN ALEX</name>
+		<lastName>SANTIAGO RAYMONDI</lastName>		
+	</student>		
+	<student>
+		<id>15</id>
+		<name>LUIS DAVID</name>
+		<lastName>SIFUENTES CORDOVA</lastName>		
+	</student>
+	<student>
+		<id>16</id>
+		<name>NICOLLE VALERIA</name>
+		<lastName>SPENCER PUCA</lastName>		
+	</student>
+	<student>
+		<id>17</id>
+		<name>MELISSA JAHAIRA</name>
+		<lastName>URBANO HUAMANI</lastName>		
+	</student>
+	<student>
+		<id>18</id>
+		<name>DANIEL JESUS</name>
+		<lastName>VARAS RODRIGUEZ</lastName>		
+	</student>
+</course8A>

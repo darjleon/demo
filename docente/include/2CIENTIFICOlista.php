@@ -1,11 +1,11 @@
-<div class="row">
-    <!--<div class="col-xs-12"> 
+<div id="alumnos-list" class="row">
+    <div class="col-xs-12"> 
         <div class="docente-title"> 
             <h2>Alumno</h2>
             <h2>Representante</h2>    
         </div>
     </div>
-    <div class="col-xs-12"> 
+    <!--<div class="col-xs-12"> 
 
         <div class="docente">
             <div class="alumno">
@@ -26,42 +26,7 @@
                
     </div>-->
 
-    <table class="col-xs-12" data-page-size="10" >
-        <thead>
-            <tr class="docente-title">
-                <th>Alumno</th>
-                <th>Representante</th>
-                
-            </tr>
-        </thead>
-        <tbody id="alumnos-list" class="col-xs-12">
-            <!--<tr class="docente">
-                <td class="alumno">
-                    <div class="alumno-name">Alumno</div>
-                    <p ><img class="icono-alumno student-list-icon" src="img/icono_persona.png"> Shirley Arias Ascencio <a href="">Perfil</a></p>
-                </td>-->
-                <!--<td class="separador"></td>-->
-                <!--<td class="representante">
-                    <div class="representante-name">Representante</div>
-                    <p>
-                        <img class="icono-alumno student-list-icon" src="../img/REPRESENTANTE.png"> Nombres y Apellidos 
-                        <span><button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal2"><img src="../img/mail.png" alt="">
-                        </button><a href="">Perfil</a>
-                        </span>
-                    </p>
-                </td>
-
-            </tr>  -->
-                                                  
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="6">
-                    <ul class="pagination pull-right"></ul>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
+    
 </div>
 
 <script type="text/javascript">
@@ -83,9 +48,11 @@
          //var table="<p><strong>Profesores</strong></p>";
           var x = xmlDoc.getElementsByTagName("student");
           for (i = 0; i <x.length; i++) { 
-            var newtr = document.createElement('tr');
+            var newdiv = document.createElement('div');
+            newdiv.setAttribute('class',"col-xs-12")
+            var newtr = document.createElement('div');
             newtr.setAttribute('class',"docente");
-            var tdName=document.createElement('td');
+            var tdName=document.createElement('div');
             tdName.setAttribute('class',"alumno");
 
             var divAl=document.createElement('div');
@@ -120,9 +87,10 @@
             newtr.appendChild(tdName);
 
 
-            
+            var divsep=document.createElement('div');
+            divsep.setAttribute('class',"separador");
 
-            var tdRep=document.createElement('td');
+            var tdRep=document.createElement('div');
             tdRep.setAttribute('class',"representante");
 
             var divRep=document.createElement('div');
@@ -177,9 +145,13 @@
 
             tdRep.appendChild(pImgRep);
 
+            newtr.appendChild(divsep);
+
             newtr.appendChild(tdRep);
 
-            document.getElementById("alumnos-list").appendChild(newtr);
+            newdiv.appendChild(newtr);
+
+            document.getElementById("alumnos-list").appendChild(newdiv);
 
 
           }
