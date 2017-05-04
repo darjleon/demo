@@ -46,31 +46,31 @@
                     </div>
                 </li>                
                 <li class="active">
-                    <a href="padre.php">
-                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span>
+                    <a href="representante/padre.php">
+                        <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
-                    <a href="padre_institucion.php">
+                    <a href="representante/padre_institucion.php">
                         <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="padre_notificacion.php">
+                    <a href="representante/padre_notificacion.php">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Notificaciones </span>
                         <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a>
                         <img src="img/icono persona white.png" width="15px">
                         <span class="nav-label" style="padding-left:8px">Alumno</span>
                         <span class="fa arrow"></span>
                     </a>
                     <ul class="nav nav-second-level">
-                        <li><a href="padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
-                        <li><a href="padre_hijo2.php"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
+                        <li><a href="representante/padre_hijo1.php"><img src="img/icono persona.png" width="20px"> ELKIN DAVID SANNA HERA</a></li>
+                        <li><a href="representante/padre_hijo2.php"><img src="img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
                     </ul>
                 </li>                                     
             </ul>
@@ -86,7 +86,7 @@
                 </div>
                 <ul class="nav navbar-top-links navbar-right">            
                     <li class="dropdown">
-                        <a class="count-info" href="p_notificacion.html">
+                        <a class="count-info" href="representante/padre_notificacion.php">
                             <i class="fa fa-envelope"></i>  <span class="label label-warning">1</span>
                         </a>                        
                     </li>
@@ -97,17 +97,17 @@
                     </li>
                     <li>
                         <a href="logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesion
+                            <i class="fa fa-sign-out"></i>Cerrar Sesion
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="row wrapper white-bg ">                        
-            <div class="profile-image" style="padding-top:15px;padding-bottom:0;padding-left:50px;padding-right:50px">
+            <div class="profile-image">
                 <img src="img/a8.jpg" class="img-circle circle-border m-b-md" alt="profile">
             </div>
-            <div class="profile-info" style="padding-top:40px;padding-left:25px">
+            <div class="profile-info">
                 <h2 class="no-margins">CINTHIA HERA RODRIGUEZ</h2>  
                 <h3 style="padding-left:10px"><strong>PERFIL</strong></h3>                  
             </div>             
@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
-                    <div class="widget lazur-bg p-xl" style="background-color: #FFFFFF;color: black">
+                    <div class="widget widget-tabs">
                         <div class="tabs-container">
                             <ul class="nav nav-tabs">
                                 <li class="active">
@@ -136,7 +136,7 @@
                                 <div id="tab-1" class="tab-pane active">
                                     <ul class="list-unstyled m-t">
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Nombres:</label>
                                                 </div>
@@ -146,7 +146,7 @@
                                             </li>
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Apellidos:</label>
                                                 </div>
@@ -156,7 +156,7 @@
                                             </li>   
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>C.i:</label>
                                                 </div>
@@ -166,7 +166,7 @@
                                             </li>
                                         </div>       
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Correo:</label>
                                                 </div>
@@ -176,7 +176,7 @@
                                             </li>
                                         </div>                                                   
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Telefono:</label>
                                                 </div>
@@ -186,7 +186,7 @@
                                             </li>    
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Parentezco:</label>
                                                 </div>
@@ -200,7 +200,7 @@
                                 <div id="tab-2" class="tab-pane">
                                     <ul class="list-unstyled m-t">
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Ciudad:</label>
                                                 </div>         
@@ -210,7 +210,7 @@
                                             </li>
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">                
                                                     <label>Direccion:</label>
                                                 </div>
@@ -220,7 +220,7 @@
                                             </li> 
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Telefono:</label>
                                                 </div>
@@ -234,7 +234,7 @@
                                 <div id="tab-3" class="tab-pane">
                                     <ul class="list-unstyled m-t">
                                         <div class="row">                                            
-                                            <li>         
+                                            <li class="option-tabs">        
                                                 <div class="col-lg-2">
                                                     <label>Profesion:</label>
                                                 </div>                                       
@@ -244,7 +244,7 @@
                                             </li>
                                         </div>
                                         <div class="row">
-                                            <li> 
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Ciudad:</label>
                                                 </div> 
@@ -254,7 +254,7 @@
                                             </li>
                                         </div>                                        
                                         <div class="row">
-                                            <li>
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Direccion:</label>
                                                 </div>                                                
@@ -264,7 +264,7 @@
                                             </li>
                                         </div>                                        
                                         <div class="row">
-                                            <li>
+                                            <li class="option-tabs">
                                                 <div class="col-lg-2">
                                                     <label>Telefono:</label>    
                                                 </div>                                                  
@@ -278,7 +278,7 @@
                                 <div id="tab-4" class="tab-pane">
                                     <ul class="list-unstyled m-t">
                                         <div class="row"> 
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-4">
                                                     <label>Telefono de emergencia:</label>
                                                 </div>
@@ -288,7 +288,7 @@
                                             </li>                                            
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">     
+                                            <li class="option-tabs">    
                                                 <div class="col-lg-4">
                                                     <label>Sufre de enfermedad:</label>
                                                 </div>                      
@@ -298,7 +298,7 @@
                                             </li>
                                         </div>
                                         <div class="row">
-                                            <li style="padding-left: 20px">
+                                            <li class="option-tabs">
                                                 <div class="col-lg-4">
                                                     <label>Alergia:</label>
                                                 </div>
@@ -315,12 +315,10 @@
                 </div>
                 <div class="col-lg-2"></div>
             </div>
-        </div>  
+        </div> 
     </div>
 </div>
-
-
-    <!-- Mainly scripts -->
+<!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
@@ -339,22 +337,8 @@
     <!-- Toastr -->
     <script src="js/plugins/toastr/toastr.min.js"></script>
 
-
     <script>
         $(document).ready(function() {
-            setTimeout(function() {
-                toastr.options = {
-                    closeButton: true,
-                    progressBar: true,
-                    showMethod: 'slideDown',
-                    timeOut: 2000
-                };
-                toastr.success('Representante', 'Bienvenido a Pined');
-
-            }, 1300);
-
-
-            
             var doughnutData = [
                 {
                     value: 300,

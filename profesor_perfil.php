@@ -113,7 +113,7 @@
                     </li>
                     <li>
                         <a href="logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesión
+                            <i class="fa fa-sign-out"></i>Cerrar Sesión
                         </a>
                     </li>
                 </ul>
@@ -130,8 +130,8 @@
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
                     <div class="widget widget-tabs">
                         <div class="tabs-container">
                             <ul class="nav nav-tabs">
@@ -147,51 +147,33 @@
                             </ul>
                             <div class="tab-content">
                                 <div id="tab-1" class="tab-pane active">
-                                    <ul class="list-unstyled m-t">
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-3">
-                                                    <label>Dirigente de Curso:</label>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    8 'A'
-                                                </div>                                            
-                                            </li>
+                                    <div class="row" style="padding-top:10px">
+                                        <div class="col-lg-3">
+                                            <label class="cb" style="color: #676A6C">Dirigente de Curso:</label>
+                                            <label style="color: #676A6C">8 'A'</label>
                                         </div>
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-3">
-                                                    <label>Materias que dicta:</label>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <ul>
-                                                        <li>MATEMATICAS</li>
-                                                        <li>INVESTIGACION</li>
-                                                    </ul>
-                                                </div>                                            
-                                            </li>   
+                                        <div class="col-lg-3">
+                                            <label class="cb" style="color: #676A6C">Materias que dicta:</label>
+                                            <ul>
+                                                <li style="color: #676A6C">MATEMATICAS</li>
+                                                <li style="color: #676A6C">INVESTIGACION</li>
+                                            </ul>
                                         </div>
-                                        <div class="row">
-                                            <li class="option-tabs">
-                                                <div class="col-lg-3">
-                                                    <label>Cursos asignados:</label>
-                                                </div>
-                                                <div class="col-lg-9">
-                                                    <ul>
-                                                        <li>8 'A'</li>
-                                                        <li>8 'B</li>
-                                                        <li>9 'A'</li>
-                                                        <li>1RO BACHILLERATO CIENTIFICO</li>
-                                                        <li>2DO BACHILLERATO CIENTIFICO</li>
-                                                        <li>2DO BACHILLERATO INFORMATICA</li>
-                                                        <li>3RO BACHILLERATO CIENTIFICO</li>
-                                                        <li>3RO BACHILLERATO CONTABILIDAD</li>
-                                                        <li>3RO BACHILLERATO INFORMATICA</li>
-                                                    </ul>
-                                                </div>                                                
-                                            </li>
-                                        </div>                                                          
-                                    </ul>   
+                                        <div class="col-lg-6">
+                                            <label class="cb" style="color: #676A6C">Cursos asignados:</label>
+                                            <ul class="prof-cursosAsignados">
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso8B.php">8 'A'</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso8B.php">8 'B'</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso9A.php">9 'A'</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso1CIENTIFICO.php">1RO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso2CIENTIFICO.php">2DO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso2INFORMATICA.php">2DO BACHILLERATO INFORMATICA</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso3CIENTIFICO.php">3RO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso3CONTABILIDAD.php">3RO BACHILLERATO CONTABILIDAD</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso3INFORMATICA.php">3RO BACHILLERATO INFORMATICA</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>                                                          
                                 </div>
                                 <div id="tab-2" class="tab-pane">
                                     <ul class="list-unstyled m-t">
@@ -295,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2"></div>
+                <div class="col-lg-1"></div>
             </div>
         </div>
     </div>

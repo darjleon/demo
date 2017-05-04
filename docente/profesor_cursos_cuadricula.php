@@ -4,26 +4,7 @@
   // Controlo si el usuario ya está logueado en el sistema.
   if(isset($_SESSION['email'])){
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Pined | Profesor</title>
-
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
-
-    <!-- Toastr style -->
-    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
-
-    <!-- Gritter -->
-    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
-
-    <link href="../css/animate.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-</head>
+<?php include ('include/header.php'); ?>
 <body>
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
@@ -32,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -44,7 +25,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li>
@@ -93,262 +74,119 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
+        <?php include ('include/barra.php'); ?>
+        <div class="row wrapper white-bg "> 
+            <div class="col-xs-12 seleccion-curso">
+                <h2 style="margin:1em 0">Seleccione un Curso</h2>
+                <div class="formatos">
+                    <a class="formatos-link" href="#"> 
+                        <img src="img/cuadricula.png" alt="" width="17">
+                    </a>                    
+                    <a class="formatos-link" href="profesor_cursos.php"> 
+                        <img src="img/list.png" alt="" width="20">
                     </a>
                 </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts">
-                            <li>
-                                <a href="profesor_notificaciones.php">
-                                    <div>
-                                        <i class="fa fa-upload fa-fw"></i> Coordinación Académica
-                                        <span class="pull-right text-muted small">ayer(11.15 am)</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <div class="text-center link-block">
-                                    <a href="profesor_notificaciones.php">
-                                        <strong>See All Alerts</strong><i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i>Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row wrapper white-bg ">                  
-            <h2 style="padding-bottom:0;margin-bottom:0">Seleccione un Curso</h2>
-            <div class="pull-right" style="margin-right: -15px">
-                <a href="profesor_cursos.php">
-                    <span style="font-size:14px"><img src="../img/LISTA.png" width="25px"></span>
-                </a> 
-                <a href="#">
-                    <span style="font-size:14px;padding-right:-15px"><img src="../img/ICONO.png" width="25px"></span>
-                </a>
-            </div>                                                 
+            </div>
         </div>
         <div class="wrapper wrapper-content">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula8A.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                <div class="cursos-master">
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA MATEMATICAS</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: OCTAVO 'A'</p>
+                                <h4>Dirigente: </br> LUIS CORREA ZAMBRANO</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>8 'A'</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>LUIS CORREA ZAMBRANO </h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula8B.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA MATEMATICAS</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula8B.php" > 
+                            <div class="dirigente">
+                                <p>Curso: OCTAVO 'B'</p>
+                                <h4>Dirigente: </br> RUTH ARGUELLO MENDOZA</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>8 'B'</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>RUTH ARGUELLO MENDOZA</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula9A.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA MATEMATICAS</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula9A.php" > 
+                            <div class="dirigente">
+                                <p>Curso: NOVENO 'A'</p>
+                                <h4>Dirigente: </br> MERY URBINA ANDALUZ</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>9 'A'</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>MERY URBINA ANDALUZ</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula1CIENTIFICO.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula1CIENTIFICO.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 1RO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br> TATIANA CARRENO QUIROZ</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>1RO BACHILLERATO CIENTIFICO</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>TATIANA CARREÑO QUIROZ</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula2CIENTIFICO.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula2CIENTIFICO.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 2DO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br>CLAUDIA LOPEZ SANCHEZ</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>2DO BACHILLERATO CIENTIFICO</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>CLAUDIA LOPEZ SANCHEZ</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula2INFORMATICA.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula2INFORMATICA.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 2DO BACHILLERATO INFORMATICA</p>
+                                <h4>Dirigente: </br>MARCOS PAZAN REYES</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>2DO BACHILLERATO INFORMATICA</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>MARCOS PAZAN REYES</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula3CIENTIFICO.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula3CIENTIFICO.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO CIENTIFICO</p>
+                                <h4>Dirigente: </br>GLENDA CANDEL CARBO</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>3RO BACHILLERATO CIENTIFICO</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>GLENDA CANDEL CARBO</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div> 
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula3CONTABILIDAD.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula3CONTABILIDAD.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3ro BACHILLERATO CONTABILIDAD</p>
+                                <h4>Dirigente: </br>JUAN LOPEZ MARURI</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>3RO BACHILLERATO CONTABILIDAD</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>JUAN LOPEZ MARURI</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-box contact-course">
-                        <a href="profesor_curso_cuadricula3INFORMATICA.php">
-                            <div class="col-sm-3">
-                                <div class="text-center" style="padding-top:5px">
-                                    <img src="../img/CURSO.png" width="30px">
-                                </div>
+                    <div class="cursos-cuadricula text-center">
+                        <h3 class="text-center"><img src="img/CURSO.png" width="10">MATERIA INVESTIGACION</h3>
+                        <hr>
+                        <a href="profesor_curso_cuadricula3INFORMATICA.php" > 
+                            <div class="dirigente">
+                                <p>Curso: 3RO BACHILLERATO INFORMATICA</p>
+                                <h4>Dirigente: </br>ANGELICA VILLABLANCA TRUJILLO</h4>
                             </div>
-                            <div class="col-sm-9">
-                                <h5><strong style="padding-right:5px">CURSO:</strong>3RO BACHILLERATO INFORMATICA</h5>
-                                <h5><strong style="padding-right:5px">DIRIGENTE:</strong>ANGELICA VILLABLANCA TRUJILLO</h5>
-                            </div>
-                            <div class="clearfix"></div>
                         </a>
                     </div>
-                </div>
-            </div>            
+                </div>  
+            </div>        
         </div> 
     </div>
 </div>
-
-    <!-- Mainly scripts -->
-    <script src="../js/jquery-2.1.1.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-    <!-- Custom and plugin javascript -->
-    <script src="../js/inspinia.js"></script>
-    <script src="../js/plugins/pace/pace.min.js"></script>
-
-    <!-- jQuery UI -->
-    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-    <!-- GITTER -->
-    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
-
-    <!-- Toastr -->
-    <script src="../js/plugins/toastr/toastr.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            
-            var doughnutData = [
-                {
-                    value: 300,
-                    color: "#a3e1d4",
-                    highlight: "#1ab394",
-                    label: "App"
-                },
-                {
-                    value: 50,
-                    color: "#dedede",
-                    highlight: "#1ab394",
-                    label: "Software"
-                },
-                {
-                    value: 100,
-                    color: "#A4CEE8",
-                    highlight: "#1ab394",
-                    label: "Laptop"
-                }
-            ];
-        });
-    </script>
-</body>
-</html>
+<?php include ('include/footer.php'); ?>
 <?php
   }else{
     // Si no está logueado lo redireccion a la página de login.

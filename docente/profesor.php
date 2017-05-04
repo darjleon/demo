@@ -4,26 +4,7 @@
   // Controlo si el usuario ya está logueado en el sistema.
   if(isset($_SESSION['email'])){
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Pined | Profesor</title>
-
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
-
-    <!-- Toastr style -->
-    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
-
-    <!-- Gritter -->
-    <link href="../js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
-
-    <link href="../css/animate.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-</head>
+<?php include ('include/header.php'); ?>
 <body>
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
@@ -32,7 +13,7 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
+                            <img src="img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
                         </span>
                         <a href="#">
                             <span class="block">                                
@@ -44,7 +25,7 @@
                         </a>
                     </div>
                     <div class="logo-element">
-                        <img alt="logo" src="../img/logo unico.png" width="50px" />
+                        <img alt="logo" src="img/logo unico.png" width="50px" />
                     </div>
                 </li>
                 <li class="active">
@@ -93,39 +74,14 @@
         </div>
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-top-links navbar-right">            
-                    <li class="dropdown">
-                        <a class="count-info" href="profesor_notificaciones.php">
-                            <i class="fa fa-envelope"></i><span class="label label-warning">1</span>
-                        </a>                        
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i><span class="label label-primary">1</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../logout.php">
-                            <i class="fa fa-sign-out"></i> Cerrar Sesión
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">                        
             <div class="profile-image">
-                <img src="../img/profile_small.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                <img src="img/profile_small.jpg" class="img-circle circle-border m-b-md" alt="profile">
             </div>
             <div class="profile-info">
                 <h2 class="no-margins">LUIS CORREA ZAMBRANO</h2>  
-                <h3 style="padding-left:10px"><strong>PERFIL</strong></h3>                  
+                <h3><strong>PERFIL</strong></h3>                  
             </div>             
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
@@ -146,6 +102,135 @@
                                 </li>
                             </ul>
                             <div class="tab-content">
+                                <div id="tab-1" class="tab-pane active">
+                                    <div class="row" style="padding-top:10px">
+                                        <div class="col-lg-3">
+                                            <label class="cb" style="color: #676A6C">Dirigente de Curso:</label>
+                                            <label style="color: #676A6C">8 'A'</label>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <label class="cb" style="color: #676A6C">Materias que dicta:</label>
+                                            <ul>
+                                                <li style="color: #676A6C">MATEMATICAS</li>
+                                                <li style="color: #676A6C">INVESTIGACION</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label class="cb" style="color: #676A6C">Cursos asignados:</label>
+                                            <ul class="prof-cursosAsignados">
+                                                <li style="color: #676A6C"><a href="profesor_curso8B.php">8 'A'</a></li>
+                                                <li style="color: #676A6C"><a href="">8 'B'</a></li>
+                                                <li style="color: #676A6C"><a href="">9 'A'</a></li>
+                                                <li style="color: #676A6C"><a href="">1RO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="">2DO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="">2DO BACHILLERATO INFORMATICA</a></li>
+                                                <li style="color: #676A6C"><a href="">3RO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="">3RO BACHILLERATO CONTABILIDAD</a></li>
+                                                <li style="color: #676A6C"><a href="">3RO BACHILLERATO INFORMATICA</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>                                                          
+                                </div>
+                                <div id="tab-2" class="tab-pane">
+                                    <ul class="list-unstyled m-t">
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>C.I:</label>
+                                                </div>         
+                                                <div class="col-lg-9">
+                                                    9162909190
+                                                </div>                                                
+                                            </li>
+                                        </div>
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">                
+                                                    <label>Telefono:</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    2862959 - 099 240 6250
+                                                </div>
+                                            </li> 
+                                        </div>
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>Correo:</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    098 347 4339
+                                                </div>                                                
+                                            </li> 
+                                        </div>  
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>Correo:</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    lual_977@hotmail.com
+                                                </div>                                                
+                                            </li> 
+                                        </div>
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>Ciudad:</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    DURAN
+                                                </div>                                                
+                                            </li> 
+                                        </div>
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>Direccion:</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    CDLA PRIMAVERA 1 MZ B6 VILLA 16
+                                                </div>                                                
+                                            </li> 
+                                        </div>                                    
+                                    </ul> 
+                                </div>
+                                <div id="tab-3" class="tab-pane">
+                                    <ul class="list-unstyled m-t">
+                                        <div class="row">                                            
+                                            <li class="option-tabs">        
+                                                <div class="col-lg-3">
+                                                    <label>Telefono de emergencia:</label>
+                                                </div>                                       
+                                                <div class="col-lg-9">
+                                                    042 55 99 88
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>Enfermedad:</label>
+                                                </div> 
+                                                <div class="col-lg-9">
+                                                    NO
+                                                </div>          
+                                            </li>
+                                        </div>                                        
+                                        <div class="row">
+                                            <li class="option-tabs">
+                                                <div class="col-lg-3">
+                                                    <label>Alergia:</label>
+                                                </div>                                                
+                                                <div class="col-lg-9">
+                                                    NO
+                                                </div>
+                                            </li>
+                                        </div>                                                          
+                                    </ul> 
+                                </div>
+                            </div>
+<!--                             <div class="tab-content">
                                 <div id="tab-1" class="tab-pane active">
                                     <ul class="list-unstyled m-t">
                                         <div class="row">
@@ -177,16 +262,16 @@
                                                     <label>Cursos asignados:</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    <ul>
-                                                        <li>8 'A'</li>
-                                                        <li>8 'B</li>
-                                                        <li>9 'A'</li>
-                                                        <li>1RO BACHILLERATO CIENTIFICO</li>
-                                                        <li>2DO BACHILLERATO CIENTIFICO</li>
-                                                        <li>2DO BACHILLERATO INFORMATICA</li>
-                                                        <li>3RO BACHILLERATO CIENTIFICO</li>
-                                                        <li>3RO BACHILLERATO CONTABILIDAD</li>
-                                                        <li>3RO BACHILLERATO INFORMATICA</li>
+                                                    <ul class="prof-cursosAsignados">
+                                                        <li style="color: #676A6C"><a href="profesor_curso8B.php">8 'A'</a></li>
+                                                        <li style="color: #676A6C"><a href="">8 'B'</a></li>
+                                                        <li style="color: #676A6C"><a href="">9 'A'</a></li>
+                                                        <li style="color: #676A6C"><a href="">1RO BACHILLERATO CIENTIFICO</a></li>
+                                                        <li style="color: #676A6C"><a href="">2DO BACHILLERATO CIENTIFICO</a></li>
+                                                        <li style="color: #676A6C"><a href="">2DO BACHILLERATO INFORMATICA</a></li>
+                                                        <li style="color: #676A6C"><a href="">3RO BACHILLERATO CIENTIFICO</a></li>
+                                                        <li style="color: #676A6C"><a href="">3RO BACHILLERATO CONTABILIDAD</a></li>
+                                                        <li style="color: #676A6C"><a href="">3RO BACHILLERATO INFORMATICA</a></li>
                                                     </ul>
                                                 </div>                                                
                                             </li>
@@ -291,7 +376,7 @@
                                         </div>                                                          
                                     </ul> 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -300,72 +385,7 @@
         </div>
     </div>
 </div>
-
-    <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-
-
-    <!-- Mainly scripts -->
-    <script src="../js/jquery-2.1.1.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-    <!-- Custom and plugin javascript -->
-    <script src="../js/inspinia.js"></script>
-    <script src="../js/plugins/pace/pace.min.js"></script>
-
-    <!-- jQuery UI -->
-    <script src="../js/plugins/jquery-ui/jquery-ui.min.js"></script>
-
-    <!-- GITTER -->
-    <script src="../js/plugins/gritter/jquery.gritter.min.js"></script>
-
-    <!-- Toastr -->
-    <script src="../js/plugins/toastr/toastr.min.js"></script>
-
-
-    <script>
-        $(document).ready(function() {    
-            setTimeout(function() {
-                toastr.options = {
-                    closeButton: true,
-                    progressBar: true,
-                    showMethod: 'slideDown',
-                    timeOut: 2000
-                };
-                toastr.success('Profesor', 'Bienvenido a Pined');
-
-            }, 1300);
-
-            var doughnutData = [
-                {
-                    value: 300,
-                    color: "#a3e1d4",
-                    highlight: "#1ab394",
-                    label: "App"
-                },
-                {
-                    value: 50,
-                    color: "#dedede",
-                    highlight: "#1ab394",
-                    label: "Software"
-                },
-                {
-                    value: 100,
-                    color: "#A4CEE8",
-                    highlight: "#1ab394",
-                    label: "Laptop"
-                }
-            ];
-        });
-    </script>
-</body>
-</html>
+<?php include ('include/footer.php'); ?>
 <?php
   }else{
     // Si no está logueado lo redireccion a la página de login.
