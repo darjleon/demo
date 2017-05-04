@@ -10,11 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<<<<<<< HEAD
-    <title>Pined | Representante</title>
-=======
-    <title>Pined | Profesor</title>
->>>>>>> 062a3e2b2f0223fb014153f8bee4eed84e1e450f
+    <title>Pined | RECTOR</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -27,6 +23,7 @@
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    
 </head>
 <body>
 <div id="wrapper">
@@ -85,19 +82,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="director/director_pagos.php">
+                    <a href="#">
                         <i class="fa fa-usd"></i>
                         <span class="nav-label">Pagos </span>
                     </a>
                 </li>
                 <li>
-                    <a href="director/director_plancurricular.php">
+                    <a href="#">
                         <i class="fa fa-newspaper-o"></i>
                         <span class="nav-label">Plan Curricular </span>
                     </a>
                 </li>
                 <li>
-                    <a href="director/director_configuraciones.php">
+                    <a href="#">
                         <i class="fa fa-cogs"></i>
                         <span class="nav-label">Configuraciones </span>
                     </a>

@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 100;
+  font-weight: bold;
   font-family: 'Mukta Vaani', sans-serif; }
 
 h1 {
@@ -55,11 +55,13 @@ h5 {
   margin-top: 5px;
   font-weight: 600; }
 
-p {
-  font-family: 'Conv_Nexa light', sans-serif; }
-
-a {
-  font-family: 'Conv_Nexa Bold', sans-serif; }
+p,
+a,
+label,
+button,
+div {
+  /*font-family: 'Conv_Nexa light', sans-serif;*/
+  font-family: 'Mukta Vaani', sans-serif; }
 
 li,
 p {
@@ -3213,7 +3215,7 @@ body {
 html,
 body {
   height: 100%;
-  font-family: 'Conv_Nexa light'; }
+  font-family: 'Conv_Nexa light', sans-serif; }
 
 body.full-height-layout #wrapper,
 body.full-height-layout #page-wrapper {
@@ -7481,11 +7483,12 @@ body.md-skin {
 .alumnos-master .alumnos-cuadricula, .docente {
   background: white;
   border-radius: 4px;
-  padding: 1em;
+  padding: .5em;
   margin: .3em .5%;
   box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.1); }
 
-.profe-cuadricula .back a .button-back {
+.back a .button-back, .seleccion-curso .formatos .button-back {
+  margin-left: .8em;
   border-radius: 4px;
   background: green;
   padding: 6px 12px;
@@ -7493,12 +7496,6 @@ body.md-skin {
   background: #23b27c; }
 
 /*Utilidades*/
-.cl {
-  font-family: 'Conv_Nexa Light', sans-serif, arial; }
-
-.cb {
-  font-family: 'Conv_Nexa Bold', sans-serif, arial; }
-
 .no-padding {
   padding: 0; }
 
@@ -7538,6 +7535,9 @@ body.md-skin {
 .noBefore:after,
 .noBefore:before {
   content: none; }
+
+.relative {
+  position: relative; }
 
 /*CSS general*/
 .nav-tabs {
@@ -8051,7 +8051,8 @@ body.md-skin {
   -ms-flex-pack: center;
   justify-content: center; }
   .card-asistencia .lista_alumnos {
-    margin: .5em .5%; }
+    margin: .5em .5%;
+    width: 100%; }
     @media screen and (min-width: 575px) {
       .card-asistencia .lista_alumnos {
         width: 48%; } }
@@ -8062,7 +8063,7 @@ body.md-skin {
       border-radius: 4px;
       padding: 1em;
       width: 100%;
-      background: rgba(255, 255, 255, 0.7); }
+      background: white; }
       .card-asistencia .lista_alumnos .alumnos a {
         color: inherit;
         font-family: 'Conv_Nexa Light'; }
@@ -8088,10 +8089,26 @@ body.md-skin {
             margin-right: .3em; }
         .card-asistencia .lista_alumnos .alumnos .docente .perfil {
           border: 1px solid rgba(0, 0, 0, 0.2);
-          padding: .3em .6em;
-          border-radius: 4px; }
+          border-radius: 4px;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-left: .2em; }
+          .card-asistencia .lista_alumnos .alumnos .docente .perfil span {
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            padding: .3em .5em; }
           .card-asistencia .lista_alumnos .alumnos .docente .perfil i {
-            margin-left: .2em; }
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-left: .2em;
+            padding: .3em .5em; }
       .card-asistencia .lista_alumnos .alumnos .asistencia {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -8107,6 +8124,11 @@ body.md-skin {
           border-radius: 4px;
           padding: .3em .6em;
           background: transparent; }
+
+.prof-cursosAsignados a {
+  transition: all .5s ease; }
+  .prof-cursosAsignados a:hover {
+    padding-left: .6em; }
 
 .nav.navbar-top-links li.dropdown {
   display: none; }
@@ -8226,10 +8248,11 @@ body.md-skin {
   -ms-flex-align: center;
   align-items: center;
   padding: 1em 0; }
-  .profe-cuadricula .back a {
-    color: white; }
-    .profe-cuadricula .back a .button-back img {
-      margin-right: .4em; }
+
+.back a {
+  color: white; }
+  .back a .button-back img {
+    margin-right: .4em; }
 
 /*CSS profesor cursos cuadricula*/
 .seleccion-curso {
@@ -8242,11 +8265,28 @@ body.md-skin {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
-  .seleccion-curso .formatos a {
-    background: rgba(0, 0, 0, 0.3);
-    padding: .5em .4em .6em .6em;
-    margin: .5em;
-    border-radius: 4px; }
+  .seleccion-curso .formatos {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .seleccion-curso .formatos .formatos-link {
+      margin: .1em;
+      background: rgba(0, 0, 0, 0.3);
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 32px;
+      height: 32px;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 4px; }
 
 /*CSS profesor_horario.php*/
 .horario-tabla .scheduler {
@@ -8276,6 +8316,19 @@ body.md-skin {
     margin: 0;
     padding: .3em 0;
     font-weight: bold; }
+
+.card-asistencia .docente {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.7); }
 
 .docente {
   -webkit-align-items: center;
@@ -8322,6 +8375,7 @@ body.md-skin {
   .docente .alumno {
     position: relative;
     margin-right: .5em;
+    padding-right: .5em;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -8407,5 +8461,149 @@ body.md-skin {
         @media screen and (min-width: 600px) {
           .docente .representante p img {
             margin-right: .6em; } }
+
+/*CSS docente informacion*/
+.director-items {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .director-items .items {
+    margin: 1em 5%; }
+    @media screen and (min-width: 550px) {
+      .director-items .items {
+        width: 25%; } }
+    @media screen and (min-width: 1090px) {
+      .director-items .items {
+        width: auto; } }
+
+/*CSS director 8* */
+.buttonAll {
+  width: 50px;
+  background: red !important; }
+
+.list {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: .1em .6em;
+  border-radius: 4px; }
+  @media screen and (min-width: 600px) {
+    .list {
+      position: static;
+      margin-right: .4em !important; } }
+
+.not {
+  background: #676a6c;
+  color: white;
+  border-radius: 4px;
+  font-size: .9em;
+  padding: 0 .6em; }
+
+.lista-general {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center; }
+  .lista-general .back {
+    margin-bottom: 1em; }
+  @media screen and (min-width: 600px) {
+    .lista-general {
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      text-align: left; }
+      .lista-general .back {
+        margin-bottom: 0; } }
+
+/*CSS Director Institucion*/
+.button-br {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  color: white; }
+  .button-br button {
+    color: white;
+    margin-left: .8em;
+    border-radius: 4px;
+    background: green;
+    padding: 6px 12px;
+    border: none;
+    background: #23b27c; }
+
+/*CSS director profesores cuadricula*/
+.director-profesores {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .director-profesores .docente {
+    width: 100%; }
+    .director-profesores .docente p {
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    @media screen and (min-width: 1100px) {
+      .director-profesores .docente {
+        width: 48%; } }
+
+.director-profesores-cuadricula hr,
+.director-educativo hr {
+  margin-top: .9em;
+  margin-bottom: .9em; }
+
+@media screen and (min-width: 600px) {
+  .director-profesores-cuadricula,
+  .director-educativo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+.director-profesores-cuadricula .docente,
+.director-educativo .docente {
+  padding: 1em; }
+  @media screen and (min-width: 600px) {
+    .director-profesores-cuadricula .docente,
+    .director-educativo .docente {
+      width: 48%; } }
+  @media screen and (min-width: 1100px) {
+    .director-profesores-cuadricula .docente,
+    .director-educativo .docente {
+      width: 32%; } }
+  .director-profesores-cuadricula .docente .representante p,
+  .director-educativo .docente .representante p {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .director-profesores-cuadricula .docente .representante span,
+  .director-educativo .docente .representante span {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .director-profesores-cuadricula .docente .representante span a,
+    .director-educativo .docente .representante span a {
+      margin: 0 .8em; }
+
+/*CSS director personal*/
+.director-personal .docente {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

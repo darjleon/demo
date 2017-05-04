@@ -35,7 +35,6 @@
                         <a href="#">
                             <span class="block ">
                                 <h4>
-                                    <!--<strong class="font-bold">JUAN LONDOÑO</strong>-->
                                     <strong class="font-bold">CINTHIA HERA RODRIGUEZ</strong>
                                     <br><small class="profile-type">REPRESENTANTE</small>
                                 </h4>                                
@@ -109,8 +108,7 @@
                 <img src="img/a8.jpg" class="img-circle circle-border m-b-md" alt="profile">
             </div>
             <div class="profile-info">
-                <!--<h2 class="no-margins">JUAN LONDOÑO</h2> --> 
-                <h2 class="no-margins">CINTHIA HERA RODRIGUEZ</h2>
+                <h2 class="no-margins">CINTHIA HERA RODRIGUEZ</h2>  
                 <h3 style="padding-left:10px"><strong>PERFIL</strong></h3>                  
             </div>             
         </div>
@@ -143,7 +141,7 @@
                                                     <label>Nombres:</label>
                                                 </div>
                                                 <div class="col-lg-10">
-                                                    CINTHIA 
+                                                    CINTHIA
                                                 </div>                                            
                                             </li>
                                         </div>
@@ -153,7 +151,7 @@
                                                     <label>Apellidos:</label>
                                                 </div>
                                                 <div class="col-lg-10">
-                                                    HERA RODRIGUEZ
+                                                    HERA SANNA
                                                 </div>                                            
                                             </li>   
                                         </div>

@@ -159,18 +159,18 @@
                                                 <li style="color: #676A6C">INVESTIGACION</li>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-6">
                                             <label class="cb" style="color: #676A6C">Cursos asignados:</label>
-                                            <ul>
-                                                <li style="color: #676A6C">8 'A'</li>
-                                                <li style="color: #676A6C">8 'B</li>
-                                                <li style="color: #676A6C">9 'A'</li>
-                                                <li style="color: #676A6C">1RO BACHILLERATO CIENTIFICO</li>
-                                                <li style="color: #676A6C">2DO BACHILLERATO CIENTIFICO</li>
-                                                <li style="color: #676A6C">2DO BACHILLERATO INFORMATICA</li>
-                                                <li style="color: #676A6C">3RO BACHILLERATO CIENTIFICO</li>
-                                                <li style="color: #676A6C">3RO BACHILLERATO CONTABILIDAD</li>
-                                                <li style="color: #676A6C">3RO BACHILLERATO INFORMATICA</li>
+                                            <ul class="prof-cursosAsignados">
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso8B.php">8 'A'</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso8B.php">8 'B'</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso9A.php">9 'A'</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso1CIENTIFICO.php">1RO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso2CIENTIFICO.php">2DO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso2INFORMATICA.php">2DO BACHILLERATO INFORMATICA</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso3CIENTIFICO.php">3RO BACHILLERATO CIENTIFICO</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso3CONTABILIDAD.php">3RO BACHILLERATO CONTABILIDAD</a></li>
+                                                <li style="color: #676A6C"><a href="docente/profesor_curso3INFORMATICA.php">3RO BACHILLERATO INFORMATICA</a></li>
                                             </ul>
                                         </div>
                                     </div>                                                          
