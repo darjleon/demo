@@ -107,8 +107,8 @@
             </div>
         </div>
         <div class="row wrapper wrapper-content">                    
-            <div class="col-xs-12 director-profesores-cuadricula">
-                <div class="docente">                    
+            <div id="profesores-cuadricula" class="col-xs-12 director-profesores-cuadricula">
+                <!--<div class="docente director-profesores">                    
                     <div class="representante">                        
                         <p>
                             RUTH ARGUELLO MENDOZA 
@@ -371,13 +371,96 @@
                             </span>
                         </p>
                     </div>
-                </div>
+                </div>-->
                 
 
             </div>
         </div> 
     </div>
 </div>
+
+<script type="text/javascript">
+
+
+     var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          getTeacher(this);
+          
+        }
+      };
+      xhttp.open("GET", "xml/profesores.xml", true);
+      xhttp.send();
+
+      function getTeacher(xml){
+        var i,j,k;
+          var xmlDoc = xml.responseXML;
+         //var table="<p><strong>Profesores</strong></p>";
+          var x = xmlDoc.getElementsByTagName("profesor");
+          for (i = 0; i <x.length; i++) { 
+
+
+            var newdiv = document.createElement('div');
+            newdiv.setAttribute('class',"docente director-profesores")
+            var newtr = document.createElement('div');
+            newtr.setAttribute('class',"representante");
+           
+
+            var pName=document.createElement('p');
+
+            var textName = document.createTextNode(x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue + " " + x[i].getElementsByTagName("apellidos")[0].childNodes[0].nodeValue);
+
+            var hr = document.createElement('hr');
+
+            pName.appendChild(textName);
+            
+
+            var span = document.createElement('span');
+
+            var btnRep = document.createElement('button');
+            btnRep.setAttribute('type',"button");
+            btnRep.setAttribute('class',"btn btn-student-list");
+            btnRep.setAttribute('data-toggle',"modal");
+            btnRep.setAttribute('data-target',"#myModal2");
+
+             var imgRepMail=document.createElement('img');
+            
+            imgRepMail.setAttribute('src',"../img/mail.png");
+
+            imgRepMail.setAttribute('alt'," ");
+
+            btnRep.appendChild(imgRepMail);
+
+            span.appendChild(btnRep);
+
+            
+
+            var aRep=document.createElement('a');
+            aRep.setAttribute('href'," ");
+
+            aRep.innerHTML = "Perfil";
+
+            span.appendChild(aRep);
+
+            //pName.appendChild(hr);
+
+            //pName.appendChild(span);
+
+            newtr.appendChild(pName);
+            newtr.appendChild(hr);
+            newtr.appendChild(span);
+            newdiv.appendChild(newtr);
+
+            document.getElementById("profesores-cuadricula").appendChild(newdiv);
+
+
+          }
+
+
+
+      }
+</script>
+
 <?php include ('include/footer.php'); ?>
 <?php
   }else{
