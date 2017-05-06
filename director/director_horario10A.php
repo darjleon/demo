@@ -86,7 +86,162 @@
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg "> 
             <div class="col-xs-12 seleccion-curso">
-                <h2 style="margin:1em 0">Seleccione un Curso</h2>
+                <h2 style="margin:1em 0">Horario DECIMO A</h2>
+                <div class="formatos">
+                    <div class="back">
+                        <a href="director_horarios.php">
+                            <button class="button-back cb">
+                                <img style="margin: 0;" src="../img/return.png" alt="" width="17">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper-content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default"> 
+                        <div class="horario-clases">
+                            <div class="table-responsive">
+                                <table class="table ss1">
+                                    <thead class="scheduler ss1">
+                                        <tr>
+                                            <th class="text-center scheduler"><!-- Hora --></th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Lunes</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Martes</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Miercoles</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Jueves</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Viernes</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    7:00<br>7:45
+                                                </span> 
+                                                <span class="hour hour-1">
+                                                    <span>1</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">COMPUTACION</td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">EDUCACION FISICA</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    7:45<br>8:30
+                                                </span> 
+                                                <span class="hour hour-2">
+                                                    <span>2</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">DIBUJO TECNICO</td>
+                                            <td class="subject" style="vertical-align: middle">CIENCIAS NATURALES</td>
+                                            <td class="subject" style="vertical-align: middle">COMPUTACION</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    8:30<br>9:15
+                                                </span> 
+                                                <span class="hour hour-3">
+                                                    <span>3</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">COMERCIO</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">ESTUDIOS SOCIALES</td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    9:15<br>10:00
+                                                </span> 
+                                                <span class="hour hour-1">
+                                                    <span>4</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">CIENCIAS NATURALES</td>
+                                            <td class="subject" style="vertical-align: middle">CIENCIAS NATURALES</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    10:30<br>11:15
+                                                </span> 
+                                                <span class="hour hour-2">
+                                                    <span>5</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                            <td class="subject" style="vertical-align: middle">CIENCIAS NATURALES</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">ESTUDIOS SOCIALES</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    11:15<br>12:00
+                                                </span> 
+                                                <span class="hour hour-3">
+                                                    <span>6</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">MUSICA</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                            <td class="subject" style="vertical-align: middle">DIBUJO TECNICO</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    12:00<br>12:45
+                                                </span> 
+                                                <span class="hour hour-1">
+                                                    <span>7</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">ESTUDIOS SOCIALES</td>
+                                            <td class="subject" style="vertical-align: middle">ESTUDIOS SOCIALES</td>
+                                            <td class="subject" style="vertical-align: middle">EDUCACION FISICA</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                            <td class="subject" style="vertical-align: middle">PROYECTOS EDUCATIVOS</td>               
+                                        </tr>
+                                        <tr>
+                                            <td class="scheduler horas" style="vertical-align: middle">
+                                                <span class="c-hour">
+                                                    13:15<br>14:00
+                                                </span> 
+                                                <span class="hour hour-2">
+                                                    <span>8</span>
+                                                </span>
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">CIENCIAS NATURALES</td>
+                                            <td class="subject" style="vertical-align: middle">CIENCIAS NATURALES</td>
+                                            <td class="subject" style="vertical-align: middle">VALORES HUMANOS</td>
+                                            <td class="subject" style="vertical-align: middle">COMERCIO</td>
+                                            <td class="subject" style="vertical-align: middle">PROYECTOS EDUCATIVOS</td>  
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
