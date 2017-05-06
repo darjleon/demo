@@ -79,9 +79,9 @@
             <div class="col-xs-12 seleccion-curso">
                 <h2 style="margin:1em 0">Seleccione un Curso</h2>
                 <div class="formatos">
-                    <a class="formatos-link" href="#"> 
+                    <!--<a class="formatos-link" href="#"> 
                         <img src="img/cuadricula.png" alt="" width="17">
-                    </a>                    
+                    </a>   -->                 
                     <a class="formatos-link" href="profesor_cursos.php"> 
                         <img src="img/list.png" alt="" width="20">
                     </a>

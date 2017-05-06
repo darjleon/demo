@@ -1,4 +1,4 @@
-\<?php
+<?php
   session_start();
    
   // Controlo si el usuario ya está logueado en el sistema.
@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">3ro Bachillerato Informatica</span></p>
+                    <span class="not">3ro BACHILLERATO INFORMÁTICA</span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">Angelica Villablanca Trujillo</span>                    

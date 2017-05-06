@@ -82,9 +82,9 @@
                     <a class="formatos-link" href="profesor_cursos_cuadricula.php"> 
                         <img src="img/cuadricula.png" alt="" width="17">
                     </a>                    
-                    <a class="formatos-link" href="profesor_cursos.php"> 
+                    <!--<a class="formatos-link" href="profesor_cursos.php"> 
                         <img src="img/list.png" alt="" width="20">
-                    </a>
+                    </a>-->
                 </div>
             </div>
         </div>

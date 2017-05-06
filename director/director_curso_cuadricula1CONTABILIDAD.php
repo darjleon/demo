@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">1ro Bachillerato Contabilidad</span></p>
+                    <span class="not">1ro  BACHILLERATO CONTABILIDAD</span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">SONIA RODRIGUEZ NOBOA</span>                    

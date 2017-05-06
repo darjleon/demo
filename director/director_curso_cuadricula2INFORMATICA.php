@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">2do Bachillerato Informatica </span></p>
+                    <span class="not">2do BACHILLERATO INFORMÁTICA </span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">MARCOS PAZAN REYES</span>                    
