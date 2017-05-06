@@ -342,7 +342,7 @@
 
             var imgRep=document.createElement('img');
             imgRep.setAttribute('alt'," ");
-            imgRep.setAttribute('src',"img/REPRESENTANTE.png");
+            imgRep.setAttribute('src',"../img/REPRESENTANTE.png");
             imgRep.setAttribute('width',"25");
 
             divRep.appendChild(imgRep);
