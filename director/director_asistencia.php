@@ -310,7 +310,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_asistenciaCONTABILIDAD.php" style="color:black">
+                                    <a href="director_asistencia2CONTABILIDAD.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
@@ -331,7 +331,7 @@
                         <div class="panel panel-default" style="margin-bottom:5px">
                             <div class="panel-heading" style="background-color:white">
                                 <div class="row">
-                                    <a href="director_asistenciaINFORMATICA.php" style="color:black">
+                                    <a href="director_asistencia2INFORMATICA.php" style="color:black">
                                         <div class="col-sm-6">
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
