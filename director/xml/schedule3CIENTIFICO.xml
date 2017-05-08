@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule3CIENTIFICO>
+	<hour>
+		<number>1</number>
+		<day1>QUIMICA SUPERIOR</day1>
+		<day2>LENGUA EXTRANJERA</day2>
+		<day3>INVESTIGACION</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>CORRIENTES FILOSOFICAS</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>INVESTIGACION</day1>
+		<day2>CORRIENTES FILOSOFICAS</day2>
+		<day3>CORRIENTES FILOSOFICAS</day3>
+		<day4>MATEMATICAS SUPERIOR</day4>
+		<day5>LENGUA Y LITERATURA</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>CORRIENTES FILOSOFICAS</day1>
+		<day2>UTILITARIOS</day2>
+		<day3>EDUCACION PARA LA CIUDADANIA</day3>
+		<day4>EDUCACION PARA LA CIUDADANIA</day4>
+		<day5>QUIMICA SUPERIOR</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>LENGUA EXTRANJERA</day1>
+		<day2>MATEMATICAS SUPERIOR</day2>
+		<day3>LENGUA Y LITERATURA</day3>
+		<day4>FISICA SUPERIOR</day4>
+		<day5>LENGUA EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>MATEMATICAS</day1>
+		<day2>FISICA SUPERIOR</day2>
+		<day3>EDUCACION FISICA</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>MATEMATICAS SUPERIOR</day1>
+		<day2>QUIMICA SUPERIOR</day2>
+		<day3>EMPRENDIMIENTO Y GESTION</day3>
+		<day4>QUIMICA SUPERIOR</day4>
+		<day5>FISICA SUPERIOR</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>EDUCACION PARA LA CIUDADANIA</day1>
+		<day2>BIOLOGIA SUPERIOR</day2>
+		<day3>VALORES HUMANOS</day3>
+		<day4>INVESTIGACION</day4>
+		<day5>EMPRENDIMIENTO Y GESTION</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>FISICA SUPERIOR</day1>
+		<day2>MATEMATICAS</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>UTILITARIOS</day4>
+		<day5>MATEMATICAS SUPERIOR</day5>
+	</hour>
+	<hour>
+		<number>9</number>
+		<day1>BIOLOGIA SUPERIOR</day1>
+		<day2>LENGUA Y LITERATURA</day2>
+		<day3>LENGUA EXTRANJERA</day3>
+		<day4>BIOLOGIA SUPERIOR</day4>
+		<day5>BIOLOGIA SUPERIOR</day5>
+	</hour>
+</schedule3CIENTIFICO>

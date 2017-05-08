@@ -88,19 +88,9 @@
             <div class="col-xs-12 seleccion-curso">
                 <h2 style="margin:1em 0">Seleccione un Curso</h2>
                 <div class="formatos">
-                    <div class="back">
-                        <a href="director_informacion.php">
-                            <button class="button-back cb">
-                                <img style="margin: 0;" src="../img/return.png" alt="" width="17">
-                            </button>
-                        </a>
-                    </div>
                     <a class="formatos-link" href="director_cursos_cuadricula.php"> 
                         <img src="../img/cuadricula.png" alt="" width="17">
                     </a>                    
-                    <!--<a class="formatos-link" href="#"> 
-                        <img src="../img/list.png" alt="" width="20">
-                    </a>-->
                 </div>
             </div>
         </div>

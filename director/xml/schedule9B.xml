@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule9B>
+	<hour>
+		<number>1</number>
+		<day1>MATEMATICAS</day1>
+		<day2>LENGUA Y LITERATURA</day2>
+		<day3>COMPUTACION</day3>
+		<day4>CIENCIAS NATURALES</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>CIENCIAS NATURALES</day1>
+		<day2>ESTUDIOS SOCIALES</day2>
+		<day3>COMERCIO</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>LENGUA EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>MUSICA</day1>
+		<day2>DIBUJO TECNICO</day2>
+		<day3>CIENCIAS NATURALES</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>CIENCIAS NATURALES</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>COMERCIO</day1>
+		<day2>VALORES HUMANOS</day2>
+		<day3>ESTUDIOS SOCIALES</day3>
+		<day4>ESTUDIOS SOCIALES</day4>
+		<day5>COMPUTACION</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>LENGUA EXTRANJERA</day1>
+		<day2>LENGUA EXTRANJERA</day2>
+		<day3>LENGUA EXTRANJERA</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>LENGUA EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>ESTUDIOS SOCIALES</day1>
+		<day2>EDUCACION FISICA</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>MATEMATICAS</day4>
+		<day5>ESTUDIOS SOCIALES</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>MATEMATICAS</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>EDUCACION FISICA</day4>
+		<day5>PROYECTOS EDUCATIVOS</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>CIENCIAS NATURALES</day2>
+		<day3>LENGUA Y LITERATURA</day3>
+		<day4>DIBUJO TECNICO</day4>
+		<day5>PROYECTOS EDUCATIVOS</day5>
+	</hour>	
+</schedule9B>

@@ -125,11 +125,11 @@
                                                     <span>1</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td> 
+                                            <td class="subject" style="vertical-align: middle">DIBUJO TECNICO APLICADO</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">DIS Y REAL DE SERVICIOS</td> 
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -140,11 +140,11 @@
                                                     <span>2</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
+                                            <td class="subject" style="vertical-align: middle">EMPRENDIMIENTO Y GESTION</td> 
+                                            <td class="subject" style="vertical-align: middle">EDUCACION PARA LA CIUDADANIA</td> 
+                                            <td class="subject" style="vertical-align: middle">EMPRENDIMIENTO Y GESTION</td> 
+                                            <td class="subject" style="vertical-align: middle">EDUCACION PARA LA CIUDADANIA</td>
+                                            <td class="subject" style="vertical-align: middle">SISTEMAS MULTIDISCIPLINA Y EN RED</td> 
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -155,11 +155,11 @@
                                                     <span>3</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td> 
+                                            <td class="subject" style="vertical-align: middle">INVESTIGACION</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td> 
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -170,11 +170,11 @@
                                                     <span>4</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td> 
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td> 
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -185,11 +185,11 @@
                                                     <span>5</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
+                                            <td class="subject" style="vertical-align: middle">DESARROLLO DE APLICACIONES DE 4TA GENERACION</td> 
+                                            <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td> 
+                                            <td class="subject" style="vertical-align: middle">DIS Y REAL DE SERVICIOS</td> 
+                                            <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td>
+                                            <td class="subject" style="vertical-align: middle">EDUCACION FISICA</td> 
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -200,11 +200,11 @@
                                                     <span>6</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
+                                            <td class="subject" style="vertical-align: middle">DESARROLLO DE APLICACIONES DE 4TA GENERACION</td> 
+                                            <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td>
+                                            <td class="subject" style="vertical-align: middle">DIS Y REAL DE SERVICIOS</td> 
+                                           <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td>
+                                            <td class="subject" style="vertical-align: middle">DESARROLLO DE APLICACIONES DE 4TA GENERACION</td> 
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -215,11 +215,11 @@
                                                     <span>7</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>                
+                                            <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td> 
+                                            <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td> 
+                                            <td class="subject" style="vertical-align: middle">DESARROLLO DE APLICACIONES DE 4TA GENERACION</td> 
+                                            <td class="subject" style="vertical-align: middle">SISTEMAS MULTIMEDIA Y EN RED</td> 
+                                            <td class="subject" style="vertical-align: middle">DESARROLLO DE APLICACIONES DE 4TA GENERACION</td>                
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -230,11 +230,11 @@
                                                     <span>8</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td>  
+                                            <td class="subject" style="vertical-align: middle">ANALISIS Y DISEÑO DE APLICACIONES INFORMATICAS DE GESTION</td> 
+                                            <td class="subject" style="vertical-align: middle">DIS Y REAL DE SERVICIOS</td> 
+                                            <td class="subject" style="vertical-align: middle">DESARROLLO DE APLICACIONES DE 4TA GENERACION</td>  
+                                            <td class="subject" style="vertical-align: middle">DIS Y REAL DE SERVICIOS</td>
+                                            <td class="subject" style="vertical-align: middle">EDUCACION PARA LA CIUDADANIA</td>  
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -245,11 +245,11 @@
                                                     <span>9</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td> 
-                                            <td class="subject" style="vertical-align: middle"></td>
-                                            <td class="subject" style="vertical-align: middle"></td>  
+                                            <td class="subject" style="vertical-align: middle">DIBUJO TECNICO APLICADO</td> 
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td> 
+                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td> 
+                                            <td class="subject" style="vertical-align: middle">INVESTIGACION</td>
+                                            <td class="subject" style="vertical-align: middle">VALORES HUMANOS</td>  
                                         </tr>
                                     </tbody>
                                 </table>

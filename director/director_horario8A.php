@@ -125,9 +125,18 @@
                                                     <span>1</span>
                                                 </span>
                                             </td>
-                                            <td class="subject" style="vertical-align: middle">COMPUTACION</td>
-                                            <td class="subject" style="vertical-align: middle">EDUCACION FISICA</td>
-                                            <td class="subject" style="vertical-align: middle">LENGUA EXTRANJERA</td>
+                                            <td class="subject" style="vertical-align: middle">
+                                                COMPUTACION<br>
+
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">
+                                                EDUCACION FISICA
+
+                                            </td>
+                                            <td class="subject" style="vertical-align: middle">
+                                                LENGUA EXTRANJERA
+
+                                            </td>
                                             <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
                                             <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
                                         </tr>
@@ -219,7 +228,7 @@
                                             <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
                                             <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
                                             <td class="subject" style="vertical-align: middle">LENGUA Y LITERATURA</td>
-                                            <td class="subject" style="vertical-align: middle">PROYECTOS ESCOLARES</td>               
+                                            <td class="subject" style="vertical-align: middle">PROYECTOS EDUCATIVOS</td>               
                                         </tr>
                                         <tr>
                                             <td class="scheduler horas" style="vertical-align: middle">
@@ -232,9 +241,9 @@
                                             </td>
                                             <td class="subject" style="vertical-align: middle">DIBUJO TECNICO</td>
                                             <td class="subject" style="vertical-align: middle">COMERCIO</td>
-                                            <td class="subject">MATEMATICAS</td>
+                                            <td class="subject" style="vertical-align: middle">MATEMATICAS</td>
                                             <td class="subject" style="vertical-align: middle">EDUCACION FISICA</td>
-                                            <td class="subject" style="vertical-align: middle">PROYECTOS ESCOLARES</td>
+                                            <td class="subject" style="vertical-align: middle">PROYECTOS EDUCATIVOS</td>
                                         </tr>
                                     </tbody>
                                 </table>

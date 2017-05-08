@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule1INFORMATICA>
+	<hour>
+		<number>1</number>
+		<day1>MATEMATICAS</day1>
+		<day2>LENGUA Y LITERATURA</day2>
+		<day3>QUIMICA</day3>
+		<day4>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day4>
+		<day5>LENGUA EXTRANJERO</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day1>
+		<day2>FISICA</day2>
+		<day3>FISICA</day3>
+		<day4>QUIMICA</day4>
+		<day5>INFORMATICA APLICADA A LA EDUCACION</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>LENGUA EXTRANJERA</day1>
+		<day2>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day2>
+		<day3>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day3>
+		<day4>FISICA</day4>
+		<day5>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>EDUCACION ARTISTICA</day1>
+		<day2>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day2>
+		<day3>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>FISICA</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>RELACION EN EL EQUIPO DE TRABAJO</day1>
+		<day2>FYOL</day2>
+		<day3>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day3>
+		<day4>MATEMATICAS</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>QUIMICA</day1>
+		<day2>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day2>
+		<day3>LENGUA EXTRANJERA</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>LENGUA Y LITERATURA</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>LENGUA EXTRANJERA</day2>
+		<day3>HISTORIA Y CIENCIAS SOCIALES</day3>
+		<day4>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day4>
+		<day5>QUIMICA</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>HISTORIA Y CIENCIAS SOCIALES</day1>
+		<day2>HISTORIA Y CIENCIAS SOCIALES</day2>
+		<day3>EDUCACION ARTISTICA</day3>
+		<day4>HISTORIA Y CIENCIAS SOCIALES</day4>
+		<day5>PROGRAMACION EN LENGUAJE ESTRUCTURADO</day5>
+	</hour>
+	<hour>
+		<number>9</number>
+		<day1>INFORMATICA APLICADA A LA EDUCACION</day1>
+		<day2>VALORES HUMANOS</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>EDUCACION FISICA</day4>
+		<day5>FYOL</day5>
+	</hour>
+</schedule1INFORMATICA>

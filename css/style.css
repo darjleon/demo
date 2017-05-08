@@ -7502,7 +7502,7 @@ body.md-skin {
 .no-margin {
   margin: 0; }
 
-.d-flex {
+.d-f {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
@@ -7516,6 +7516,16 @@ body.md-skin {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
+
+.jc-sb {
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.ai-c {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .overflow-x {
   overflow-x: auto; }
@@ -8227,9 +8237,34 @@ body.md-skin {
     .alumnos-master .alumnos-cuadricula .alumno {
       margin-right: 1em;
       padding-right: 1em;
-      border-right: 1px solid rgba(0, 0, 0, 0.1); }
-    .alumnos-master .alumnos-cuadricula .representante button {
-      margin-bottom: .5em; }
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .alumnos-master .alumnos-cuadricula .representante {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .alumnos-master .alumnos-cuadricula .representante button {
+        margin-bottom: .5em; }
     .alumnos-master .alumnos-cuadricula a {
       color: inherit; }
       .alumnos-master .alumnos-cuadricula a button {
@@ -8249,10 +8284,12 @@ body.md-skin {
   align-items: center;
   padding: 1em 0; }
 
-.back a {
-  color: white; }
-  .back a .button-back img {
-    margin-right: .4em; }
+.back {
+  text-align: right; }
+  .back a {
+    color: white; }
+    .back a .button-back img {
+      margin-right: .4em; }
 
 /*CSS profesor cursos cuadricula*/
 .seleccion-curso {
@@ -8367,8 +8404,7 @@ body.md-skin {
   .docente .separador {
     width: 100%;
     margin: 1em 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    height: 100%; }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
     @media screen and (min-width: 600px) {
       .docente .separador {
         width: 0; } }
@@ -8605,5 +8641,125 @@ body.md-skin {
 /*CSS director personal*/
 .director-personal .docente {
   width: 100%; }
+
+/*CSS profesor asistencia* */
+.cb-asist {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .cb-asist input[type="checkbox"] {
+    margin-left: 0; }
+
+.list-asist {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  padding: .1em .6em;
+  border-radius: 4px;
+  margin-bottom: 0;
+  margin-right: .5em; }
+
+.prof-asistencia {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  @media screen and (min-width: 600px) {
+    .prof-asistencia {
+      width: 220px;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+      align-items: flex-end; } }
+  @media screen and (min-width: 820px) {
+    .prof-asistencia {
+      width: 50%; } }
+  @media screen and (min-width: 1000px) {
+    .prof-asistencia {
+      width: 60%; } }
+  .prof-asistencia .lista-prof {
+    margin-bottom: 1em;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    @media screen and (min-width: 600px) {
+      .prof-asistencia .lista-prof {
+        width: 100%; } }
+    @media screen and (min-width: 600px) {
+      .prof-asistencia .lista-prof {
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; } }
+    .prof-asistencia .lista-prof select {
+      max-width: 340px; }
+
+.prof-titulo-semana {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .prof-titulo-semana small,
+  .prof-titulo-semana button,
+  .prof-titulo-semana figure {
+    margin: .2em .3em; }
+
+/*CSS tablas*/
+th, td {
+  vertical-align: inherit !important; }
+
+/*CSS Checkbox*/
+.checkboxNotas {
+  width: 20px;
+  position: relative;
+  margin: 5px auto; }
+  .checkboxNotas label {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    background: #fcfff4;
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2); }
+    .checkboxNotas label:after {
+      content: '';
+      width: 9px;
+      height: 5px;
+      position: absolute;
+      top: 3px;
+      left: 2px;
+      border: 2px solid rgba(0, 0, 0, 0.8);
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      opacity: 0;
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+  .checkboxNotas input[type=checkbox] {
+    visibility: hidden; }
+    .checkboxNotas input[type=checkbox]:checked + label:after {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

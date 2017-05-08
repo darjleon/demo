@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule2CIENTIFICO>
+	<hour>
+		<number>1</number>
+		<day1>MATEMATICAS</day1>
+		<day2>HISTORIA Y CIENCIAS SOCIALES</day2>
+		<day3>LENGUA Y LITERATURA</day3>
+		<day4>FISICA QUIMICA</day4>
+		<day5>FISICA QUIMICA</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>LENGUA EXTRANJERA</day1>
+		<day2>MATEMATICAS</day2>
+		<day3>INVESTIGACION</day3>
+		<day4>EMPRENDIMIENTO Y GESTION</day4>
+		<day5>HISTORIA Y CIENCIAS SOCIALES</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>FISICA QUIMICA</day1>
+		<day2>EDUCACION PARA LA CIUDADANIA</day2>
+		<day3>DIBUJO TECNICO</day3>
+		<day4>MATEMATICAS</day4>
+		<day5>LENGUA Y LITERATURA</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>LENGUA EXTRANJERA</day2>
+		<day3>FISICA QUIMICA</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>EDUCACION PARA LA CIUDADANIA</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>EDUCACION ARTISTICA</day1>
+		<day2>FISICA QUIMICA</day2>
+		<day3>HISTORIA Y CIENCIAS SOCIALES</day3>
+		<day4>EDUCACION PARA LA CIUDADANIA</day4>
+		<day5>INFORMATICA APLICADA A LA EDUCACION</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>EDUCACION ARTISTICA</day1>
+		<day2>LENGUA Y LITERATURA</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>LENGUA EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>BIOLOGIA</day1>
+		<day2>EMPRENDIMIENTO Y GESTION</day2>
+		<day3>LENGUA EXTRANJERA</day3>
+		<day4>BIOLOGIA</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>BIOLOGIA</day1>
+		<day2>VALORES HUMANOS</day2>
+		<day3>EDUCACION PARA LA CIUDADANIA</day3>
+		<day4>BIOLOGIA</day4>
+		<day5>BIOLOGIA</day5>
+	</hour>
+	<hour>
+		<number>9</number>
+		<day1>HISTORIA Y CIENCIAS SOCIALES</day1>
+		<day2>INFORMATICA APLICADA A LA EDUCACION</day2>
+		<day3>EDUCACION FISICA</day3>
+		<day4>HISTORIA Y CIENCIAS SOCIALES</day4>
+		<day5>INVESTIGACION</day5>
+	</hour>
+</schedule2CIENTIFICO>

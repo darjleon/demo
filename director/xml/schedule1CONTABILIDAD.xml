@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule1CONTABILIDAD>
+	<hour>
+		<number>1</number>
+		<day1>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day1>
+		<day2>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day2>
+		<day3>HISTORIA Y CIENCIAS SOCIALES</day3>
+		<day4>HISTORIA Y CIENCIAS SOCIALES</day4>
+		<day5>LENGUA EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>EDUCACION ARTISTICA</day1>
+		<day2>QUIMICA</day2>
+		<day3>LENGUA Y LITERATURA</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>GESTION Y ADMINISTRACION DE LA C Y V</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>LENGUA EXTRANJERA</day1>
+		<day2>FISICA</day2>
+		<day3>VALORES HUMANOS</day3>
+		<day4>EDUCACION ARTISTICA</day4>
+		<day5>HISTORIA Y CIENCIAS SOCIALES</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>CONTABILIDAD GENERAL Y TESORERIA</day1>
+		<day2>CONTABILIDAD GENERAL Y TESORERIA</day2>
+		<day3>COMUNICACION Y ARCHIVO</day3>
+		<day4>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day4>
+		<day5>CONTABILIDAD GENERAL Y TESORERIA</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>FISICA</day1>
+		<day2>EDUCACION FISICA</day2>
+		<day3>INFORMATICA APLICADA A LA EDUCACION</day3>
+		<day4>QUIMICA</day4>
+		<day5>COMUNICACION Y ARCHIVO</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>INFORMATICA APLICADA A LA EDUCACION</day1>
+		<day2>HISTORIA Y CIENCIAS SOCIALES</day2>
+		<day3>LENGUA EXTRANJERA</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>GESTION Y ADMINISTRACION DE LA C Y V</day1>
+		<day2>LENGUA EXTRANJERA</day2>
+		<day3>QUIMICA</day3>
+		<day4>MATEMATICAS</day4>
+		<day5>DESARROLLO DEL PENSAMIENTO FILOSOFICO</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>DIBUJO TECNICO APLICADO</day2>
+		<day3>FISICA</day3>
+		<day4>FISICA</day4>
+		<day5>QUIMICA</day5>
+	</hour>
+	<hour>
+		<number>9</number>
+		<day1>MATEMATICAS</day1>
+		<day2>COMUNICACION Y ARCHIVO</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>GESTION Y ADMINISTRACION DE LA C Y V</day4>
+		<day5>LENGUA Y LITERATURA</day5>
+	</hour>
+</schedule1CONTABILIDAD>
