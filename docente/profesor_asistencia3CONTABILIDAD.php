@@ -75,43 +75,40 @@
     </nav>
     <div id="page-wrapper" class="gray-bg dashbard-1">
         <?php include ('include/barra.php'); ?>
-        <div class="row wrapper white-bg ">      
-            <div class="col-lg-1 text-right">                
-                <img src="img/CURSO.png" style="width:30px">
-            </div>                
-            <div class="col-lg-5">                
-                <h4 style="margin-left:0;margin-bottom: 0"><strong>CURSO: </strong>3RO BACHILLERATO CONTABILIDAD</h4>
-                <h4><strong>DIRIGENTE: </strong>JUAN LOPEZ MARURI</h4>      
-                <h4 style="margin-top: 10px"><strong>MATERIA: </strong>INVESTIGACION</h4>  
-            </div>
-            <div class="col-lg-6 text-right" style="margin-top:5px;margin-right: -15px">
-                <ul>
-                    <li style="display:inline-block">
-                        <a href="#">
-                            <h5 class="btn btn-student-list">Asistencia</h5>
+        <div class="row wrapper white-bg "> 
+            <div class="col-xs-12 profe-cuadricula lista-general">
+                <h3 style="margin:1em 0">
+                    <p>
+                    Dirigente:  
+                    <span class="not">JUAN LOPEZ MARURI</span></p>
+                    <p>              
+                    Curso: 
+                    <span class="not">3ro Bachillerato Contabilidad</span>   
+                    </p>
+                    <p>              
+                    Materia: 
+                    <span class="not">INVESTIGACION</span>             
+                    </p>
+                </h3>
+                <span class="prof-asistencia">
+                    <div class="lista-prof"> 
+                        <select onchange="selectProfAsist()" class="form-control select-prof-asist" >
+                          <option value='./profesor_asistencia3CONTABILIDAD.php' selected="selected">Asistencia</option>
+                          <option value="./profesor_agendaescolar.php">Agenda Escolar</option>
+                          <option value="./profesor_calificaciones3CONTABILIDAD.php">Calificaciones</option>
+                          <option value="./profesor_perfiles3CONTABILIDAD.php">Perfiles</option>
+                        </select>
+                    </div>
+                    <div class="back">
+                        <a href="profesor_horario.php">
+                            <button class="button-back cb">
+                                <img src="../img/return.png" alt="" width="17">Regresar
+                            </button>
                         </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_agendaescolar.php">
-                            <h5 class="btn btn-student-list">Agenda Escolar</h5>
-                        </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_calificaciones3CONTABILIDAD.php">
-                            <h5 class="btn btn-student-list">Calificaciones</h5>
-                        </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_perfiles3CONTABILIDAD.php">
-                            <h5 class="btn btn-student-list">Perfiles</h5>
-                        </a>
-                    </li>
-                </ul>
-                <a href="profesor_horario.php">
-                    <button type="button" class="btn btn-outline btn-success" style="margin-top:5px;margin-bottom: 5px">Regresar</button>
-                </a>
-            </div>                                                  
-        </div>     
+                    </div> 
+                </span>
+            </div>                                                     
+        </div>      
         <div class="wrapper wrapper-content">
             
             <div class="row">
