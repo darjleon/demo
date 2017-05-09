@@ -85,19 +85,20 @@
     <div id="page-wrapper" class="gray-bg dashbard-1">
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg "> 
-            <h2 style="margin:1em 0">
-                DECIMO 'A'
-            </h2>                             
-            <div class="back">
-                <a href="director_asistencia.php">
-                    <button class="button-back cb">
-                        <img src="../img/return.png" alt="" width="17">Regresar
-                    </button>
-                </a>
-            </div> 
+            <div class="col-xs-12 seleccion-curso">
+                <h2 style="margin:1em 0">DECIMO 'A'</h2>
+                <div class="formatos">
+                    <div class="back">
+                        <a href="director_asistencia.php">
+                            <button class="button-back cb">
+                                <img style="margin: 0;" src="../img/return.png" alt="" width="17">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>            
         </div>
-        <div class="wrapper wrapper-content">
-            
+        <div class="wrapper wrapper-content">            
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-left" style="margin-top:0;padding-left:10px">
@@ -107,8 +108,25 @@
                     </h2>
                 </div>                                            
             </div>
-            
-
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel-body">
+                        <table class="table table-bordered table-hover">
+                            <thead style="background-color: #939598">
+                                <tr >
+                                    <th class="text-center" style="background-color: #939598;color: white;width:50%">Alumno</th>
+                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Lunes</th>
+                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Martes</th>
+                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Miercoles</th>
+                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Jueves</th>
+                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Viernes</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>            
+                </div>
+            </div>
+                        
         </div> 
     </div>
 </div>
