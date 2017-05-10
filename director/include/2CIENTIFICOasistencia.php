@@ -12,1449 +12,189 @@
                                     <th class="text-center" style="background-color: #939598;color: white;width:10%">Viernes</th>
                                 </tr>
                             </thead>
-                            <tbody style="background-color:white">                            
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">1</span>
-                                            WAGNER ANDRES AGUILAR GOMEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">2</span>
-                                            KENYI JOELALVAREZ PEÑAFIELE.pn
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">3</span>
-                                            FERNANDO XAVIER BASTIDAS GARCIA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">4</span>
-                                            MARIA DANIELA BRITO ABAD
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">5</span>
-                                            PAUL ANDRES BUSTAMANTE MORAN
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">6</span>
-                                            ALFONSO JOSHUE CAMACHO HIDALGO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">    
-                                            <span class="list-asist">7</span>
-                                            GENESIS GABRIELA CASTRO ZAMBRANO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">8</span>
-                                            DARWIN JOSEPH CEVALLOS BARZOLA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">9</span>
-                                            RICARDO ANDRES CONTRERAS FRANCO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">10</span>
-                                            CRISTOPHER ALEXANDER DUCHE YNEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">11</span>
-                                            ANAHI YAMILETH ESCOBAR DALMA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">12</span>
-                                            ANDREA STEFANIA ESCOBAR RENDOM
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">13</span>
-                                            EMILIO DANILO ESPINOZA VIZCAINO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">14</span>
-                                            RENE JOSUE GALLO ROUSSEAU 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">15</span>
-                                            LENIN HENRY GARCIA PALMA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">16</span>
-                                            NESTOR RICARDO GARCIA RODRIGUEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">17</span>
-                                            WALESCA SOFIA GONZALES LOOR
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">18</span>
-                                            CARLA MADELEINE JACHO WONG
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">19</span>
-                                            ANGEL ISRAEL LOZANO LEON
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">20</span>
-                                            KRISTELLE KARELYS LUCIN QUIÑONEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                        <span class="list-asist">21</span>
-                                            MARIA JOSE MACARLUPO GARCIA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">22</span>
-                                            RICHARD ANDRES MACIAS TORRES
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">23</span>
-                                            MELANIE NOEMI MERA ZUÑIGA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">24</span>
-                                            GABRIELA STEFANIA MIRANDA ORELLANA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">25</span>
-                                            DAYANNA THAIS MORA CALDERON
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">26</span>
-                                            MARIANA STEFANIA PAZAN RODRIGUEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">27</span>
-                                            NELLY ROUSE PONCE GONZALES
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">28</span>
-                                            OSCAR DAVID QUINTERO HURTADO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">29</span>
-                                            JONATHAN JOSE REBUTTI MACIAS
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">30</span>
-                                            MARIA DELIA REGALADO LARA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">31</span>
-                                            VALERY GARDENIA RIVERA VERA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">32</span>
-                                            ERICK ALEXIS ROSERO MACIAS
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">33</span>
-                                            CARLOS XAVIER VALENCIA RODRIGUEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">34</span>
-                                            MARIA FERNANDA VELASCO GUADALUPE
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">35</span>
-                                            ALINSON IVANA VELIZ TRIVIÑO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            <span class="list-asist">36</span>
-                                            LUANA GUADALUPE ZAMBRANO BURGOS 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d1" id="checkboxNotas1">
-                                                <label for="checkboxNotas1"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d2" id="checkboxNotas2">
-                                                <label for="checkboxNotas2"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                        <td class="text-center">
-                                            <div class="checkboxNotas"> 
-                                                <input class="text-center" type="checkbox" value="d3" id="checkboxNotas3">
-                                                <label for="checkboxNotas3"></label>
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
+                            <tbody style="background-color:white" id="asistencia-list">                            
+                                
                             </tbody>
                         </table>
                     </div>            
                 </div>
             </div>
+
+<script type="text/javascript">
+
+     var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          getAsistencia(this);
+          
+        }
+      };
+      xhttp.open("GET", "xml/course2CIENTIFICO.xml", true);
+      xhttp.send();
+
+      function getAsistencia(xml){
+        var i,j,k;
+          var xmlDoc = xml.responseXML;
+         //var table="<p><strong>Profesores</strong></p>";
+          var x = xmlDoc.getElementsByTagName("student");
+          for (i = 0; i <x.length; i++) { 
+            var newtr = document.createElement('tr');
+            var td1 = document.createElement('td');
+            var pStd = document.createElement('p');
+            pStd.setAttribute('class','student-list');
+
+            /*var spanStd = document.createElement('span');
+            spanStd.setAttribute('class','list-asist');*/
+            pStd.innerHTML='<span class="list-asist">'+(i+1)+'</span>'+"  "+x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue + " " + x[i].getElementsByTagName("lastName")[0].childNodes[0].nodeValue;
+
+            
+            td1.appendChild(pStd);
+            newtr.appendChild(td1);
+
+
+
+            var form = document.createElement('form');
+            var td2 = document.createElement('td');
+            td2.setAttribute('class','text-center');
+
+            var divCheck = document.createElement('div');
+            divCheck.setAttribute('class',"checkboxNotas");
+
+            var input = document.createElement('input');
+            input.setAttribute('class',"text-center");
+            input.setAttribute('type',"checkbox");
+            input.setAttribute('value',"d1");
+            input.setAttribute('id',"checkboxNotas1");
+
+            var label = document.createElement('label');
+            label.setAttribute('for',"checkboxNotas1");
+
+            divCheck.appendChild(input);
+            divCheck.appendChild(label);
+
+            td2.appendChild(divCheck);
+
+            
+
+
+
+            var td3 = document.createElement('td');
+            td3.setAttribute('class','text-center');
+
+            var divCheck2 = document.createElement('div');
+            divCheck2.setAttribute('class',"checkboxNotas");
+
+            var input2 = document.createElement('input');
+            input2.setAttribute('class',"text-center");
+            input2.setAttribute('type',"checkbox");
+            input2.setAttribute('value',"d2");
+            input2.setAttribute('id',"checkboxNotas2");
+
+            var label2 = document.createElement('label');
+            label2.setAttribute('for',"checkboxNotas2");
+
+            divCheck2.appendChild(input2);
+            divCheck2.appendChild(label2);
+
+            td3.appendChild(divCheck2);
+
+            
+
+
+
+            var td4 = document.createElement('td');
+            td4.setAttribute('class','text-center');
+
+            var divCheck3 = document.createElement('div');
+            divCheck3.setAttribute('class',"checkboxNotas");
+
+            var input3 = document.createElement('input');
+            input3.setAttribute('class',"text-center");
+            input3.setAttribute('type',"checkbox");
+            input3.setAttribute('value',"d3");
+            input3.setAttribute('id',"checkboxNotas3");
+
+            var label3 = document.createElement('label');
+            label3.setAttribute('for',"checkboxNotas3");
+
+            divCheck3.appendChild(input3);
+            divCheck3.appendChild(label3);
+
+            td4.appendChild(divCheck3);
+
+            
+
+
+
+            var td5 = document.createElement('td');
+            td5.setAttribute('class','text-center');
+
+            var divCheck4 = document.createElement('div');
+            divCheck4.setAttribute('class',"checkboxNotas");
+
+            var input4 = document.createElement('input');
+            input4.setAttribute('class',"text-center");
+            input4.setAttribute('type',"checkbox");
+            input4.setAttribute('value',"d3");
+            input4.setAttribute('id',"checkboxNotas3");
+
+            var label4 = document.createElement('label');
+            label4.setAttribute('for',"checkboxNotas3");
+
+            divCheck4.appendChild(input4);
+            divCheck4.appendChild(label4);
+
+            td5.appendChild(divCheck4);
+
+            
+
+
+            var td6 = document.createElement('td');
+            td6.setAttribute('class','text-center');
+
+            var divCheck5 = document.createElement('div');
+            divCheck5.setAttribute('class',"checkboxNotas");
+
+            var input5 = document.createElement('input');
+            input5.setAttribute('class',"text-center");
+            input5.setAttribute('type',"checkbox");
+            input5.setAttribute('value',"d3");
+            input5.setAttribute('id',"checkboxNotas3");
+
+            var label5 = document.createElement('label');
+            label5.setAttribute('for',"checkboxNotas3");
+
+            divCheck5.appendChild(input5);
+            divCheck5.appendChild(label5);
+
+            td6.appendChild(divCheck5);
+
+            
+
+
+
+            /*newtr.appendChild(form);*/
+
+            newtr.appendChild(td2);
+            newtr.appendChild(td3);
+            newtr.appendChild(td4);
+            newtr.appendChild(td5);
+
+            newtr.appendChild(td6);
+
+
+
+
+
+
+
+
+            document.getElementById("asistencia-list").appendChild(newtr);
+
+
+          }
+
+
+
+      }
+</script>
