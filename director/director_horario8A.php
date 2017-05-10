@@ -115,7 +115,8 @@
                                             <th class="text-center scheduler" style="font-size: 1.6em;">Viernes</th>
                                         </tr>
                                     </thead>
-                                    <tbody id="horario">                                        
+                                    <tbody id="horario">
+                                        <?php include('include/schedule8A.php'); ?>
                                     </tbody>
                                 </table>
                             </div>
@@ -126,6 +127,7 @@
         </div>    
     </div>
 </div>
+<<<<<<< HEAD
 <script type="text/javascript">
     var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
@@ -234,6 +236,9 @@
           }
       }
 </script>
+=======
+
+>>>>>>> 648a23f65d952ac3203e0ca2d19aef97cb2220bc
 
 
 <?php include ('include/footer.php'); ?>
