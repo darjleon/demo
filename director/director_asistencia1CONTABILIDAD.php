@@ -109,24 +109,7 @@
                     </h2>
                 </div>                                            
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel-body">
-                        <table class="table table-bordered table-hover">
-                            <thead style="background-color: #939598">
-                                <tr >
-                                    <th class="text-center" style="background-color: #939598;color: white;width:50%">Alumno</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Lunes</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Martes</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Miercoles</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Jueves</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Viernes</th>
-                                </tr>
-                            </thead>
-                        </table>
-                    </div>            
-                </div>
-            </div>
+            <?php include ('include/1CONTABILIDADasistencia.php'); ?>
         </div>  
     </div>
 </div>

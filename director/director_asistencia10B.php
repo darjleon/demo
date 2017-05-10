@@ -86,7 +86,7 @@
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg "> 
             <div class="col-xs-12 seleccion-curso">
-                <h2 style="margin:1em 0">DECIMO 'A'</h2>
+                <h2 style="margin:1em 0">DECIMO 'B'</h2>
                 <div class="formatos">
                     <div class="back">
                         <a href="director_asistencia.php">
@@ -108,26 +108,8 @@
                         <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal6" style="color: white"><h5>Semana Anterior</h5></button>
                     </h2>
                 </div>                                            
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel-body">
-                        <table class="table table-bordered table-hover">
-                            <thead style="background-color: #939598">
-                                <tr >
-                                    <th class="text-center" style="background-color: #939598;color: white;width:50%">Alumno</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Lunes</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Martes</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Miercoles</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Jueves</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Viernes</th>
-                                </tr>
-                            </thead>
-                        </table>
-                    </div>            
-                </div>
-            </div>
-            
+            </div>            
+            <?php include ('include/10Basistencia.php'); ?>
         </div> 
     </div>
 </div>
