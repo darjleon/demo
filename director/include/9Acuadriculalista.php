@@ -1,5 +1,6 @@
             <div id="alumnos-cuad" class="alumnos-master"> 
 
+<<<<<<< HEAD
                 <!--<div class="alumnos-cuadricula">
                     <div class="alumno">
                         <img src="../img/icono_persona.png" alt="" width="25">
@@ -285,6 +286,9 @@
                         </a>
                     </div>
                 </div>  -->
+=======
+                
+>>>>>>> 648a23f65d952ac3203e0ca2d19aef97cb2220bc
 
             </div>
 
@@ -344,7 +348,11 @@
 
             var imgRep=document.createElement('img');
             imgRep.setAttribute('alt'," ");
+<<<<<<< HEAD
             imgRep.setAttribute('src',"img/REPRESENTANTE.png");
+=======
+            imgRep.setAttribute('src',"../img/REPRESENTANTE.png");
+>>>>>>> 648a23f65d952ac3203e0ca2d19aef97cb2220bc
             imgRep.setAttribute('width',"25");
 
             divRep.appendChild(imgRep);

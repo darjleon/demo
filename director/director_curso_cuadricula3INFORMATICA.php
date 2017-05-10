@@ -1,4 +1,4 @@
-\<?php
+<?php
   session_start();
    
   // Controlo si el usuario ya está logueado en el sistema.
@@ -11,64 +11,73 @@
         <div class="sidebar-collapse">
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
-                    <div class="dropdown profile-element">
-                        <span>                            
-                            <img src="../img/profile_small.jpg" class="img-circle" alt="profile" width="40%"/>
-                        </span>
+                    <div class="profile-element"> 
+                        <img alt="image" class="img-circle" src="../img/a5.jpg" width="40%" />
                         <a href="#">
-                            <span class="block">                                
+                            <span class="block ">
                                 <h4>
-                                    <strong class="font-bold">LUIS CORREA ZAMBRANO</strong>
-                                    <br><small class="profile-type">PROFESOR</small>
-                                </h4>
+                                    <strong class="font-bold">CARMEN OJEDA LEON</strong>
+                                    <br><small class="profile-type">RECTOR</small>
+                                </h4>                                
                             </span>
                         </a>
                     </div>
                     <div class="logo-element">
                         <img alt="logo" src="../img/logo unico.png" width="50px" />
                     </div>
-                </li>
+                </li>                
                 <li>
-                    <a href="director.php">
-                        <i class="fa fa-th-large"></i><span class="nav-label">Mi Perfil</span> 
+                    <a href="#">
+                        <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
                 <li>
-                    <a href="director_institucion.php">
-                        <i class="fa fa-institution"></i><span class="nav-label">Institucion</span> 
+                    <a href="director_informacion.php">
+                        <i class="fa fa-institution"></i><span class="nav-label">Informacion</span> 
                     </a>
                 </li>
                 <li>
-                    <a href="director_notificaciones.php">
-                        <i class="fa fa-newspaper-o"></i><span class="nav-label">Notificaciones</span>
+                    <a href="director_notificacion.php">
+                        <i class="fa fa-newspaper-o"></i>
+                        <span class="nav-label">Notificaciones </span>
+                        <span class="label label-warning">Nuevo</span>
                     </a>
                 </li>
                 <li class="active">
                     <a href="director_cursos.php">
                         <i class="fa fa-bookmark"></i>
-                        <span class="nav-label">Cursos</span>
+                        <span class="nav-label">Cursos </span>
                     </a>
                 </li>
                 <li>
-                    <a href="director_horario.php">
-                        <i class="fa fa-clock-o"></i><span class="nav-label">Horarios</span>
-                    </a>      
+                    <a href="director_horarios.php">
+                        <i class="fa fa-clock-o"></i>
+                        <span class="nav-label">Horarios </span>
+                    </a>
                 </li>
                 <li>
-                    <a href="director_calendario.php">
-                        <i class="fa fa-calendar"></i><span class="nav-label">Calendario Academico</span>
-                    </a>      
-                </li>                                                         
-                <li>
-                    <a href="#">
-                        <i class="fa fa-institution"></i>
-                        <span class="nav-label">Planificaciones</span>
-                        <span class="fa arrow"></span>
+                    <a href="director_asistencia.php">
+                        <i class="fa fa-list"></i>
+                        <span class="nav-label">Asistencia </span>
                     </a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="#">Opcion 1</a></li>
-                        <li><a href="#">Opcion 2</a></li>
-                    </ul> 
+                </li>
+                <li>
+                    <a href="director_pagos.php">
+                        <i class="fa fa-usd"></i>
+                        <span class="nav-label">Pagos </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="director_plancurricular.php">
+                        <i class="fa fa-newspaper-o"></i>
+                        <span class="nav-label">Plan Curricular </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="director_configuraciones.php">
+                        <i class="fa fa-cogs"></i>
+                        <span class="nav-label">Configuraciones </span>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -80,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">3ro Bachillerato Informatica</span></p>
+                    <span class="not">3ro BACHILLERATO INFORMÁTICA</span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">Angelica Villablanca Trujillo</span>                    

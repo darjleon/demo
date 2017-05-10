@@ -91,15 +91,15 @@
                 </h2>
                 <div class="formatos">
                 <div class="back">
-                    <a href="director_cursos_cuadricula.php">
+                    <a href="director_informacion.php">
                         <button class="button-back cb">
                             <img style="margin: 0;" src="../img/return.png" alt="" width="17">
                         </button>
                     </a>
                 </div>
-                    <a class="formatos-link" href="#"> 
+                    <!--<a class="formatos-link" href="#"> 
                         <img src="../img/cuadricula.png" alt="" width="17">
-                    </a>                    
+                    </a>-->                   
                     <a class="formatos-link" href="director_profesores.php"> 
                         <img src="../img/list.png" alt="" width="20">
                     </a>

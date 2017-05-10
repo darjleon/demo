@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule2CONTABILIDAD>
+		<hour>
+		<number>1</number>
+		<day1>CONTABILIDAD GENERAL Y TESORERIA</day1>
+		<day2>FISICA QUIMICA</day2>
+		<day3>CONTABILIDAD GENERAL Y TESORERIA</day3>
+		<day4>CONTABILIDAD GENERAL Y TESORERIA</day4>
+		<day5>EMPRENDIMIENTO Y GESTION</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>LENGUA Y EXTRANJERA</day1>
+		<day2>CONTABILIDAD GENERAL Y TESORERIA</day2>
+		<day3>BIOLOGIA</day3>
+		<day4>MATEMATICAS</day4>
+		<day5>BIOLOGIA</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>HISTORIA Y CIENCIAS SOCIALES</day1>
+		<day2>EDUCACION ARTISTICA</day2>
+		<day3>FISICA QUIMICA</day3>
+		<day4>GESTION ADMINSTRACION DE LA C Y V</day4>
+		<day5>CONTABILIDAD GENERAL Y TESORERIA</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>MATEMATICAS</day1>
+		<day2>LENGUA Y EXTRANJERA</day2>
+		<day3>HISTORIA Y CIENCIAS SOCIALES</day3>
+		<day4>LENGUA Y EXTRANJERA</day4>
+		<day5>COMUNICACION Y ARCHIVO</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>BIOLOGIA</day1>
+		<day2>LENGUA Y LITERATURA</day2>
+		<day3>EDUCACION PARA LA CIUDADANIA</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>EDUCACION ARTISTICA</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>EMPRENDIMIENTO Y GESTION</day1>
+		<day2>COMUNICACION Y ARCHIVO</day2>
+		<day3>LENGUA Y LITERATURA</day3>
+		<day4>VALORES HUMANOS</day4>
+		<day5>LENGUA Y EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>FISICA QUIMICA</day1>
+		<day2>BIOLOGIA</day2>
+		<day3>LENGUA Y EXTRANJERA</day3>
+		<day4>HISTORIA Y CIENCIAS SOCIALES</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>GESTION ADMINSTRACION DE LA C Y V</day1>
+		<day2>MATEMATICAS</day2>
+		<day3>EDUCACION FISICA</day3>
+		<day4>FISICA QUIMICA</day4>
+		<day5>EDUCACION PARA LA CIUDADANIA</day5>
+	</hour>
+	<hour>
+		<number>9</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>EDUCACION PARA LA CIUDADANIA</day2>
+		<day3>COMUNICACION Y ARCHIVO</day3>
+		<day4>EDUCACION PARA LA CIUDADANIA</day4>
+		<day5>HISTORIA Y CIENCIAS SOCIALES</day5>
+	</hour>
+</schedule2CONTABILIDAD>

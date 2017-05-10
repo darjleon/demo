@@ -95,21 +95,23 @@
                     <span class="not">LUIS CORREA ZAMBRANO</span>                    
                     </p>
                 </h3>
-                <div class="formatos">
+                <span class="prof-asistencia">
+                    <div class="lista-prof"> 
+                        <select onchange="selectProfAsist()" class="form-control select-prof-asist" >
+                            <option value="./director_8A.php" selected="selected">PERFILES</option>
+                            <option value='./director_asistencia8A.php'>ASISTENCIA</option>
+                            <option value="./director_agendaescolar8A.php">AGENDA ESCOLAR</option>
+                            <option value="./director_calificaciones8A.php">CALIFICACIONES</option>
+                        </select>
+                    </div>
                     <div class="back">
                         <a href="director_cursos.php">
                             <button class="button-back cb">
                                 <img src="../img/return.png" alt="" width="17">Regresar
                             </button>
                         </a>
-                    </div>
-                <!--     <a class="formatos-link" href="#"> 
-                        <img src="../img/cuadricula.png" alt="" width="17">
-                    </a>                    
-                    <a class="formatos-link" href="director_curso_cuadricula8A.php"> 
-                        <img src="../img/list.png" alt="" width="20">
-                    </a> -->
-                </div>
+                    </div> 
+                </span>
             </div>
         </div>
         <div class="wrapper wrapper-content">

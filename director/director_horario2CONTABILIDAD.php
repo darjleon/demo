@@ -86,11 +86,50 @@
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg "> 
             <div class="col-xs-12 seleccion-curso">
-                <h2 style="margin:1em 0">Seleccione un Curso</h2>
+                <h2 style="margin:1em 0">Horario 2DO BACHILLERATO CONTABILIDAD</h2>
+                <div class="formatos">
+                    <div class="back">
+                        <a href="director_horarios.php">
+                            <button class="button-back cb">
+                                <img style="margin: 0;" src="../img/return.png" alt="" width="17">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper-content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default"> 
+                        <div class="horario-clases">
+                            <div class="table-responsive">
+                                <table class="table ss1">
+                                    <thead class="scheduler ss1">
+                                        <tr>
+                                            <th class="text-center scheduler"><!-- Hora --></th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Lunes</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Martes</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Miercoles</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Jueves</th>
+                                            <th class="text-center scheduler" style="font-size: 1.6em;">Viernes</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="horario">
+                                        <?php include ('include/schedule2CONTABILIDAD.php'); ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
 <?php include ('include/footer.php'); ?>
 <?php
   }else{

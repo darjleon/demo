@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule3CONTABILIDAD>
+	<hour>
+		<number>1</number>
+		<day1>INVESTIGACION</day1>
+		<day2>LENGUA EXTRANJERA</day2>
+		<day3>FYOL</day3>
+		<day4>LENGUA EXTRANJERA</day4>
+		<day5>MATEMATICAS</day5>
+	</hour>
+	<hour>
+		<number>2</number>
+		<day1>EDUCACION PARA LA CIUDADANIA</day1>
+		<day2>INVESTIGACION</day2>
+		<day3>MATEMATICAS</day3>
+		<day4>GESTION ADMINISTRACION DE LOS RRHH</day4>
+		<day5>EMPRENDIMIENTO Y GESTION</day5>
+	</hour>
+	<hour>
+		<number>3</number>
+		<day1>FYOL</day1>
+		<day2>PRODUCTOS Y SERVICIOS</day2>
+		<day3>LENGUA Y LITERATURA</day3>
+		<day4>PRODUCTOS Y SERVICIOS</day4>
+		<day5>GESTION ADMINISTRACION DE LOS RRHH</day5>
+	</hour>
+	<hour>
+		<number>4</number>
+		<day1>LENGUA EXTRANJERA</day1>
+		<day2>EDUCACION PARA LA CIUDADANIA</day2>
+		<day3>PRODUCTOS Y SERVICIOS</day3>
+		<day4>VALORES HUMANOS</day4>
+		<day5>LENGUA EXTRANJERA</day5>
+	</hour>
+	<hour>
+		<number>5</number>
+		<day1>APLICACIONES INFORMATICAS</day1>
+		<day2>CONTABILIDAD GENERAL Y TESORERIA</day2>
+		<day3>EMPRENDIMIENTO Y GESTION</day3>
+		<day4>CONTABILIDAD GENERAL Y TESORERIA</day4>
+		<day5>CONTABILIDAD GENERAL Y TESORERIA</day5>
+	</hour>
+	<hour>
+		<number>6</number>
+		<day1>LENGUA Y LITERATURA</day1>
+		<day2>CONTABILIDAD GENERAL Y TESORERIA</day2>
+		<day3>GESTION ADMINISTRACION DE LOS RRHH</day3>
+		<day4>CONTABILIDAD GENERAL Y TESORERIA</day4>
+		<day5>PRODUCTOS Y SERVICIOS</day5>
+	</hour>
+	<hour>
+		<number>7</number>
+		<day1>CONTABILIDAD GENERAL Y TESORERIA</day1>
+		<day2>LENGUA Y LITERATURA</day2>
+		<day3>CONTABILIDAD GENERAL Y TESORERIA</day3>
+		<day4>APLICACIONES INFORMATICAS</day4>
+		<day5>EDUCACION PARA LA CIUDADANIA</day5>
+	</hour>
+	<hour>
+		<number>8</number>
+		<day1>MATEMATICAS</day1>
+		<day2>APLICACIONES INFORMATICAS</day2>
+		<day3>APLICACIONES INFORMATICAS</day3>
+		<day4>LENGUA Y LITERATURA</day4>
+		<day5>INVESTIGACION</day5>
+	</hour>
+	<hour>
+		<number>9</number>
+		<day1>GESTION ADMINISTRACION DE LOS RRHH</day1>
+		<day2>EDUCACION FISICA</day2>
+		<day3>LENGUA EXTRANJERA</day3>
+		<day4>EDUCACION FISICA</day4>
+		<day5>APLICACIONES INFORMATICAS</day5>
+	</hour>
+</schedule3CONTABILIDAD>
