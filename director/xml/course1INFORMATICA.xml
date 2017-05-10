@@ -1,8 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course1INFORMATICA>
 	<student>
-		<id>1</id>
-		<name>GABRIEL</name>
-		<lastName>ARAUZ CASTILLO</lastName>		
+		<id>1</id> 
+		<name>EDUARDO ANDRES</name>
+		<lastName>AVILES MONTUFAR</lastName>		
+	</student>
+	<student>
+		<id>2</id> 
+		<name>ANDRES ALEXANDER</name>
+		<lastName>BALLADARES FUENTES</lastName>		
+	</student>
+	<student>
+		<id>3</id> 
+		<name>BETSABETH SOLEDAD</name>
+		<lastName>BASURTO SORIANA</lastName>		
+	</student>
+	<student>
+		<id>4</id> 
+		<name>DAVID EDUARDO</name>
+		<lastName>CHOEZ RONQUILLO</lastName>		
+	</student>
+	<student>
+		<id>5</id> 
+		<name>ARIEL ANIBAL</name>
+		<lastName>ENGRACIA PAREDES</lastName>		
+	</student>
+	<student>
+		<id>6</id> 
+		<name>MOISES EDISON</name>
+		<lastName>FRANCO SARATE</lastName>		
+	</student>
+	<student>
+		<id>7</id> 
+		<name>DAVID GENARO</name>
+		<lastName>FUENTES MONTENEGRO</lastName>		
+	</student>
+	<student>
+		<id>8</id> 
+		<name>GABRIEL WLADIMIR</name>
+		<lastName>GALECIO ARAUJO</lastName>		
+	</student>
+	<student>
+		<id>9</id> 
+		<name>DEREK ALEJANDRO</name>
+		<lastName>HERRERA SANTAMARIA</lastName>		
+	</student>
+	<student>
+		<id>10</id> 
+		<name>OMAR STEVEN</name>
+		<lastName>LIMA SANCHEZ</lastName>		
+	</student>
+	<student>
+		<id>11</id> 
+		<name>GREGORY PAUL</name>
+		<lastName>MIRANDA ACUÑIA</lastName>		
+	</student>
+	<student>
+		<id>12</id> 
+		<name>BELLY MARIA</name>
+		<lastName>MATIAS ARCE</lastName>		
+	</student>
+	<student>
+		<id>13</id> 
+		<name>ANDRES FERNANDO</name>
+		<lastName>MURILLO VALLEJOS</lastName>		
+	</student>
+	<student>
+		<id>14</id> 
+		<name>JOSHUE FERNANDO</name>
+		<lastName>PEREZ BRIONES</lastName>		
+	</student>
+	<student>
+		<id>15</id>
+		<name>LENIN LUIS</name>
+		<lastName>PONCE UZHCA</lastName>		
+	</student>
+	<student>
+		<id>16</id> 
+		<name>ELKIN DAVID</name>
+		<lastName>SANNA HERAS</lastName>		
+	</student>
+	<student>
+		<id>17</id> 
+		<name>ALAN JOEL</name>
+		<lastName>SANNA HERAS</lastName>		
+	</student>
+	<student>
+		<id>18</id> 
+		<name>KEVIN FABIAN</name>
+		<lastName>TIPAN CAIMINAGUA</lastName>		
+	</student>
+	<student>
+		<id>19</id> 
+		<name>STEVEN JAVIER</name>
+		<lastName>TOALA CEDEÑO</lastName>		
+	</student>
+	<student>
+		<id>20</id> 
+		<name>IVAN ALFONSO</name>
+		<lastName>VERA VALLEJO</lastName>		
+	</student>
+	<student>
+		<id>21</id> 
+		<name>KARELYS NOELIA</name>
+		<lastName>VINCES LEON</lastName>		
 	</student>
 </course1INFORMATICA>

@@ -1,9 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course3CIENTIFICO>
 	<student>
-		<id>1</id>
-		<name>HUGO</name>
-		<lastName>CHAVEZ LEÓN</lastName>		
+		<id>1</id> 
+		<name>CINDY MARCELA</name>
+		<lastName>ALARCON MOROCHO</lastName>		
 	</student>
-	
+	<student>
+		<id>2</id> 
+		<name>BRAD ALEXANDER</name>
+		<lastName>ALCIVAR VERA</lastName>		
+	</student>
+	<student>
+		<id>3</id> 
+		<name>JOSUE MIGUEL</name>
+		<lastName>ALVARADO AVILA</lastName>		
+	</student>
+	<student>
+		<id>4</id> 
+		<name>LUIS ALBERTO</name>
+		<lastName>ANDRADE FIGUEROA</lastName>		
+	</student>
+	<student>
+		<id>5</id> 
+		<name>ALLISON ANDREA</name>
+		<lastName>ARREAGA ANDRADE</lastName>		
+	</student>
+	<student>
+		<id>6</id> 
+		<name>JOSE MIGUEL</name>
+		<lastName>AGUILAR RAMIREZ</lastName>		
+	</student>
+	<student>
+		<id>7</id> 
+		<name>EILEEN GEOMARA</name>
+		<lastName>BAREO SANJINES</lastName>		
+	</student>
+	<student>
+		<id>8</id> 
+		<name>BRENDA CAROLINA</name>
+		<lastName>BERNAL VELASQUEZ</lastName>		
+	</student>
+	<student>
+		<id>9</id> 
+		<name>CHRISTIAN JOAO</name>
+		<lastName>BORJA SALAO</lastName>		
+	</student>
+	<student>
+		<id>10</id> 
+		<name>JOSELINE ARIANA</name>
+		<lastName>BUÑAY RAMOS</lastName>		
+	</student>
+	<student>
+		<id>11</id> 
+		<name>STEFANI JAMILETH</name>
+		<lastName>BURGOS FIGUEROA</lastName>		
+	</student>
+	<student>
+		<id>12</id> 
+		<name>MAYLEE NINOSKA</name>
+		<lastName>BURNHAM MARCILLO</lastName>		
+	</student>
+	<student>
+		<id>13</id> 
+		<name>DAGMAR ALISON</name>
+		<lastName>CAÑAS PEÑAFIEL</lastName>		
+	</student>
+	<student>
+		<id>14</id> 
+		<name>DEREK JOSHUA</name>
+		<lastName>CARDENAS AMBI</lastName>		
+	</student>
+	<student>
+		<id>15</id> 
+		<name>GINGER LISBETH</name>
+		<lastName>CASTRO RUIZ</lastName>		
+	</student>
+	<student>
+		<id>16</id> 
+		<name>SERGIO ANDRES</name>
+		<lastName>CLAVIJO AGUAYZA</lastName>		
+	</student>
+	<student>
+		<id>17</id> 
+		<name>ALICIA YADIRA</name>
+		<lastName>CORDOVA MAYOR</lastName>		
+	</student>
+	<student>
+		<id>18</id> 
+		<name>GIUSEPPE OLIVER</name>
+		<lastName>GARCIA INTRIAGO</lastName>		
+	</student>
+	<student>
+		<id>19</id> 
+		<name>CRISTOPHER JULIAN</name>
+		<lastName>INTRIAGO LEON</lastName>		
+	</student>
+	<student>
+		<id>20</id> 
+		<name>MAYLIN BRENDA</name>
+		<lastName>JARAMILLO SANTILLAN</lastName>		
+	</student>
+	<student>
+		<id>21</id> 
+		<name>MICHAEL DOUGLAS</name>
+		<lastName>MONCADA LADINES</lastName>		
+	</student>
+	<student>
+		<id>22</id> 
+		<name>JEAN PIERRE</name>
+		<lastName>MENDEZ APOLINARIO</lastName>		
+	</student>
+	<student>
+		<id>23</id> 
+		<name>LADY LISBETH</name>
+		<lastName>MORENO MANTILLA</lastName>		
+	</student>
+	<student>
+		<id>24</id> 
+		<name>DOMENICA ANTONIA</name>
+		<lastName>OLVERA URBINA</lastName>		
+	</student>
+	<student>
+		<id>25</id> 
+		<name>BRITANY SHAJAIRA</name>
+		<lastName>ORDOÑEZ NIETO</lastName>		
+	</student>
+	<student>
+		<id>26</id> 
+		<name>ERIC JOSUE</name>
+		<lastName>QUIMIS SOLIS</lastName>		
+	</student>
+	<student>
+		<id>27</id> 
+		<name>DAVID STALYN</name>
+		<lastName>REBUTTI DELGADO</lastName>		
+	</student>
+	<student>
+		<id>28</id> 
+		<name>NANCY BEATRIZ</name>
+		<lastName>RIGCHAG AMANCHA</lastName>		
+	</student>
+	<student>
+		<id>29</id> 
+		<name>MERIDA ROBERTA</name>
+		<lastName>RIVERA VERA</lastName>		
+	</student>
+	<student>
+		<id>30</id> 
+		<name>ENRIQUE GABRIEL</name>
+		<lastName>RODRIGUEZ</lastName>		
+	</student>
+	<student>
+		<id>31</id> 
+		<name>MARIA EDITH</name>
+		<lastName>SOTO CHICHANDE</lastName>		
+	</student>
+	<student>
+		<id>32</id> 
+		<name>THALIA NICOLE</name>
+		<lastName>TAPIA LOOR</lastName>		
+	</student>
+	<student>
+		<id>33</id> 
+		<name>TAIS VERENICE</name>
+		<lastName>TENORIO CARABALI</lastName>		
+	</student>
+	<student>
+		<id>34</id> 
+		<name>ALLISSON DOMENIQUE</name>
+		<lastName>VARGAS MEZA</lastName>		
+	</student>
+	<student>
+		<id>35</id> 
+		<name>KATTHYA MELISSA</name>
+		<lastName>VARGAS MEZA</lastName>		
+	</student>
+	<student>
+		<id>36</id> 
+		<name>DOMENICA BELEN</name>
+		<lastName>VILLOTA MOROCHO</lastName>		
+	</student>
+	<student>
+		<id>37</id> 
+		<name>MARIA BELEN</name>
+		<lastName>VITERI JURADO</lastName>		
+	</student>
+	<student>
+		<id>38</id> 
+		<name>JOSE JAVIER</name>
+		<lastName>ZAMBRANO CABRERA</lastName>		
+	</student>
+	<student>
+		<id>39</id>A 
+		<name>DAYANNA FIORELA</name>
+		<lastName>ZHUMA TENEZAC</lastName>		
+	</student>
 </course3CIENTIFICO>

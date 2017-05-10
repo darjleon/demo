@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course3INFORMATICA>
 	<student>
-		<id>1</id>
-		<name>MARÍA DEL CARMEN</name>
-		<lastName>GARAY</lastName>		
+		<id>1</id> 
+		<name>KARLA DOMINIQUE</name>
+		<lastName>ALVARADO AVILES</lastName>		
 	</student>
-	
+	<student>
+		<id>2</id> 
+		<name>EDNWING FABRICIO</name>
+		<lastName>AMAGUAYA VILLAVICENCIO</lastName>		
+	</student>
+	<student>
+		<id>3</id> 
+		<name>ANDRES MARCELINO</name>
+		<lastName>BAQUE CANO</lastName>		
+	</student>
+	<student>
+		<id>4</id> 
+		<name>VICTOR JOSUE</name>		
+		<lastName>BUÑAY CANTOS</lastName>		
+	</student>
+	<student>
+		<id>5</id> 
+		<name>LILIBETH</name>
+		<lastName>CONGUIA ESCOBAR</lastName>		
+	</student>
+	<student>
+		<id>6</id> 
+		<name>BRITTANY PAULINA</name>
+		<lastName>CORREA PAZ</lastName>		
+	</student>
+	<student>
+		<id>7</id> 
+		<name>MARJORIE MICHELE</name>
+		<lastName>FIGUEROA ROBAYO</lastName>		
+	</student>
+	<student>
+		<id>8</id> 
+		<name>JAIME EDUARDO</name>
+		<lastName>GARCIA CELI</lastName>		
+	</student>
+	<student>
+		<id>9</id> 
+		<name>DANNA NOHELY</name>
+		<lastName>HOLGUIN CISNEROS</lastName>		
+	</student>
+	<student>
+		<id>10</id> 
+		<name>DOLORES MARGARITA</name>
+		<lastName>LOPEZ CANO</lastName>		
+	</student>
+	<student>
+		<id>11</id> 
+		<name>MICHAEL STEVEN</name>
+		<lastName>MARTINEZ PINO</lastName>		
+	</student>
+	<student>
+		<id>12</id> 
+		<name>CRISTOPHER JOSUE</name>
+		<lastName>MENDOZA COTO</lastName>		
+	</student>
+	<student>
+		<id>13</id> 
+		<name>PAMELA LISETTE</name>
+		<lastName>MOREIRA TORRES</lastName>		
+	</student>
+	<student>
+		<id>14</id> 
+		<name>JOSE BENJAMIN</name>
+		<lastName>MOROCHO PEÑAFIEL</lastName>		
+	</student>
+	<student>
+		<id>15</id> 
+		<name>JOSE RICARDO</name>
+		<lastName>MUÑOZ SANCHEZ</lastName>		
+	</student>
+	<student>
+		<id>16</id> 
+		<name>RENSO GERMAN</name>
+		<lastName>QUIÑONES QUINTERO</lastName>		
+	</student>
+	<student>
+		<id>17</id> 
+		<name>JOSUE SAUL</name>
+		<lastName>SABANDO LINDAO</lastName>		
+	</student>
+	<student>
+		<id>18</id> 
+		<name>FREDDY YURIS</name>
+		<lastName>SANCHEZ MONTERO</lastName>		
+	</student>
+	<student>
+		<id>19</id> 
+		<name>CESAR FERNANDO</name>
+		<lastName>VASQUEZ BARAHONA</lastName>		
+	</student>
+	<student>
+		<id>20</id> 
+		<name>LUIS ANTONIO</name>
+		<lastName>YERBABUENA RAMON</lastName>		
+	</student>	
 </course3INFORMATICA>

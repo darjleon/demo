@@ -2,83 +2,82 @@
 <course10A>
 	<student>
 		<id>1</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>
+		<name>ALEXANDRA PAOLA</name> 
+		<lastName>FIGUEROA LA SERNA</lastName>
 	</student>
 	<student>
 		<id>2</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>ADELA DEL CARMEN</name> 
+		<lastName>GALINDO CHAUCA</lastName>	
 	</student>
 	<student>
-		<id>3</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>3</id> 
+		<name>ERIKA PAMELA</name>
+		<lastName>HUAMAN PALACIOS</lastName>
 	</student>
 	<student>
-		<id>4</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>4</id> 
+		<name>DANNY SAMIR</name>
+		<lastName>MACEN CASTRO</lastName>	
 	</student>
 	<student>
 		<id>5</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>NOELIA ELIA</name> 
+		<lastName>MOROCHO SANDOVAL</lastName>
 	</student>
 	<student>
 		<id>6</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>MELANIE PATRICIA</name> 
+		<lastName>NAVARRO PORRAS</lastName>			
 	</student>
 	<student>
 		<id>7</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>DIEGO ALEX</name> 
+		<lastName>OCAN TORRES</lastName>		
 	</student>
 	<student>
 		<id>8</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
-		
+		<name>NATHALY ELIA</name> 
+		<lastName>PALACIOS PONCE</lastName>			
 	</student>
 	<student>
 		<id>9</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>FIORELLA MARIA</name> 
+		<lastName>PORRAS REAL</lastName>
 	</student>
 	<student>
 		<id>10</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>ALEXA ARYA</name> 
+		<lastName>ROMERO VALLE</lastName>	
 	</student>
 	<student>
-		<id>11</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>11</id> 
+		<name>MARTIN ELIAS</name>
+		<lastName>SILVA CARNERO</lastName>	
 	</student>
 	<student>
 		<id>12</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>MARLON JOEL</name>
+		<lastName>SILVA VILCA</lastName>	
 	</student>
 	<student>
-		<id>13</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>13</id> 
+		<name>ADRIAN RICARDO</name>
+		<lastName>URETA ROCA</lastName>	
 	</student>
 	<student>
-		<id>14</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>14</id> 
+		<name>HANS JUNIOR</name>
+		<lastName>USHA SILVA</lastName>
 	</student>
 	<student>
-		<id>15</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>15</id> 
+		<name>JULIO CESAR</name>
+		<lastName>VEGA NATIVIDAD</lastName>
 	</student>
 	<student>
-		<id>16</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>16</id> 
+		<name>RUBEN ISRAEL</name>
+		<lastName>ZAMORA CHUMO</lastName>	
 	</student>	
 </course10A>

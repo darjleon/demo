@@ -5,12 +5,9 @@
             <h2>Representante</h2>    
         </div>
     </div>
-    
 </div>
 
-
 <script type="text/javascript">
-
 
      var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
