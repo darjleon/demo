@@ -112,8 +112,17 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper wrapper-content">
-            <?php include ('include/1INFORMATICAlista.php'); ?>
+        <div class="wrapper wrapper-content">            
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-left" style="margin-top:0;padding-left:10px">
+                        <img src="../img/asistencia blanco.png" style="width:30px"> Asistencia |
+                        <small>semana:</small><small style="padding:25px">23-28 de Enero del 2017</small> |
+                        <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal6" style="color: white"><h5>Semana Anterior</h5></button>
+                    </h2>
+                </div>                                            
+            </div>
+            <?php include ('include/1INFORMATICAlista.php'); ?>            
         </div> 
     </div>
 </div>

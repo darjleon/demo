@@ -104,12 +104,6 @@
                             </button>
                         </a>
                     </div>
-                    <!-- <a class="formatos-link" href="#"> 
-                        <img src="../img/cuadricula.png" alt="" width="17">
-                    </a>                    
-                    <a class="formatos-link" href="director_profesorescuadricula.php"> 
-                        <img src="../img/list.png" alt="" width="20">
-                    </a> -->
                 </div>
             </div>
         </div>
