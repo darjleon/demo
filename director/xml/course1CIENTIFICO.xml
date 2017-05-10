@@ -1,9 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course1CIENTIFICO>
 	<student>
-		<id>1</id>
-		<name>GABRIEL</name>
-		<lastName>ARAUZ CASTILLO</lastName>		
+		<id>1</id> 
+		<name>DIEGO ANDRES</name>
+		<lastName>ALBAN COELLO</lastName>		
 	</student>
-	
+	<student>
+		<id>2</id> 
+		<name>DIEGO UBALDO</name>
+		<lastName>ARGUEYO COSE</lastName>		
+	</student>
+	<student>
+		<id>3</id> 
+		<name>ADONIS JOSUE</name>
+		<lastName>BARZOLA LEDESMA</lastName>		
+	</student>
+	<student>
+		<id>4</id> 
+		<name>JOAO PEDRO</name>
+		<lastName>BONE PEÑA</lastName>		
+	</student>
+	<student>
+		<id>5</id> 
+		<name>MARIA DOMENICA</name>
+		<lastName>CANEPA RAMOS</lastName>		
+	</student>
+	<student>
+		<id>6</id> 
+		<name>ROBERTO CARLOS</name>
+		<lastName>CARAVEDO NIETO</lastName>		
+	</student>
+	<student>
+		<id>7</id> 
+		<name>KARLA NATALIA</name>
+		<lastName>CARPIO RODRIGUEZ</lastName>		
+	</student>
+	<student>
+		<id>8</id>
+		<name>MAYLI MITZUE</name>
+		<lastName>CEDEÑO SUD</lastName>		
+	</student>
+	<student>
+		<id>9</id> 
+		<name>ODALIS ELIZABED</name>
+		<lastName>CHICAIZA GAMBOA</lastName>		
+	</student>
+	<student>
+		<id>10</id> 
+		<name>SOLEDAD BETSABE</name>
+		<lastName>COLLAGUARI LOPEZ</lastName>		
+	</student>
+	<student>
+		<id>11</id> 
+		<name>BELEN NICOLE</name>
+		<lastName>CORDOVA MAYOR</lastName>		
+	</student>
+	<student>
+		<id>12</id> 
+		<name>GENESIS IVONNE</name>
+		<lastName>GUERRA CLARK</lastName>		
+	</student>
+	<student>
+		<id>13</id> 
+		<name>MARJORIE NICOLE</name>
+		<lastName>HARO QUIÑONEZ</lastName>		
+	</student>
+	<student>
+		<id>14</id> 
+		<name>ADRIANA ANDREA</name>
+		<lastName>LARRERA LAVAYEN</lastName>		
+	</student>
+	<student>
+		<id>15</id> 
+		<name>NICOLAS MATEO</name>
+		<lastName>LOGROÑO ORTIZ</lastName>		
+	</student>
+	<student>
+		<id>16</id> 
+		<name>ARMANDO DUBERLIN</name>
+		<lastName>MACIAS FERNANDEZ</lastName>		
+	</student>
+	<student>
+		<id>17</id>
+		<name>DENNIS JOEL</name>
+		<lastName>MANZANO VELASTEGUI</lastName>		
+	</student>
+	<student>
+		<id>18</id> 
+		<name>RONNY ALFREDO</name>
+		<lastName>MEDINA GONZALEZ</lastName>		
+	</student>
+	<student>
+		<id>19</id> 
+		<name>CANDY LUCIA</name>
+		<lastName>NAVARRO CORTEZ</lastName>		
+	</student>
+	<student>
+		<id>20</id> 
+		<name>LEONARDO LEONIDAS</name>
+		<lastName>NARANJO PEÑAFIEL</lastName>		
+	</student>
+	<student>
+		<id>21</id> 
+		<name>ERICK ROLANDO</name>
+		<lastName>ORELLANA MENDOZA</lastName>		
+	</student>
+	<student>
+		<id>22</id> 
+		<name>GABRIELA MAILYN</name>
+		<lastName>PLAZA TOMALA</lastName>		
+	</student>
+	<student>
+		<id>23</id> 
+		<name>KAROL DOMENICA</name>
+		<lastName>QUEVEDO WONG</lastName>		
+	</student>
+	<student>
+		<id>24</id> 
+		<name>DAVID MOISES</name>
+		<lastName>RIVERA ALAVA</lastName>		
+	</student>
+	<student>
+		<id>25</id> 
+		<name>GERALDINA BRIGGITTE</name>
+		<lastName>SALINAS ANGULO</lastName>		
+	</student>
+	<student>
+		<id>26</id> 
+		<name>ANDREA BRIGITTE</name>
+		<lastName>SALINAS DOMENECH</lastName>		
+	</student>
+	<student>
+		<id>27</id> 
+		<name>MARIA JOSE</name>
+		<lastName>SOLORZANO DAVILA</lastName>		
+	</student>
+	<student>
+		<id>28</id> 
+		<name>CARLOS MANUEL</name>
+		<lastName>TITUAÑA MOREIRA</lastName>		
+	</student>
+	<student>
+		<id>29</id> 
+		<name>JANNELLY NAHOMI</name>
+		<lastName>ZAMBRANO RODRIGUEZ</lastName>		
+	</student>
 </course1CIENTIFICO>

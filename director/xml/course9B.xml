@@ -1,84 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course9B>
 	<student>
-		<id>1</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>
+		<id>1</id> 
+		<name>JUAN MANUEL</name>
+		<lastName>AGUILERA QUISPE</lastName>
 	</student>
 	<student>
-		<id>2</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>2</id> 
+		<name>ANDREA PAOLA</name>
+		<lastName>ALEGRE CASTRO</lastName>
 	</student>
 	<student>
-		<id>3</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>3</id> 
+		<name>FABIOLA PAMELA</name>
+		<lastName>CASTILLO MISARI</lastName>
 	</student>
 	<student>
-		<id>4</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>4</id> 
+		<name>ANYEL ALEXANDRA</name>
+		<lastName>DAVILA CHAVEZ</lastName>
 	</student>
 	<student>
-		<id>5</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>5</id> 
+		<name>REYNALDO JERSON</name>
+		<lastName>FILIOS HERNANDEZ</lastName>
 	</student>
 	<student>
-		<id>6</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>6</id> 
+		<name>KEVIN ADRIAN</name>
+		<lastName>LOPEZ GOYZUETA</lastName>
 	</student>
 	<student>
-		<id>7</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>7</id> 
+		<name>MELANY ROCIO</name>
+		<lastName>PADILLA CHAUCA</lastName>
 	</student>
 	<student>
-		<id>8</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
-		
+		<id>8</id> 
+		<name>EDER ANDRES</name>
+		<lastName>PAIVA PISCOYA</lastName>		
 	</student>
 	<student>
-		<id>9</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>9</id> 
+		<name>LUIS ENRIQUE</name>
+		<lastName>PAREDES POCCO</lastName>
 	</student>
 	<student>
-		<id>10</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>10</id> 
+		<name>CRISTHIAN ANDRES</name>
+		<lastName>PINEDA ROJAS</lastName>
 	</student>
 	<student>
-		<id>11</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>11</id> 
+		<name>SELENA STEFANIA</name>
+		<lastName>QUEREVALO DAVILA</lastName>
 	</student>
 	<student>
-		<id>12</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>12</id> 
+		<name>ANGELA BRIGGITTE</name>
+		<lastName>QUISPE RODRIGUEZ</lastName>
 	</student>
 	<student>
-		<id>13</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>13</id> 
+		<name>SAUL ALEXIS</name>
+		<lastName>REGALADO ALFARO</lastName>
 	</student>
 	<student>
-		<id>14</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>14</id> 
+		<name>TANIA MARCELA</name>
+		<lastName>ROMERO SALVATIERRA</lastName>
 	</student>
 	<student>
-		<id>15</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>15</id> 
+		<name>LORENA ROXANA</name>
+		<lastName>SAENZ TEJADA</lastName>
 	</student>
-	<student>
-		<id>16</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
-	</student>	
 </course9B>

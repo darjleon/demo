@@ -2,83 +2,77 @@
 <course9B>
 	<student>
 		<id>1</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>
+		<name>JESUS DANIEL</name> 
+		<lastName>ACOSTA GARCIA</lastName>
 	</student>
 	<student>
 		<id>2</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>VICTORIA EUGENIA</name> 
+		<lastName>AYALA LOZANO</lastName>
 	</student>
 	<student>
-		<id>3</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>3</id> 
+		<name>ANA CAROLINA</name>
+		<lastName>CASTAÑO VELEZ</lastName>
 	</student>
 	<student>
 		<id>4</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>JOHANA CAROLINA</name> 
+		<lastName>CASTILLO GIRALDO</lastName>
 	</student>
 	<student>
 		<id>5</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>ESCOBAR PRADO</name> 
+		<lastName>LILIVE ANDREA</lastName>
 	</student>
 	<student>
 		<id>6</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>MARIA CAMILA</name> 
+		<lastName>GOMEZ ARIAS</lastName>
 	</student>
 	<student>
 		<id>7</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>KEVIN DARIO</name> 
+		<lastName>GOMEZ RAMIREZ</lastName>
 	</student>
 	<student>
 		<id>8</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
-		
+		<name>JHON ALEXANDER</name> 
+		<lastName>HERNANDEZ PRECIADO</lastName>		
 	</student>
 	<student>
 		<id>9</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>MARIA ADELAIDA</name> 
+		<lastName>LOPEZ CASTAÑO</lastName>
 	</student>
 	<student>
 		<id>10</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>JUAN CARLOS</name> 
+		<lastName>PALACIOS QUINTERO</lastName>
 	</student>
 	<student>
 		<id>11</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<name>MARIA PAOLA</name>
+		<lastName>QUINTERO GOMEZ</lastName>
 	</student>
 	<student>
-		<id>12</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>12</id> 
+		<name>JUAN DAVID</name>
+		<lastName>TORRES CORREA</lastName>
 	</student>
 	<student>
-		<id>13</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>13</id> 
+		<name>ADRIANA PATRICIA</name>
+		<lastName>VALENCIA VEGA</lastName>
 	</student>
 	<student>
-		<id>14</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>14</id> 
+		<name>JORGE EDUARDO</name>
+		<lastName>VELASQUEZ OLARTE</lastName>
 	</student>
 	<student>
-		<id>15</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
-	</student>
-	<student>
-		<id>16</id>
-		<name>SHIRLEY</name>
-		<lastName>ARIAS ASCENCIO</lastName>	
+		<id>15</id> 
+		<name>MARIA JOSE</name>
+		<lastName>ZAPATA MERINO</lastName>
 	</student>	
 </course9B>
