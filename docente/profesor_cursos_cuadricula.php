@@ -96,7 +96,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula8A.php" > 
                             <div class="dirigente">
-                                <p>Curso: OCTAVO 'A'</p>
+                                <h3>Curso: OCTAVO 'A'</h3>
                                 <h4>Dirigente: </br> LUIS CORREA ZAMBRANO</h4>
                             </div>
                         </a>
@@ -106,7 +106,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula8B.php" > 
                             <div class="dirigente">
-                                <p>Curso: OCTAVO 'B'</p>
+                                <h3>Curso: OCTAVO 'B'</h3>
                                 <h4>Dirigente: </br> RUTH ARGUELLO MENDOZA</h4>
                             </div>
                         </a>
@@ -116,7 +116,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula9A.php" > 
                             <div class="dirigente">
-                                <p>Curso: NOVENO 'A'</p>
+                                <h3>Curso: NOVENO 'A'</h3>
                                 <h4>Dirigente: </br> MERY URBINA ANDALUZ</h4>
                             </div>
                         </a>
@@ -126,7 +126,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula1CIENTIFICO.php" > 
                             <div class="dirigente">
-                                <p>Curso: 1RO BACHILLERATO CIENTIFICO</p>
+                                <h3>Curso: 1RO BACHILLERATO CIENTIFICO</h3>
                                 <h4>Dirigente: </br> TATIANA CARRENO QUIROZ</h4>
                             </div>
                         </a>
@@ -136,7 +136,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula2CIENTIFICO.php" > 
                             <div class="dirigente">
-                                <p>Curso: 2DO BACHILLERATO CIENTIFICO</p>
+                                <h3>Curso: 2DO BACHILLERATO CIENTIFICO</h3>
                                 <h4>Dirigente: </br>CLAUDIA LOPEZ SANCHEZ</h4>
                             </div>
                         </a>
@@ -146,7 +146,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula2INFORMATICA.php" > 
                             <div class="dirigente">
-                                <p>Curso: 2DO BACHILLERATO INFORMATICA</p>
+                                <h3>Curso: 2DO BACHILLERATO INFORMATICA</h3>
                                 <h4>Dirigente: </br>MARCOS PAZAN REYES</h4>
                             </div>
                         </a>
@@ -156,7 +156,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula3CIENTIFICO.php" > 
                             <div class="dirigente">
-                                <p>Curso: 3RO BACHILLERATO CIENTIFICO</p>
+                                <h3>Curso: 3RO BACHILLERATO CIENTIFICO</h3>
                                 <h4>Dirigente: </br>GLENDA CANDEL CARBO</h4>
                             </div>
                         </a>
@@ -166,7 +166,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula3CONTABILIDAD.php" > 
                             <div class="dirigente">
-                                <p>Curso: 3ro BACHILLERATO CONTABILIDAD</p>
+                                <h3>Curso: 3ro BACHILLERATO CONTABILIDAD</h3>
                                 <h4>Dirigente: </br>JUAN LOPEZ MARURI</h4>
                             </div>
                         </a>
@@ -176,7 +176,7 @@
                         <hr>
                         <a href="profesor_curso_cuadricula3INFORMATICA.php" > 
                             <div class="dirigente">
-                                <p>Curso: 3RO BACHILLERATO INFORMATICA</p>
+                                <h3>Curso: 3RO BACHILLERATO INFORMATICA</h3>
                                 <h4>Dirigente: </br>ANGELICA VILLABLANCA TRUJILLO</h4>
                             </div>
                         </a>
