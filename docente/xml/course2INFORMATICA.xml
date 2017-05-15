@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course2INFORMATICA>
 	<student>
-		<id>1</id>
-		<name>GABRIEL</name>
-		<lastName>FIERRO PALADINES</lastName>		
+		<id>1</id> 
+		<name>NOEMY JULEISY</name>
+		<lastName>ACOSTA DAVID</lastName>		
+	</student>
+	<student>
+		<id>2</id> 
+		<name>ODALIS RAQUEL</name>
+		<lastName>ASMAL MONTENEGRO</lastName>		
+	</student>
+	<student>
+		<id>3</id> 
+		<name>KEVIN ISMAEL</name>
+		<lastName>BERMEO ORTEGA</lastName>		
+	</student>
+	<student>
+		<id>4</id> 
+		<name>POLL SEBASTIAN</name>
+		<lastName>CAMPOVERDE JARAMILLO</lastName>		
+	</student>
+	<student>
+		<id>5</id> 
+		<name>JONATHAN ISRAEL</name>
+		<lastName>GARCIA TAPIA</lastName>		
+	</student>
+	<student>
+		<id>6</id> 
+		<name>MICHAEL WANDERLEY</name>
+		<lastName>MARIN PINEDA</lastName>		
+	</student>
+	<student>
+		<id>7</id> 
+		<name>ANGEL PLACIDO</name>
+		<lastName>MERA DELGADO</lastName>		
+	</student>
+	<student>
+		<id>8</id> 
+		<name>CRISTOPHER SMITH</name>
+		<lastName>MORA SOLANO</lastName>		
+	</student>
+	<student>
+		<id>9</id> 
+		<name>GENESIS ELIZABETH</name>
+		<lastName>RAMIREZ ROLDAN</lastName>		
+	</student>
+	<student>
+		<id>10</id> 
+		<name>DAVIS JESUS</name>
+		<lastName>ROMERO CEVALLOS</lastName>		
+	</student>
+	<student>
+		<id>11</id>
+		<name>RAFAEL ALEXANDER</name>
+		<lastName>SANTILLAN VINCES</lastName>		
+	</student>
+	<student>
+		<id>12</id> 
+		<name>DAYANA NICOLE</name>
+		<lastName>VILLALTA MORALES</lastName>		
 	</student>
 	
 </course2INFORMATICA>

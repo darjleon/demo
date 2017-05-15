@@ -1,9 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <course2CIENTIFICO>
 	<student>
-		<id>1</id>
-		<name>JAVIER</name>
-		<lastName>FIERRO PALADINES</lastName>		
+		<id>1</id> 
+		<name>WAGNER ANDRES</name>
+		<lastName>AGUILAR GOMEZ</lastName>		
 	</student>
-	
+	<student>
+		<id>2</id> 
+		<name>KENYI JOEL</name>
+		<lastName>ALVAREZ PEÑAFIEL</lastName>		
+	</student>
+	<student>
+		<id>3</id> 
+		<name>FERNANDO XAVIER</name>
+		<lastName>BASTIDAS GARCIA</lastName>		
+	</student>
+	<student>
+		<id>4</id> 
+		<name>MARIA DANIELA</name>
+		<lastName>BRITO ABAD</lastName>		
+	</student>
+	<student>
+		<id>5</id> 
+		<name>PAUL ANDRES</name>
+		<lastName>BUSTAMANTE MORAN</lastName>		
+	</student>
+	<student>
+		<id>6</id> 
+		<name>ALFONSO JOSHUE</name>
+		<lastName>CAMACHO HIDALGO</lastName>		
+	</student>
+	<student>
+		<id>7</id> 
+		<name>GENESIS GABRIELA</name>
+		<lastName>CASTRO ZAMBRANO</lastName>		
+	</student>
+	<student>
+		<id>8</id> 
+		<name>DARWIN JOSEPH</name>
+		<lastName>CEVALLOS BARZOLA</lastName>		
+	</student>
+	<student>
+		<id>9</id> 
+		<name>RICARDO ANDRES</name>
+		<lastName>CONTRERAS FRANCO</lastName>		
+	</student>
+	<student>
+		<id>10</id> 
+		<name>CRISTOPHER ALEXANDER</name>
+		<lastName>DUCHE YNEZ</lastName>		
+	</student>
+	<student>
+		<id>11</id> 
+		<name>ANAHI YAMILETH</name>
+		<lastName>ESCOBAR DALMA</lastName>		
+	</student>
+	<student>
+		<id>12</id> 
+		<name>ANDREA STEFANIA</name>
+		<lastName>ESCOBAR RENDON</lastName>		
+	</student>
+	<student>
+		<id>13</id> 
+		<name>EMILIO DANILO</name>
+		<lastName>ESPINOZA VIZCAINO</lastName>		
+	</student>
+	<student>
+		<id>14</id> 
+		<name>RENE JOSUE</name>
+		<lastName>GALLO ROUSSEAU</lastName>		
+	</student>
+	<student>
+		<id>15</id> 
+		<name>LENIN HENRY</name>
+		<lastName>GARCIA PALMA</lastName>		
+	</student>
+	<student>
+		<id>16</id> 
+		<name>NESTOR RICARDO</name>
+		<lastName>GARCIA RODRIGUEZ</lastName>		
+	</student>
+	<student>
+		<id>17</id> 
+		<name>WALESCA SOFIA</name>
+		<lastName>GONZALES LOOR</lastName>		
+	</student>
+	<student>
+		<id>18</id> 
+		<name>CARLA MADELEINE</name>
+		<lastName>JACHO WONG</lastName>		
+	</student>
+	<student>
+		<id>19</id> 
+		<name>ANGEL ISRAEL</name>
+		<lastName>LOZANO LEON</lastName>		
+	</student>
+	<student>
+		<id>20</id> 
+		<name>KRISTELLE KARELYS</name>
+		<lastName>LUCIN QUIÑONES</lastName>		
+	</student>
+	<student>
+		<id>21</id> 
+		<name>MARIA JOSE</name>
+		<lastName>MACARLUPO GARCIA</lastName>		
+	</student>
+	<student>
+		<id>22</id> 
+		<name>MARIA GABRIELA</name>
+		<lastName>MACIAS GUARNIZO</lastName>		
+	</student>
+	<student>
+		<id>23</id> 
+		<name>RICHARD ANDRES</name>
+		<lastName>MACIAS TORRES</lastName>		
+	</student>
+	<student>
+		<id>24</id> 
+		<name>MELANIE NOEMI</name>
+		<lastName>MERA ZUÑIGA</lastName>		
+	</student>
+	<student>
+		<id>25</id>
+		<name> GABRIELA STEFANIA</name>
+		<lastName>MIRANDA ORELLANA</lastName>		
+	</student>
+	<student>
+		<id>26</id> 
+		<name>DAYANNA THAIS</name>
+		<lastName>MORA CALDERON</lastName>		
+	</student>
+	<student>
+		<id>27</id> 
+		<name>MARIANA STEFANIA</name>
+		<lastName>PAZAN RODRIGUEZ</lastName>		
+	</student>
+	<student>
+		<id>28</id> 
+		<name>NELLY ROUSE</name>
+		<lastName>PONCE GONZALEZ</lastName>		
+	</student>
+	<student>
+		<id>29</id> 
+		<name>OSCAR DAVID</name>
+		<lastName>QUINTERO HURTADO</lastName>		
+	</student>
+	<student>
+		<id>30</id> 
+		<name>JONATHAN JOSE</name>
+		<lastName>REBUTTI MACIAS</lastName>		
+	</student>
+	<student>
+		<id>31</id> 
+		<name>MARIA DELIA</name>
+		<lastName>REGALADO LARA</lastName>		
+	</student>
+	<student>
+		<id>32</id> 
+		<name>VALERY GARDENIA</name>
+		<lastName>RIVERA VERA</lastName>		
+	</student>
+	<student>
+		<id>33</id> 
+		<name>ERICK ALEXIS</name>
+		<lastName>ROSERO MACIAS</lastName>		
+	</student>
+	<student>
+		<id>34</id> 
+		<name>CARLOS XAVIER</name>
+		<lastName>VALENCIA RODRIGUEZ</lastName>		
+	</student>
+	<student>
+		<id>35</id> 
+		<name>MARIA FERNANDA</name>
+		<lastName>VELASCO GUADALUPE</lastName>		
+	</student>
+	<student>
+		<id>36</id> 
+		<name>ALINSSON IVANA</name>
+		<lastName>VELIZ TRIVIÑO</lastName>		
+	</student>
+	<student>
+		<id>37</id> 
+		<name>LUANA GUADALUPE</name>
+		<lastName>ZAMBRANO BURGOS</lastName>		
+	</student>
 </course2CIENTIFICO>
