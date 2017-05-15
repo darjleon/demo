@@ -68,6 +68,11 @@
                         span2.setAttribute('class', "hour hour-2");
                         span2.innerHTML="<span>"+x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue+"</span>";
                         break;
+                    case '9':
+                        span1.innerHTML="14:00<br>14:45";
+                        span2.setAttribute('class', "hour hour-3");
+                        span2.innerHTML="<span>"+x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue+"</span>";
+                        break;
                     
                 }
 
