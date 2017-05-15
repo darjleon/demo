@@ -61,6 +61,13 @@
                             </a>
                         </li>
                     </ul>
+                </li>    
+                <li>
+                    <a href="padre_pago.php">
+                        <img src="../img/pago.png" width="15px">
+                        <span class="nav-label" style="padding-left:8px">Pagos</span>
+                        
+                    </a>
                 </li>                                     
             </ul>
         </div>

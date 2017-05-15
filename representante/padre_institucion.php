@@ -54,6 +54,13 @@
                         <li><a href="padre_hijo2.php"><img src="../img/icono persona.png" width="20px"> ALAN JOEL SANNA HERA</a></li>
                     </ul>
                 </li>
+                <li>
+                    <a>
+                        <img src="../img/pago.png" width="15px">
+                        <span class="nav-label" style="padding-left:8px">Pagos</span>
+                        
+                    </a>
+                </li>    
             </ul>
         </div>
     </nav>
