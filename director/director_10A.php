@@ -27,7 +27,7 @@
                     </div>
                 </li>                
                 <li>
-                    <a href="#">
+                    <a href="director.php">
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
@@ -103,12 +103,6 @@
                             </button>
                         </a>
                     </div>
-                 <!--    <a class="formatos-link" href="#"> 
-                        <img src="../img/cuadricula.png" alt="" width="17">
-                    </a>                    
-                    <a class="formatos-link" href="director_profesorescuadricula.php"> 
-                        <img src="../img/list.png" alt="" width="20">
-                    </a> -->
                 </div>
             </div>
         </div>
