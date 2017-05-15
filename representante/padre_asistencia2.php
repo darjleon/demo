@@ -61,7 +61,14 @@
                             </a>
                         </li>
                     </ul>
-                </li>                                     
+                </li>  
+                <li>
+                    <a>
+                        <img src="../img/pago.png" width="15px">
+                        <span class="nav-label" style="padding-left:8px">Pagos</span>
+                        
+                    </a>
+                </li>                                       
             </ul>
         </div>
     </nav>
