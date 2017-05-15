@@ -76,575 +76,435 @@
     <div id="page-wrapper" class="gray-bg dashbard-1">
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">      
-            <div class="col-lg-1 text-right">                
-                <img src="img/CURSO.png" style="width:30px">
-            </div>                
-            <div class="col-lg-5">                
-                <h4 style="margin-left:0;margin-bottom: 0"><strong>CURSO: </strong>2DO BACHILLERATO CIENTIFICO</h4>
-                <h4><strong>DIRIGENTE: </strong>CLAUDIA LOPEZ SANCHEZ</h4>   
-                <h4 style="margin-top: 10px"><strong>MATERIA: </strong>INVESTIGACION</h4>     
-            </div>
-            <div class="col-lg-6 text-right" style="margin-top:5px;margin-right: -15px">
-                <ul>
-                    <li style="display:inline-block">
-                        <a href="#">
-                            <h5 class="btn btn-student-list">Asistencia</h5>
+        <div class="row wrapper white-bg ">      
+            <div class="col-xs-12 profe-cuadricula lista-general">
+                <h3 style="margin:1em 0">
+                    <p>
+                    Dirigente:  
+                    <span class="not">CLAUDIA LOPEZ SANCHEZ</span></p>
+                    <p>              
+                    Curso: 
+                    <span class="not">2DO BACHILLERATO CIENTIFICO</span>   
+                    </p>
+                    <p>              
+                    Materia: 
+                    <span class="not">INVESTIGACION</span>             
+                    </p>
+                </h3>
+                <span class="prof-asistencia">
+                    <div class="lista-prof"> 
+                        <select onchange="selectProfAsist()" class="form-control select-prof-asist" >
+                          <option value='./profesor_asistencia2CIENTIFICO.php' selected="selected">ASISTENCIA</option>
+                          <option value="./profesor_agendaescolar.php">AGENDA ESCOLAR</option>
+                          <option value="./profesor_calificaciones2CIENTIFICO.php">CALIFICACIONES</option>
+                          <option value="./profesor_perfiles2CIENTIFICO.php">PERFILES</option>
+                        </select>
+                    </div>
+                    <div class="back">
+                        <a href="profesor_horario.php">
+                            <button class="button-back cb">
+                                <img src="../img/return.png" alt="" width="17">Regresar
+                            </button>
                         </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_agendaescolar.php">
-                            <h5 class="btn btn-student-list">Agenda Escolar</h5>
-                        </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_calificaciones2CIENTIFICO.php">
-                            <h5 class="btn btn-student-list">Calificaciones</h5>
-                        </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_perfiles2CIENTIFICO.php">
-                            <h5 class="btn btn-student-list">Perfiles</h5>
-                        </a>
-                    </li>
-                </ul>
-                <a href="profesor_horario.php">
-                    <button type="button" class="btn btn-outline btn-success" style="margin-top:5px;margin-bottom: 5px">Regresar</button>
-                </a>
-            </div>                                                  
+                    </div> 
+                </span>
+            </div>                                                
+        </div>                                                           
         </div>     
         <div class="wrapper wrapper-content">
-            
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-left" style="margin-top:0;padding-left:10px">
-                        <img src="img/asistencia blanco.png" style="width:30px"> Asistencia |
-                        <small>semana:</small><small style="padding:25px">23-28 de Enero del 2017</small> |
-                        <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal6" style="color: white"><h5>Semana Anterior</h5></button>
+                    <h2 class="text-left prof-titulo-semana">               
+                    <figure> 
+                        <img src="img/asistencia blanco.png" style="width:30px">
+                    </figure>
+                    Asistencia </br>
+                    <small >semana: 23-28 de Enero del 2017</small>
+                    <button type="button" class="btn btn-primary btn-w-m" data-toggle="modal" data-target="#myModal6" style="color: white">Semana Anterior
+                    </button>
                     </h2>
                 </div>                                            
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel-body">
-                        <table class="table table-bordered table-hover" style="margin-top:10px;width: 60%">
-                            <thead style="background-color: #939598">
-                                <tr >
-                                    <th class="text-center" style="background-color: #939598;color: white;width: 50%" ROWSPAN=2>Alumno</th>
-                                    <th class="text-center" style="background-color: #939598;color: white;width: 10%">Miercoles</th>
-                                </tr>
-                                <tr>
-                                    <th class="text-center" style="background-color: #939598">
-                                        <span style="padding-top:2px;padding-bottom:2px;padding-right:8px;padding-left:8px;background-color: #D1D2D4">2</span>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody style="background-color:white">                            
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            WAGNER ANDRES AGUILAR GOMEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            KENYI JOELALVAREZ PEÑAFIELE.pn
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            FERNANDO XAVIER BASTIDAS GARCIA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MARIA DANIELA BRITO ABAD
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            PAUL ANDRES BUSTAMANTE MORAN
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ALFONSO JOSHUE CAMACHO HIDALGO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">    
-                                            GENESIS GABRIELA CASTRO ZAMBRANO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            DARWIN JOSEPH CEVALLOS BARZOLA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            RICARDO ANDRES CONTRERAS FRANCO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            CRISTOPHER ALEXANDER DUCHE YNEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ANAHI YAMILETH ESCOBAR DALMA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ANDREA STEFANIA ESCOBAR RENDOM
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            EMILIO DANILO ESPINOZA VIZCAINO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            RENE JOSUE GALLO ROUSSEAU 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            LENIN HENRY GARCIA PALMA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            NESTOR RICARDO GARCIA RODRIGUEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            WALESCA SOFIA GONZALES LOOR
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            CARLA MADELEINE JACHO WONG
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ANGEL ISRAEL LOZANO LEON
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            KRISTELLE KARELYS LUCIN QUIÑONEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MARIA JOSE MACARLUPO GARCIA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            RICHARD ANDRES MACIAS TORRES
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MELANIE NOEMI MERA ZUÑIGA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            GABRIELA STEFANIA MIRANDA ORELLANA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            DAYANNA THAIS MORA CALDERON
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MARIANA STEFANIA PAZAN RODRIGUEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            NELLY ROUSE PONCE GONZALES
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            OSCAR DAVID QUINTERO HURTADO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            JONATHAN JOSE REBUTTI MACIAS
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MARIA DELIA REGALADO LARA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            VALERY GARDENIA RIVERA VERA
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ERICK ALEXIS ROSERO MACIAS
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            CARLOS XAVIER VALENCIA RODRIGUEZ
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MARIA FERNANDA VELASCO GUADALUPE
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ALINSON IVANA VELIZ TRIVIÑO
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            LUANA GUADALUPE ZAMBRANO BURGOS 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
-                                        </td>
-                                    </form>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive"> 
+                            <table class="table table-bordered table-hover">
+                                <thead style="background-color: #939598">
+                                    <tr >
+                                        <th class="text-center" style="background-color: #939598;color: white;width: 50%; font-size: 2em;" ROWSPAN=2>Alumno</th>
+                                        <th class="text-center" style="background-color: #939598;color: white;width: 10%">Miercoles</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" style="background-color: #939598">
+                                            <span style="padding-top:2px;padding-bottom:2px;padding-right:8px;padding-left:8px;background-color: #D1D2D4">2</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody style="background-color:white">
+                                    <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">1</span>WAGNER ANDRES AGUILAR GOMEZ</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas1"><label for="checkboxNotas1"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">2</span>KENYI JOELALVAREZ PEÑAFIELE</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas2"><label for="checkboxNotas2"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">3</span>FERNANDO XAVIER BASTIDAS GARCIA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas3"><label for="checkboxNotas3"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">4</span>MARIA DANIELA BRITO ABAD</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas4"><label for="checkboxNotas4"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">5</span>PAUL ANDRES BUSTAMANTE MORAN</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas5"><label for="checkboxNotas5"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">6</span>ALFONSO JOSHUE CAMACHO HIDALGO</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas6"><label for="checkboxNotas6"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">7</span>GENESIS GABRIELA CASTRO ZAMBRANO</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas7"><label for="checkboxNotas7"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">8</span>DARWIN JOSEPH CEVALLOS BARZOLA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas8"><label for="checkboxNotas8"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">9</span>RICARDO ANDRES CONTRERAS FRANCO</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas9"><label for="checkboxNotas9"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">10</span>CRISTOPHER ALEXANDER DUCHE YNEZ</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas10"><label for="checkboxNotas10"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">11</span>ANAHI YAMILETH ESCOBAR DALMA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas11"><label for="checkboxNotas11"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">12</span>ANDREA STEFANIA ESCOBAR RENDOM</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas12"><label for="checkboxNotas12"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">13</span>EMILIO DANILO ESPINOZA VIZCAINO</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas13"><label for="checkboxNotas13"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">14</span>RENE JOSUE GALLO ROUSSEAU</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas14"><label for="checkboxNotas14"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">15</span>LENIN HENRY GARCIA PALMA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas15"><label for="checkboxNotas15"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">16</span>NESTOR RICARDO GARCIA RODRIGUEZ</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas16"><label for="checkboxNotas16"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">17</span>WALESCA SOFIA GONZALES LOOR</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas17"><label for="checkboxNotas17"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">18</span>CARLA MADELEINE JACHO WONG</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas18"><label for="checkboxNotas18"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">19</span>ANGEL ISRAEL LOZANO LEON</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas19"><label for="checkboxNotas19"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">20</span>KRISTELLE KARELYS LUCIN QUIÑONEZ</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas20"><label for="checkboxNotas20"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">21</span>MARIA JOSE MACARLUPO GARCIA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas21"><label for="checkboxNotas21"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">22</span>RICHARD ANDRES MACIAS TORRES</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas22"><label for="checkboxNotas22"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">23</span>MELANIE NOEMI MERA ZUÑIGA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas23"><label for="checkboxNotas23"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">24</span>GABRIELA STEFANIA MIRANDA ORELLANA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas24"><label for="checkboxNotas24"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">25</span>DAYANNA THAIS MORA CALDERON</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas25"><label for="checkboxNotas25"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">26</span>MARIANA STEFANIA PAZAN RODRIGUEZ</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas26"><label for="checkboxNotas26"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">27</span>NELLY ROUSE PONCE GONZALES</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas27"><label for="checkboxNotas27"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">28</span>OSCAR DAVID QUINTERO HURTADO</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas28"><label for="checkboxNotas28"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">29</span>JONATHAN JOSE REBUTTI MACIAS</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas29"><label for="checkboxNotas29"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">30</span>MARIA DELIA REGALADO LARA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas30"><label for="checkboxNotas30"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">31</span>VALERY GARDENIA RIVERA VERA</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas31"><label for="checkboxNotas31"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">32</span>ERICK ALEXIS ROSERO MACIAS</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas32"><label for="checkboxNotas32"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">33</span>CARLOS XAVIER VALENCIA RODRIGUEZ</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas33"><label for="checkboxNotas33"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">34</span>MARIA FERNANDA VELASCO GUADALUPE</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas34"><label for="checkboxNotas34"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">35</span>ALINSON IVANA VELIZ TRIVIÑO</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas35"><label for="checkboxNotas35"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <p class="student-list"><span class="list-asist">36</span>LUANA GUADALUPE ZAMBRANO BURGOS</p>
+                                         </td>
+                                         <form action="">
+                                             <td class="text-center">
+                                                 <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas36"><label for="checkboxNotas36"></label></div>
+                                             </td>
+                                         </form>
+                                     </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>            
                 </div>
             </div>

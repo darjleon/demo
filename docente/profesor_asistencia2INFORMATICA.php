@@ -76,240 +76,193 @@
     <div id="page-wrapper" class="gray-bg dashbard-1">
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg ">      
-            <div class="col-lg-1 text-right">                
-                <img src="img/CURSO.png" style="width:30px">
-            </div>               
-            <div class="col-lg-5">                
-                <h4 style="margin-left:0;margin-bottom: 0"><strong>CURSO: </strong>2DO BACHILLERATO INFORMATICA</h4>
-                <h4><strong>DIRIGENTE: </strong>MARCOS PAZAN REYES</h4>   
-                <h4 style="margin-top: 10px"><strong>MATERIA: </strong>INVESTIGACION</h4>     
-            </div>
-            <div class="col-lg-6 text-right" style="margin-top:5px;margin-right: -15px">
-                <ul>
-                    <li style="display:inline-block">
-                        <a href="#">
-                            <h5 class="btn btn-student-list">Asistencia</h5>
+            <div class="col-xs-12 profe-cuadricula lista-general">
+                <h3 style="margin:1em 0">
+                    <p>
+                    Dirigente:  
+                    <span class="not">MARCOS PAZAN REYES</span></p>
+                    <p>              
+                    Curso: 
+                    <span class="not">2DO BACHILLERATO INFORMATICA</span>   
+                    </p>
+                    <p>              
+                    Materia: 
+                    <span class="not">INVESTIGACION</span>             
+                    </p>
+                </h3>
+                <span class="prof-asistencia">
+                    <div class="lista-prof"> 
+                        <select onchange="selectProfAsist()" class="form-control select-prof-asist" >
+                          <option value='./profesor_asistencia2INFORMATICA.php' selected="selected">ASISTENCIA</option>
+                          <option value="./profesor_agendaescolar.php">AGENDA ESCOLAR</option>
+                          <option value="./profesor_calificaciones2INFORMATICA.php">CALIFICACIONES</option>
+                          <option value="./profesor_perfiles2INFORMATICA.php">PERFILES</option>
+                        </select>
+                    </div>
+                    <div class="back">
+                        <a href="profesor_horario.php">
+                            <button class="button-back cb">
+                                <img src="../img/return.png" alt="" width="17">Regresar
+                            </button>
                         </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_agendaescolar.php">
-                            <h5 class="btn btn-student-list">Agenda Escolar</h5>
-                        </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_calificaciones2INFORMATICA.php">
-                            <h5 class="btn btn-student-list">Calificaciones</h5>
-                        </a>
-                    </li>
-                    <li style="display:inline-block">
-                        <a href="profesor_perfiles2INFORMATICA.php">
-                            <h5 class="btn btn-student-list">Perfiles</h5>
-                        </a>
-                    </li>
-                </ul>
-                <a href="profesor_horario.php">
-                    <button type="button" class="btn btn-outline btn-success" style="margin-top:5px;margin-bottom: 5px">Regresar</button>
-                </a>
-            </div>                                                  
+                    </div> 
+                </span>
+            </div>                                                 
         </div>     
         <div class="wrapper wrapper-content">
-            
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-left" style="margin-top:0;padding-left:10px">
-                        <img src="img/asistencia blanco.png" style="width:30px"> Asistencia |
-                        <small>semana:</small><small style="padding:25px">23-28 de Enero del 2017</small> |
-                        <button type="button" class="btn btn-student-list" data-toggle="modal" data-target="#myModal6" style="color: white"><h5>Semana Anterior</h5></button>
+                    <h2 class="text-left prof-titulo-semana">               
+                    <figure> 
+                        <img src="img/asistencia blanco.png" style="width:30px">
+                    </figure>
+                    Asistencia </br>
+                    <small >semana: 23-28 de Enero del 2017</small>
+                    <button type="button" class="btn btn-primary btn-w-m" data-toggle="modal" data-target="#myModal6" style="color: white">Semana Anterior
+                    </button>
                     </h2>
                 </div>                                            
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel-body">
-                        <table class="table table-bordered table-hover" style="margin-top:10px;width: 70%">
-                            <thead style="background-color: #939598">
-                                <tr >
-                                    <th class="text-center" style="background-color: #939598;color: white;width:50%" ROWSPAN=2>Alumno</th> 
-                                    <th class="text-center" style="background-color: #939598;color: white;width:10%">Jueves</th>
-                                </tr>
-                                <tr>
-                                    <th class="text-center" style="background-color: #939598">
-                                        <span style="padding-top:2px;padding-bottom:2px;padding-right:8px;padding-left:8px;background-color: #D1D2D4">9</span>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody style="background-color:white">                            
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            NOEMY JULEISY ACOSTA DAVID 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                        <div class="table-responsive"> 
+                            <table class="table table-bordered table-hover">
+                                <thead style="background-color: #939598">
+                                    <tr >
+                                        <th class="text-center" style="background-color: #939598;color: white;width:50%; font-size: 2em;" ROWSPAN=2>Alumno</th> 
+                                        <th class="text-center" style="background-color: #939598;color: white;width:10%">Martes</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" style="background-color: #939598">
+                                            <span style="padding-top:2px;padding-bottom:2px;padding-right:8px;padding-left:8px;background-color: #D1D2D4">9</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody style="background-color:white">  
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">1</span>NOEMY JULEISY ACOSTA DAVID</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ODALIS RAQUEL ASMAL MONTENEGRO 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas1"><label for="checkboxNotas1"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">2</span>ODALIS RAQUEL ASMAL MONTENEGRO</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            KEVIN ISMAEL BERMEO ORTEGA 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas2"><label for="checkboxNotas2"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">3</span>KEVIN ISMAEL BERMEO ORTEGA</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            POLL SEBASTIAN CAMPOVERDE JARAMILLO 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas3"><label for="checkboxNotas3"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">4</span>POLL SEBASTIAN CAMPOVERDE JARAMILLO</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            JONATHAN ISRAEL GARCIA TAPIA 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas4"><label for="checkboxNotas4"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">5</span>JONATHAN ISRAEL GARCIA TAPIA</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            MICHAEL WANDERLEY MARIN PINEDA 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas5"><label for="checkboxNotas5"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">6</span>MICHAEL WANDERLEY MARIN PINEDA</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            ANGEL PLACIDO MERA 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas6"><label for="checkboxNotas6"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">7</span>ANGEL PLACIDO MERA</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            CRISTOPHER SMITH MORA SOLANO 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas7"><label for="checkboxNotas7"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">8</span>CRISTOPHER SMITH MORA SOLANO</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            GENESIS ELIZABETH RAMIREZ ROLDAN 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas8"><label for="checkboxNotas8"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">9</span>GENESIS ELIZABETH RAMIREZ ROLDAN</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            DAVIS JESUS ROMERO CEBALLOS 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas9"><label for="checkboxNotas9"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">10</span>DAVIS JESUS ROMERO CEBALLOS</p>
                                         </td>
-                                    </form>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            RAFAEL ALEXANDER SANTILLAN VINCES 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas10"><label for="checkboxNotas10"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">11</span>RAFAEL ALEXANDER SANTILLAN VINCES</p>
                                         </td>
-                                    </form>
-                                </tr>  
-                                <tr>
-                                    <td>
-                                        <p class="student-list">
-                                            DAYANA NICOLES VILLALTA MORALES 
-                                        </p>
-                                    </td>
-                                    <form>
-                                        <td class="text-center">
-                                            <div class="checkbox" style="margin-top:0">
-                                                <input class="text-center" type="checkbox" value="d1">
-                                            </div>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas11"><label for="checkboxNotas11"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="student-list"><span class="list-asist">12</span>DAYANA NICOLES VILLALTA MORALES</p>
                                         </td>
-                                    </form>
-                                </tr>        
-                            </tbody> 
-                            
-                        </table>
+                                        <form action="">
+                                            <td class="text-center">
+                                                <div class="checkboxNotas"><input type="checkbox" class="text-center" value="d1" id="checkboxNotas12"><label for="checkboxNotas12"></label></div>
+                                            </td>
+                                        </form>
+                                    </tr>       
+                                </tbody> 
+                            </table>
+                        </div>
                     </div>            
                 </div>
             </div>
