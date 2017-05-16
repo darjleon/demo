@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">3ro BACHILLERATO CIENTÍFICO </span></p>
+                    <span class="not">3RO BACHILLERATO CIENTIFICO </span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">GLENDA CANDEL CARBO</span>                    

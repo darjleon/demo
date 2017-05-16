@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">1ro BACHILLERATO CIENTÍFICO 'A' </span></p>
+                    <span class="not">1RO BACHILLERATO CIENTÍFICO 'A' </span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">TATIANA CARREÑO QUIROZ</span>                    
@@ -103,12 +103,6 @@
                             </button>
                         </a>
                     </div>
-                    <!-- <a class="formatos-link" href="#"> 
-                        <img src="../img/cuadricula.png" alt="" width="17">
-                    </a>                    
-                    <a class="formatos-link" href="director_profesorescuadricula.php"> 
-                        <img src="../img/list.png" alt="" width="20">
-                    </a> -->
                 </div>
             </div>
         </div>

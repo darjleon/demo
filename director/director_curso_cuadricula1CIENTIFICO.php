@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">1ro  BACHILLERATO CIENTÍFICO</span></p>
+                    <span class="not">1RO BACHILLERATO CIENTÍFICO</span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">TATIANA CARRENO QUIROZ</span>                    

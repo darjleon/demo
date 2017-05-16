@@ -27,7 +27,7 @@
                     </div>
                 </li>                
                 <li>
-                    <a href="#">
+                    <a href="director.php">
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
@@ -107,7 +107,7 @@
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
-                                                8 'A'    
+                                                OCTAVO 'A'    
                                             </h4>
                                         </div>
                                         <div class="col-sm-6">
@@ -128,7 +128,7 @@
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
-                                                8 'B' 
+                                                OCTAVO 'B' 
                                             </h4>                                            
                                         </div>
                                         <div class="col-sm-6">
@@ -149,7 +149,7 @@
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
-                                                9 'A'
+                                                NOVENO 'A'
                                             </h4>
                                         </div>
                                         <div class="col-sm-6">
@@ -170,7 +170,7 @@
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
-                                                9 'B'
+                                                NOVENO 'B'
                                             </h4>
                                         </div>
                                         <div class="col-sm-6">
@@ -192,7 +192,7 @@
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
-                                                10 'A'
+                                                DECIMO 'A'
                                             </h4>
                                         </div>
                                         <div class="col-sm-6">
@@ -213,7 +213,7 @@
                                             <h4 class="course-title">
                                                 <img src="../img/CURSO.png" width="15px">
                                                 <strong class="curso-lista">CURSO:</strong>
-                                                10 'B'
+                                                DECIMO 'B'
                                             </h4>
                                         </div>
                                         <div class="col-sm-6">

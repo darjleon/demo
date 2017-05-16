@@ -58,11 +58,8 @@
 
             var imgRep=document.createElement('img');
             imgRep.setAttribute('alt'," ");
-<<<<<<< HEAD
-            imgRep.setAttribute('src',"img/REPRESENTANTE.png");
-=======
+
             imgRep.setAttribute('src',"../img/REPRESENTANTE.png");
->>>>>>> 648a23f65d952ac3203e0ca2d19aef97cb2220bc
             imgRep.setAttribute('width',"25");
 
             divRep.appendChild(imgRep);

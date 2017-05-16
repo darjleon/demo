@@ -27,7 +27,7 @@
                     </div>
                 </li>                
                 <li>
-                    <a href="sdirector.php">
+                    <a href="director.php">
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>

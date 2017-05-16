@@ -27,7 +27,7 @@
                     </div>
                 </li>                
                 <li>
-                    <a href="#">
+                    <a href="director.php">
                         <i class="fa fa-th-large"></i> <span class="nav-label">Mi Perfil</span>
                     </a>
                 </li>
@@ -99,7 +99,7 @@
                 <div class="cursos-master">
 
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: 8 'A'</h3>
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: OCTAVO 'A'</h3>
                         <hr>
                         <a href="director_curso_cuadricula8A.php" > 
                             <div class="dirigente">
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: 8 'B'</h3>
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: OCTAVO 'B'</h3>
                         <hr>
                         <a href="director_curso_cuadricula8B.php" > 
                             <div class="dirigente">
@@ -119,7 +119,7 @@
                     </div>
 
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: 9 'A'</h3>
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: NOVENO 'A'</h3>
                         <hr>
                         <a href="director_curso_cuadricula9A.php" > 
                             <div class="dirigente">
@@ -128,7 +128,7 @@
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: 9 'B'</h3>
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: NOVENO 'B'</h3>
                         <hr>
                         <a href="director_curso_cuadricula9B.php" > 
                             <div class="dirigente">
@@ -137,7 +137,7 @@
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: 10 'A'</h3>
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: DECIMO 'A'</h3>
                         <hr>
                         <a href="director_curso_cuadricula10A.php" > 
                             <div class="dirigente">
@@ -146,7 +146,7 @@
                         </a>
                     </div>
                     <div class="cursos-cuadricula text-center">
-                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: 10 'B'</h3>
+                        <h3 class="text-center"><img src="../img/CURSO.png" width="10">Curso: DECIMO 'B'</h3>
                         <hr>
                         <a href="director_curso_cuadricula10B.php" > 
                             <div class="dirigente">

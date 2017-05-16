@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">3ro BACHILLERATO INFORMÁTICA</span></p>
+                    <span class="not">3RO BACHILLERATO INFORMATICA</span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">Angelica Villablanca Trujillo</span>                    

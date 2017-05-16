@@ -89,7 +89,7 @@
                 <h3 style="margin:1em 0">
                     <p>
                     Lista de Alumnos:  
-                    <span class="not">2do BACHILLERATO CIENTÍFICO</span></p>
+                    <span class="not">2DO BACHILLERATO CIENTIFICO</span></p>
                     <p>              
                     Dirigente: 
                     <span class="not">VIVIANA CIRINO DE LA ROSA</span>                    
