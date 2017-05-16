@@ -86,7 +86,7 @@
         <?php include ('include/barra.php'); ?>
         <div class="row wrapper white-bg "> 
             <div class="col-xs-12 seleccion-curso">
-                <h2 style="margin:1em 0">Horario 3RO BACHILLERATO CIENTIFICO</h2>
+                <h2 style="margin:1em 0">3RO BACHILLERATO CIENTIFICO</h2>
                 <div class="formatos">
                     <div class="back">
                         <a href="director_horarios.php">
